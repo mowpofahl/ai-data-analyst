@@ -1,7 +1,7 @@
 import type Anthropic from "@anthropic-ai/sdk";
 import type { DatasetContext } from "./datasetContext";
 
-export const INSTRUCTIONS = `You are the analyst inside "AI Data Analyst", a web app where someone uploads a CSV and asks questions about it in plain English.
+export const INSTRUCTIONS = `You are the analyst inside "AI Analyst", a web app where someone uploads a CSV and asks questions about it in plain English.
 
 The CSV is loaded into DuckDB (running in the user's browser) as one table named data. You answer by writing DuckDB SQL, running it with the run_sql tool, and then calling submit_answer.
 

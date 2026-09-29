@@ -1,10 +1,10 @@
-# AI Data Analyst
+# AI Analyst
 
 Upload a CSV, get an instant overview of your data, and ask questions about it in plain English. The AI writes SQL, runs it, and answers with an interactive chart, the exact SQL it used, and an honest note on how confident it is.
 
 **Your data never leaves your browser.** The CSV is loaded into [DuckDB](https://duckdb.org/) running inside the page with WebAssembly. Only column names, summary stats and small query results are ever sent to the AI.
 
-> 🚧 Work in progress. All the core features work, including visitor limits and a daily spend cap. A design pass is next.
+> 🚧 Work in progress. All the features and the design are in, including visitor limits and a daily spend cap. Launch (custom domain and a demo) is next.
 
 ## Features
 
@@ -43,9 +43,9 @@ Browser                                              Server (Vercel)
 
 ## Tech stack
 
-- **Next.js 16**, React 19, TypeScript, Tailwind CSS
+- **Next.js 16**, React 19, TypeScript, Tailwind CSS, styled to match [mopofahl.com](https://mopofahl.com) (Space Grotesk, Space Mono, one blue accent on a dark grid)
 - **DuckDB-WASM** for fast SQL on the user's own device
-- **Recharts** for charts, with a color-blind-safe palette validated for light and dark mode
+- **Recharts** for charts, with a color-blind-safe palette validated against the dark theme
 - **Claude Sonnet 5.5** via the Anthropic API, with tool use for the SQL loop
 - **Claude Haiku 4.5** for suggested questions, with structured JSON output (a small, cheap model is plenty for that job)
 - Hosted on **Vercel**
@@ -92,7 +92,7 @@ The counts live in [Upstash Redis](https://vercel.com/marketplace/upstash) when 
 ```
 src/
   app/page.tsx               Main page: upload → overview → questions
-  components/                Uploader, DatasetOverview, QualityWarnings, AnswerCard, AnswerChart, FilterBar, QuestionChips, HistoryList, PrivacyNote
+  components/                SiteNav, SiteFooter, Uploader, DatasetOverview, QualityWarnings, AnswerCard, AnswerChart, FilterBar, QuestionChips, HistoryList, PrivacyNote
   app/api/ask/route.ts       Server route that calls Claude (keeps the API key secret)
   app/api/suggest/route.ts   Server route for suggested questions (Claude Haiku 4.5)
   components/AskPanel.tsx    Question box, suggestions, clarifying questions and answers
@@ -102,6 +102,7 @@ src/
   lib/history.ts             Question history in localStorage, per dataset
   lib/usageLimits.ts         Per-visitor question limits and the daily AI budget (server)
   app/api/usage/route.ts     How many questions the visitor has left today
+  lib/ui.ts                  Shared class names for cards, buttons, inputs and labels
   lib/chartModel.ts          Turns results + the AI's chart spec into a chart
   lib/chartExport.ts         PNG, SVG and CSV export
   lib/analystPrompt.ts       Instructions, dataset description and tool definitions

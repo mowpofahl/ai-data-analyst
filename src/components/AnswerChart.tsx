@@ -72,7 +72,7 @@ function ChartTooltip({
 }) {
   if (!active || !payload?.length) return null;
   return (
-    <div className="rounded-md border border-black/10 bg-[var(--chart-surface)] px-3 py-2 text-xs shadow-sm dark:border-white/10">
+    <div className="rounded-md border border-line-strong bg-[var(--chart-surface)] px-3 py-2 text-xs shadow-[0_8px_24px_rgba(0,0,0,0.5)]">
       {label != null && label !== "" && <p className="mb-1 text-[var(--chart-ink-2)]">{String(label)}</p>}
       {payload.map((p, i) => (
         <p key={i} className="flex items-center gap-2">

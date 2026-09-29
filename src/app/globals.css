@@ -1,60 +1,122 @@
 @import "tailwindcss";
 
+/* Colors, fonts and texture match Mo's portfolio (mopofahl.com): a dark
+   surface, a subtle grid, Space Grotesk / Space Mono and one blue accent. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
 
-  /* Chart tokens. Categorical order is fixed and validated for color-blind
-     separation (light and dark steps of the same eight hues). */
-  --series-1: #2a78d6;
-  --series-2: #eb6834;
-  --series-3: #1baf7a;
-  --series-4: #eda100;
-  --series-5: #e87ba4;
+  --bg: #070709;
+  --card: #0e0e12;
+  --card-hover: #13131a;
+  --line: #1e1e28;
+  --line-strong: #2e2e42;
+  --ink: #f0f0f5;
+  --muted: #9898b0;
+  --dim: #3a3a50; /* decorative only: too low-contrast for reading text */
+  --accent: #4f8eff;
+  --accent-hover: #6aa0ff;
+  --accent-glow: rgba(79, 142, 255, 0.15);
+
+  /* Chart tokens. Categorical order is fixed; these dark steps are validated
+     for color-blind separation and contrast on the card surface. */
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
   --series-6: #008300;
-  --series-7: #4a3aa7;
-  --series-8: #e34948;
-  --chart-surface: #ffffff;
-  --chart-ink: #0b0b0b;
-  --chart-ink-2: #52514e;
-  --chart-muted: #898781;
-  --chart-grid: #e1e0d9;
-  --chart-axis: #c3c2b7;
-  --chart-hover: rgba(11, 11, 11, 0.05);
+  --series-7: #9085e9;
+  --series-8: #e66767;
+  --chart-surface: #0e0e12;
+  --chart-ink: #f0f0f5;
+  --chart-ink-2: #b4b4c8;
+  --chart-muted: #9898b0;
+  --chart-grid: #1e1e28;
+  --chart-axis: #2e2e42;
+  --chart-hover: rgba(255, 255, 255, 0.05);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-card-hover: var(--card-hover);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-dim: var(--dim);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-space-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-
-    --series-1: #3987e5;
-    --series-2: #d95926;
-    --series-3: #199e70;
-    --series-4: #c98500;
-    --series-5: #d55181;
-    --series-6: #008300;
-    --series-7: #9085e9;
-    --series-8: #e66767;
-    --chart-surface: #0a0a0a;
-    --chart-ink: #ffffff;
-    --chart-ink-2: #c3c2b7;
-    --chart-muted: #898781;
-    --chart-grid: #2c2c2a;
-    --chart-axis: #383835;
-    --chart-hover: rgba(255, 255, 255, 0.06);
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
+}
+
+/* The portfolio's faint 60px grid behind everything. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+
+::selection {
+  background: rgba(79, 142, 255, 0.35);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Headline text with the portfolio's white-to-gray gradient. */
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #8a8aaa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.pulse-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .pulse-dot {
+    animation: none;
+  }
 }

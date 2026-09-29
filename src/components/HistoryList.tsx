@@ -14,7 +14,7 @@ export default function HistoryList({
   onClear: () => void;
 }) {
   if (items.length === 0) {
-    return <p className="text-sm text-zinc-500">Questions you ask about this file will show up here, so you can come back to them.</p>;
+    return <p className="px-2 pb-1 text-sm text-muted">Questions you ask about this file will show up here, so you can come back to them.</p>;
   }
   return (
     <div className="flex flex-col gap-2">
@@ -24,15 +24,15 @@ export default function HistoryList({
             <button
               type="button"
               onClick={() => onOpen(item)}
-              className="w-full rounded-lg px-2 py-1.5 text-left hover:bg-zinc-100 dark:hover:bg-zinc-900"
+              className="w-full rounded-md px-2 py-1.5 text-left transition hover:bg-card-hover"
             >
               <span className="line-clamp-2 text-sm">{item.question}</span>
-              <span className="text-xs text-zinc-500">{timeFormat.format(new Date(item.askedAt))}</span>
+              <span className="font-mono text-[0.65rem] tracking-wide text-muted">{timeFormat.format(new Date(item.askedAt))}</span>
             </button>
           </li>
         ))}
       </ul>
-      <button type="button" onClick={onClear} className="self-start px-2 text-xs text-zinc-500 hover:text-red-600 hover:underline">
+      <button type="button" onClick={onClear} className="self-start px-2 font-mono text-[0.65rem] tracking-wide text-muted transition hover:text-red-300">
         Clear history
       </button>
     </div>
