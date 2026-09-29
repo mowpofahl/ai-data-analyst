@@ -4,7 +4,7 @@ Upload a CSV, get an instant overview of your data, and ask questions about it i
 
 **Your data never leaves your browser.** The CSV is loaded into [DuckDB](https://duckdb.org/) running inside the page with WebAssembly. Only column names, summary stats and small query results are ever sent to the AI.
 
-> 🚧 Work in progress. Upload, overview, data quality checks, questions with Claude, charts, and suggested and follow-up questions work. Question history is next.
+> 🚧 Work in progress. Upload, overview, data quality checks, questions with Claude, charts, suggested and follow-up questions, and question history work. Visitor limits and a daily spend cap are next.
 
 ## Features
 
@@ -20,7 +20,7 @@ Upload a CSV, get an instant overview of your data, and ask questions about it i
 | Show the SQL behind every answer, plus its results | ✅ |
 | AI follow-up questions after each answer, and a clarifying question when a question is ambiguous | ✅ |
 | Honest uncertainty: confidence level and stated assumptions | ✅ |
-| Question history | Planned |
+| Question history, saved in your browser per file; click a past question to bring its answer back with no AI call | ✅ |
 | Chart export (PNG, SVG) and results as CSV | ✅ |
 | Hard spend limits and per-visitor rate limits | Planned |
 
@@ -73,20 +73,23 @@ Open http://localhost:3000 and click **Try sample sales data**. The overview wor
 4. Claude repeats until it calls `submit_answer` with the answer, the SQL behind it, a confidence level, any assumptions, a chart spec, which columns make useful filters, and 2 or 3 follow-up questions. The browser re-runs that SQL to show the exact results and chart.
 5. Changing a filter never calls the AI. The browser shadows the `data` table with a filtered version (`WITH data AS (SELECT * FROM main.data WHERE …)`) and re-runs the same SQL, so the chart and table update instantly.
 
-The API key stays on the server, and the raw file never leaves the browser.
+6. Answered questions are saved to the browser's `localStorage`, keyed by the file's name and shape. Load the same CSV again and the history is back. Reopening a past answer re-runs its SQL locally, so it costs nothing.
+
+The API key stays on the server, and the raw file never leaves the browser. Question history stays in the browser too.
 
 ## Project structure
 
 ```
 src/
   app/page.tsx               Main page: upload → overview → questions
-  components/                Uploader, DatasetOverview, QualityWarnings, AnswerCard, AnswerChart, FilterBar, QuestionChips, PrivacyNote
+  components/                Uploader, DatasetOverview, QualityWarnings, AnswerCard, AnswerChart, FilterBar, QuestionChips, HistoryList, PrivacyNote
   app/api/ask/route.ts       Server route that calls Claude (keeps the API key secret)
   app/api/suggest/route.ts   Server route for suggested questions (Claude Haiku 4.5)
   components/AskPanel.tsx    Question box, suggestions, clarifying questions and answers
   lib/ask.ts                 The question loop: Claude writes SQL, the browser runs it
   lib/claudeServer.ts        Shared server helpers: error messages and usage logging
   lib/answerQuery.ts         Runs an answer's SQL with optional filters
+  lib/history.ts             Question history in localStorage, per dataset
   lib/chartModel.ts          Turns results + the AI's chart spec into a chart
   lib/chartExport.ts         PNG, SVG and CSV export
   lib/analystPrompt.ts       Instructions, dataset description and tool definitions

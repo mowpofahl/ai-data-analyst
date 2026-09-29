@@ -4,7 +4,8 @@ export default function PrivacyNote() {
       <span aria-hidden>🔒</span>
       <span>
         <strong>Your file stays in your browser.</strong> It&apos;s loaded into a database that runs on your device. When you
-        ask a question, only column names, summary stats and query results are sent to the AI, never the raw file.
+        ask a question, only column names, summary stats and query results are sent to the AI, never the raw file. Your
+        question history is saved in this browser only.
       </span>
     </p>
   );

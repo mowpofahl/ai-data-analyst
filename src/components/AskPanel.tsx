@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import AnswerCard from "@/components/AnswerCard";
+import HistoryList from "@/components/HistoryList";
 import QuestionChips from "@/components/QuestionChips";
 import { answerClarification, askQuestion, AskError, type Answer, type AskOutcome, type Clarification } from "@/lib/ask";
 import type { DatasetContext } from "@/lib/datasetContext";
+import { datasetKey, HISTORY_LIMIT, loadHistory, restoreAnswer, saveHistory, toSaved, type HistoryItem } from "@/lib/history";
 import { fetchSuggestions } from "@/lib/suggest";
 
 type Entry = {
@@ -16,7 +18,13 @@ type Entry = {
   replies: { question: string; reply: string }[];
   answer?: Answer;
   error?: string;
+  restored?: boolean; // reopened from history
 };
+
+type Replies = Entry["replies"];
+
+const scrollToEntry = (id: number) =>
+  requestAnimationFrame(() => document.getElementById(`question-${id}`)?.scrollIntoView({ behavior: "smooth", block: "start" }));
 
 const MAX_QUESTION_CHARS = 500;
 const MAX_REPLY_CHARS = 200;
@@ -61,7 +69,14 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
   const [question, setQuestion] = useState("");
   const [entries, setEntries] = useState<Entry[]>([]);
   const [suggestions, setSuggestions] = useState<string[] | null>(null); // null while loading
+  const historyKey = useMemo(() => datasetKey(dataset), [dataset]);
+  const [history, setHistory] = useState<HistoryItem[]>(() => loadHistory(datasetKey(dataset)));
+  const [highlight, setHighlight] = useState<number | null>(null);
+  const mobileHistory = useRef<HTMLDetailsElement>(null);
   const busy = entries.some((e) => e.status === "working");
+
+  // History is saved in this browser only, per dataset.
+  useEffect(() => saveHistory(historyKey, dataset.fileName, history), [historyKey, dataset.fileName, history]);
 
   // Starter questions, written by the AI from the column summary.
   useEffect(() => {
@@ -75,11 +90,16 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
   const update = (id: number, patch: Partial<Entry>) =>
     setEntries((prev) => prev.map((e) => (e.id === id ? { ...e, ...patch } : e)));
 
-  const settle = async (id: number, run: () => Promise<AskOutcome>) => {
+  const settle = async (id: number, question: string, replies: Replies, run: () => Promise<AskOutcome>) => {
     try {
       const outcome = await run();
-      if (outcome.kind === "answer") update(id, { status: "done", answer: outcome.answer, clarification: undefined });
-      else update(id, { status: "clarify", clarification: outcome.clarification });
+      if (outcome.kind === "answer") {
+        update(id, { status: "done", answer: outcome.answer, clarification: undefined });
+        const item: HistoryItem = { id, question, askedAt: new Date().toISOString(), replies, answer: toSaved(outcome.answer) };
+        setHistory((prev) => [item, ...prev.filter((h) => h.id !== id)].slice(0, HISTORY_LIMIT));
+      } else {
+        update(id, { status: "clarify", clarification: outcome.clarification });
+      }
     } catch (err) {
       console.error(err);
       update(id, { status: "error", error: err instanceof AskError ? err.message : "Something went wrong. Try again." });
@@ -92,84 +112,128 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
     const id = Date.now();
     setEntries((prev) => [{ id, question: q, status: "working", step: "Starting…", replies: [] }, ...prev]);
     if (from === "typed") setQuestion("");
-    else requestAnimationFrame(() => document.getElementById(`question-${id}`)?.scrollIntoView({ behavior: "smooth", block: "start" }));
-    settle(id, () => askQuestion(q, dataset, (step) => update(id, { step })));
+    else scrollToEntry(id);
+    settle(id, q, [], () => askQuestion(q, dataset, (step) => update(id, { step })));
   };
 
   const reply = (entry: Entry, text: string) => {
     const clarification = entry.clarification;
     if (!clarification || busy) return;
-    update(entry.id, {
-      status: "working",
-      step: "Using your answer…",
-      clarification: undefined,
-      replies: [...entry.replies, { question: clarification.question, reply: text }],
-    });
-    settle(entry.id, () => answerClarification(clarification, text, dataset, (step) => update(entry.id, { step })));
+    const replies = [...entry.replies, { question: clarification.question, reply: text }];
+    update(entry.id, { status: "working", step: "Using your answer…", clarification: undefined, replies });
+    settle(entry.id, entry.question, replies, () => answerClarification(clarification, text, dataset, (step) => update(entry.id, { step })));
+  };
+
+  // Reopen a past answer. Its SQL re-runs locally, so there's no AI call.
+  const openFromHistory = (item: HistoryItem) => {
+    if (!entries.some((e) => e.id === item.id)) {
+      const entry: Entry = { id: item.id, question: item.question, status: "working", step: "Restoring from history…", replies: item.replies, restored: true };
+      setEntries((prev) => [entry, ...prev]);
+      restoreAnswer(item.answer).then((answer) => update(item.id, { status: "done", answer }));
+    }
+    scrollToEntry(item.id);
+    setHighlight(item.id);
+    setTimeout(() => setHighlight((h) => (h === item.id ? null : h)), 1600);
+  };
+
+  const clearHistory = () => {
+    if (window.confirm("Clear the question history for this file? Answers already on the page stay until you reload.")) setHistory([]);
   };
 
   const asked = new Set(entries.map((e) => e.question));
   const remaining = suggestions?.filter((q) => !asked.has(q)) ?? [];
 
   return (
-    <section className="flex flex-col gap-4">
-      <h2 className="text-lg font-semibold">Ask a question</h2>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          ask(question, "typed");
-        }}
-        className="flex flex-col gap-2 sm:flex-row"
-      >
-        <input
-          value={question}
-          onChange={(e) => setQuestion(e.target.value)}
-          maxLength={MAX_QUESTION_CHARS}
-          placeholder="e.g. Which region had the highest revenue?"
-          aria-label="Your question about the data"
-          className={inputClass}
-        />
-        <button type="submit" disabled={busy || !question.trim()} className={primaryButton}>
-          {busy ? "Working…" : "Ask"}
-        </button>
-      </form>
+    <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_15rem]">
+      <div className="flex min-w-0 flex-col gap-4">
+        <h2 className="text-lg font-semibold">Ask a question</h2>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            ask(question, "typed");
+          }}
+          className="flex flex-col gap-2 sm:flex-row"
+        >
+          <input
+            value={question}
+            onChange={(e) => setQuestion(e.target.value)}
+            maxLength={MAX_QUESTION_CHARS}
+            placeholder="e.g. Which region had the highest revenue?"
+            aria-label="Your question about the data"
+            className={inputClass}
+          />
+          <button type="submit" disabled={busy || !question.trim()} className={primaryButton}>
+            {busy ? "Working…" : "Ask"}
+          </button>
+        </form>
 
-      {suggestions === null ? (
-        <p className="animate-pulse text-sm text-zinc-500">Coming up with questions to try…</p>
-      ) : (
-        remaining.length > 0 && (
-          <div className="flex flex-col gap-2">
-            <p className="text-sm text-zinc-500">Try one of these:</p>
-            <QuestionChips questions={remaining} onPick={(q) => ask(q, "chip")} disabled={busy} />
-          </div>
-        )
-      )}
+        {suggestions === null ? (
+          <p className="animate-pulse text-sm text-zinc-500">Coming up with questions to try…</p>
+        ) : (
+          remaining.length > 0 && (
+            <div className="flex flex-col gap-2">
+              <p className="text-sm text-zinc-500">Try one of these:</p>
+              <QuestionChips questions={remaining} onPick={(q) => ask(q, "chip")} disabled={busy} />
+            </div>
+          )
+        )}
 
-      {entries.map((e) => (
-        <article key={e.id} id={`question-${e.id}`} className="flex scroll-mt-4 flex-col gap-3 rounded-xl border border-zinc-200 p-4 dark:border-zinc-800">
-          <div className="flex flex-col gap-1">
-            <p className="font-medium">{e.question}</p>
-            {e.replies.map((r, i) => (
-              <p key={i} className="text-sm text-zinc-500">
-                I asked: {r.question} You said: <span className="text-zinc-700 dark:text-zinc-300">{r.reply}</span>
+        {history.length > 0 && (
+          <details ref={mobileHistory} className="rounded-xl border border-zinc-200 px-3 py-2 lg:hidden dark:border-zinc-800">
+            <summary className="cursor-pointer text-sm font-medium">History ({history.length})</summary>
+            <div className="mt-2">
+              <HistoryList
+                items={history}
+                onOpen={(item) => {
+                  if (mobileHistory.current) mobileHistory.current.open = false;
+                  openFromHistory(item);
+                }}
+                onClear={clearHistory}
+              />
+            </div>
+          </details>
+        )}
+
+        {entries.map((e) => (
+          <article
+            key={e.id}
+            id={`question-${e.id}`}
+            className={`flex scroll-mt-4 flex-col gap-3 rounded-xl border p-4 transition-shadow ${
+              highlight === e.id ? "border-indigo-400 ring-2 ring-indigo-400/60" : "border-zinc-200 dark:border-zinc-800"
+            }`}
+          >
+            <div className="flex flex-col gap-1">
+              {e.restored && <p className="text-xs text-zinc-500">From your history</p>}
+              <p className="font-medium">{e.question}</p>
+              {e.replies.map((r, i) => (
+                <p key={i} className="text-sm text-zinc-500">
+                  I asked: {r.question} You said: <span className="text-zinc-700 dark:text-zinc-300">{r.reply}</span>
+                </p>
+              ))}
+            </div>
+            {e.status === "done" && e.answer ? (
+              <AnswerCard answer={e.answer} onAsk={(q) => ask(q, "chip")} askDisabled={busy} />
+            ) : e.status === "clarify" && e.clarification ? (
+              <ClarifyPrompt clarification={e.clarification} disabled={busy} onReply={(r) => reply(e, r)} />
+            ) : e.status === "error" ? (
+              <p className="text-sm text-red-600 dark:text-red-400" role="alert">
+                {e.error}
               </p>
-            ))}
-          </div>
-          {e.status === "done" && e.answer ? (
-            <AnswerCard answer={e.answer} onAsk={(q) => ask(q, "chip")} askDisabled={busy} />
-          ) : e.status === "clarify" && e.clarification ? (
-            <ClarifyPrompt clarification={e.clarification} disabled={busy} onReply={(r) => reply(e, r)} />
-          ) : e.status === "error" ? (
-            <p className="text-sm text-red-600 dark:text-red-400" role="alert">
-              {e.error}
-            </p>
-          ) : (
-            <p className="animate-pulse text-sm text-zinc-500" aria-live="polite">
-              {e.step}
-            </p>
-          )}
-        </article>
-      ))}
+            ) : (
+              <p className="animate-pulse text-sm text-zinc-500" aria-live="polite">
+                {e.step}
+              </p>
+            )}
+          </article>
+        ))}
+      </div>
+
+      <aside className="hidden lg:block">
+        <div className="sticky top-4 flex max-h-[calc(100vh-2rem)] flex-col gap-2 overflow-y-auto rounded-xl border border-zinc-200 p-3 dark:border-zinc-800">
+          <h3 className="px-2 text-sm font-semibold">History</h3>
+          <HistoryList items={history} onOpen={openFromHistory} onClear={clearHistory} />
+        </div>
+      </aside>
     </section>
   );
 }
