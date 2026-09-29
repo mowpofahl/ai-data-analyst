@@ -4,7 +4,7 @@ Upload a CSV, get an instant overview of your data, and ask questions about it i
 
 **Your data never leaves your browser.** The CSV is loaded into [DuckDB](https://duckdb.org/) running inside the page with WebAssembly. Only column names, summary stats and small query results are ever sent to the AI.
 
-> 🚧 Work in progress. Upload, overview, data quality checks, questions with Claude, charts, suggested and follow-up questions, and question history work. Visitor limits and a daily spend cap are next.
+> 🚧 Work in progress. All the core features work, including visitor limits and a daily spend cap. A design pass is next.
 
 ## Features
 
@@ -22,7 +22,7 @@ Upload a CSV, get an instant overview of your data, and ask questions about it i
 | Honest uncertainty: confidence level and stated assumptions | ✅ |
 | Question history, saved in your browser per file; click a past question to bring its answer back with no AI call | ✅ |
 | Chart export (PNG, SVG) and results as CSV | ✅ |
-| Hard spend limits and per-visitor rate limits | Planned |
+| Spend limits: questions per visitor per day and a daily AI budget, enforced on the server | ✅ |
 
 ## How it works
 
@@ -77,6 +77,16 @@ Open http://localhost:3000 and click **Try sample sales data**. The overview wor
 
 The API key stays on the server, and the raw file never leaves the browser. Question history stays in the browser too.
 
+## Keeping costs under control
+
+Every question on the public demo is paid for by the site owner's API key, so spending is capped in layers:
+
+1. **Anthropic Console:** prepaid credit with auto-reload off, plus a monthly spend limit. This is the hard ceiling.
+2. **Daily budget** (`DAILY_BUDGET_USD`, default $1): every Claude response reports its token usage, and the server adds up the estimated cost. Once the day's budget is spent, new questions pause until midnight UTC.
+3. **Per-visitor limit** (`QUESTIONS_PER_DAY`, default 10): visitors are told apart by a hash of their IP address (the address itself is never stored). A question only counts if Claude actually answers it.
+
+The counts live in [Upstash Redis](https://vercel.com/marketplace/upstash) when it's connected, which is free at this scale. To connect it on Vercel: **Storage → Create Database → Upstash for Redis**, connect it to this project, then redeploy; the env vars are added for you. Without it, counts are kept in server memory, which works but resets whenever Vercel starts a fresh server.
+
 ## Project structure
 
 ```
@@ -90,6 +100,8 @@ src/
   lib/claudeServer.ts        Shared server helpers: error messages and usage logging
   lib/answerQuery.ts         Runs an answer's SQL with optional filters
   lib/history.ts             Question history in localStorage, per dataset
+  lib/usageLimits.ts         Per-visitor question limits and the daily AI budget (server)
+  app/api/usage/route.ts     How many questions the visitor has left today
   lib/chartModel.ts          Turns results + the AI's chart spec into a chart
   lib/chartExport.ts         PNG, SVG and CSV export
   lib/analystPrompt.ts       Instructions, dataset description and tool definitions

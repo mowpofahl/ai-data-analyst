@@ -2,6 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { describeDataset } from "@/lib/analystPrompt";
 import { apiErrorResponse, isDatasetContext, jsonError, logUsage, missingKeyResponse } from "@/lib/claudeServer";
 import { SUGGEST_INSTRUCTIONS, SUGGEST_SCHEMA } from "@/lib/suggestPrompt";
+import { checkLimits, recordSpend } from "@/lib/usageLimits";
 
 // Starter questions for a freshly loaded dataset. A small, cheap model is
 // plenty here: it only reads the column summary and writes four questions.
@@ -43,6 +44,9 @@ export async function POST(request: Request) {
   }
   if (!isDatasetContext(dataset)) return jsonError(400, "Missing dataset description.");
 
+  const limit = await checkLimits(request, "suggest");
+  if (!limit.ok) return jsonError(429, limit.message);
+
   const client = new Anthropic();
   try {
     const response = await client.messages.create(
@@ -56,6 +60,7 @@ export async function POST(request: Request) {
       { signal: request.signal },
     );
     logUsage("suggest", response);
+    await recordSpend(request, response.model, response.usage);
     return Response.json({ questions: response.stop_reason === "end_turn" ? parseQuestions(response) : [] });
   } catch (err) {
     return apiErrorResponse(err);

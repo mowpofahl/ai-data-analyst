@@ -8,6 +8,7 @@ import { answerClarification, askQuestion, AskError, type Answer, type AskOutcom
 import type { DatasetContext } from "@/lib/datasetContext";
 import { datasetKey, HISTORY_LIMIT, loadHistory, restoreAnswer, saveHistory, toSaved, type HistoryItem } from "@/lib/history";
 import { fetchSuggestions } from "@/lib/suggest";
+import { fetchUsage, type UsageInfo } from "@/lib/usage";
 
 type Entry = {
   id: number;
@@ -73,10 +74,18 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
   const [history, setHistory] = useState<HistoryItem[]>(() => loadHistory(datasetKey(dataset)));
   const [highlight, setHighlight] = useState<number | null>(null);
   const mobileHistory = useRef<HTMLDetailsElement>(null);
+  const [usage, setUsage] = useState<UsageInfo | null>(null);
   const busy = entries.some((e) => e.status === "working");
+  const outOfQuestions = !!usage && (usage.questionsLeft <= 0 || usage.budgetReached);
+  const refreshUsage = () => fetchUsage().then((u) => u && setUsage(u));
 
   // History is saved in this browser only, per dataset.
   useEffect(() => saveHistory(historyKey, dataset.fileName, history), [historyKey, dataset.fileName, history]);
+
+  // The demo's daily question allowance for this visitor.
+  useEffect(() => {
+    fetchUsage().then((u) => u && setUsage(u));
+  }, []);
 
   // Starter questions, written by the AI from the column summary.
   useEffect(() => {
@@ -103,12 +112,14 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
     } catch (err) {
       console.error(err);
       update(id, { status: "error", error: err instanceof AskError ? err.message : "Something went wrong. Try again." });
+    } finally {
+      refreshUsage();
     }
   };
 
   const ask = (text: string, from: "typed" | "chip") => {
     const q = text.trim();
-    if (!q || busy) return;
+    if (!q || busy || outOfQuestions) return;
     const id = Date.now();
     setEntries((prev) => [{ id, question: q, status: "working", step: "Starting…", replies: [] }, ...prev]);
     if (from === "typed") setQuestion("");
@@ -162,10 +173,19 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
             aria-label="Your question about the data"
             className={inputClass}
           />
-          <button type="submit" disabled={busy || !question.trim()} className={primaryButton}>
+          <button type="submit" disabled={busy || outOfQuestions || !question.trim()} className={primaryButton}>
             {busy ? "Working…" : "Ask"}
           </button>
         </form>
+        {usage && (
+          <p className={`-mt-2 text-xs ${outOfQuestions ? "text-amber-700 dark:text-amber-400" : "text-zinc-500"}`} aria-live="polite">
+            {usage.budgetReached
+              ? "The demo has reached today's AI budget, so new questions are paused until tomorrow. Filters, charts and your history still work."
+              : usage.questionsLeft <= 0
+                ? `You've used all ${usage.questionsPerDay} questions for today. They reset at midnight UTC. Filters, charts and your history still work.`
+                : `${usage.questionsLeft} of ${usage.questionsPerDay} questions left today.`}
+          </p>
+        )}
 
         {suggestions === null ? (
           <p className="animate-pulse text-sm text-zinc-500">Coming up with questions to try…</p>
@@ -173,7 +193,7 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
           remaining.length > 0 && (
             <div className="flex flex-col gap-2">
               <p className="text-sm text-zinc-500">Try one of these:</p>
-              <QuestionChips questions={remaining} onPick={(q) => ask(q, "chip")} disabled={busy} />
+              <QuestionChips questions={remaining} onPick={(q) => ask(q, "chip")} disabled={busy || outOfQuestions} />
             </div>
           )
         )}
@@ -212,7 +232,7 @@ export default function AskPanel({ dataset }: { dataset: DatasetContext }) {
               ))}
             </div>
             {e.status === "done" && e.answer ? (
-              <AnswerCard answer={e.answer} onAsk={(q) => ask(q, "chip")} askDisabled={busy} />
+              <AnswerCard answer={e.answer} onAsk={(q) => ask(q, "chip")} askDisabled={busy || outOfQuestions} />
             ) : e.status === "clarify" && e.clarification ? (
               <ClarifyPrompt clarification={e.clarification} disabled={busy} onReply={(r) => reply(e, r)} />
             ) : e.status === "error" ? (

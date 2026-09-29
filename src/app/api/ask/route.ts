@@ -2,6 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { describeDataset, INSTRUCTIONS, TOOLS } from "@/lib/analystPrompt";
 import { apiErrorResponse, isDatasetContext, jsonError, logUsage, missingKeyResponse } from "@/lib/claudeServer";
 import type { DatasetContext } from "@/lib/datasetContext";
+import { checkLimits, recordSpend } from "@/lib/usageLimits";
 
 // One step of the analyst loop. The browser owns the loop: it sends the
 // conversation so far, we add the instructions and call Claude, and the
@@ -44,6 +45,10 @@ export async function POST(request: Request) {
   const body = parseBody(await request.text());
   if (typeof body === "string") return jsonError(400, body);
 
+  // One message means a new question; more means a later step of the same one.
+  const limit = await checkLimits(request, body.messages.length === 1 ? "question" : "continue");
+  if (!limit.ok) return jsonError(429, limit.message);
+
   const client = new Anthropic();
   try {
     const response = await client.beta.messages.create(
@@ -64,14 +69,17 @@ export async function POST(request: Request) {
       { signal: request.signal },
     );
     logUsage("ask", response);
+    await recordSpend(request, response.model, response.usage);
 
     return Response.json({
       content: response.content,
       stop_reason: response.stop_reason,
       model: response.model,
       usage: response.usage,
+      questions_left: limit.questionsLeft,
     });
   } catch (err) {
+    await limit.refund();
     return apiErrorResponse(err);
   }
 }
