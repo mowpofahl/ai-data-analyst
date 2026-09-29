@@ -37,27 +37,53 @@ export function getDb(): Promise<duckdb.AsyncDuckDB> {
 
 export type Row = Record<string, unknown>;
 
-// DuckDB returns BigInt for integer columns; convert to plain numbers so
-// results are easy to render and serialize.
-function normalize(value: unknown): unknown {
-  if (typeof value === "bigint") return Number(value);
+export interface QueryResult {
+  columns: string[];
+  rows: Row[];
+}
+
+type ColumnFormat = "date" | "timestamp" | null;
+
+// Arrow gives dates and timestamps back as epoch milliseconds.
+function formatOf(arrowType: string): ColumnFormat {
+  if (arrowType.startsWith("Date")) return "date";
+  if (arrowType.startsWith("Timestamp")) return "timestamp";
+  return null;
+}
+
+// Convert DuckDB/Arrow values into plain JSON-friendly values: BigInt to number,
+// dates to ISO strings.
+function normalize(value: unknown, format: ColumnFormat): unknown {
+  if (value == null) return null;
+  if (typeof value === "bigint") value = Number(value);
+  if (format && typeof value === "number") {
+    const iso = new Date(value).toISOString();
+    return format === "date" ? iso.slice(0, 10) : iso.replace("T", " ").replace(/\.000Z$|Z$/, "");
+  }
   if (value instanceof Date) return value.toISOString();
   return value;
 }
 
-export async function runQuery(sql: string): Promise<Row[]> {
+export async function query(sql: string): Promise<QueryResult> {
   const db = await getDb();
   const conn = await db.connect();
   try {
     const result = await conn.query(sql);
-    return result.toArray().map((r) => {
-      const obj = r.toJSON() as Row;
-      for (const key of Object.keys(obj)) obj[key] = normalize(obj[key]);
-      return obj;
+    const fields = result.schema.fields.map((f) => ({ name: f.name, format: formatOf(String(f.type)) }));
+    const rows = result.toArray().map((r) => {
+      const raw = r.toJSON() as Row;
+      const row: Row = {};
+      for (const f of fields) row[f.name] = normalize(raw[f.name], f.format);
+      return row;
     });
+    return { columns: fields.map((f) => f.name), rows };
   } finally {
     await conn.close();
   }
+}
+
+export async function runQuery(sql: string): Promise<Row[]> {
+  return (await query(sql)).rows;
 }
 
 export async function loadCsv(file: File): Promise<void> {

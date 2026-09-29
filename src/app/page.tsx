@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import AskPanel from "@/components/AskPanel";
 import DatasetOverview from "@/components/DatasetOverview";
 import PrivacyNote from "@/components/PrivacyNote";
 import QualityWarnings from "@/components/QualityWarnings";
 import Uploader, { MAX_FILE_MB } from "@/components/Uploader";
 import { loadCsv } from "@/lib/duckdb";
+import { toDatasetContext } from "@/lib/datasetContext";
 import { profileDataset, type DatasetProfile } from "@/lib/profile";
 
 type State =
@@ -74,9 +76,7 @@ export default function Home() {
           </div>
           <DatasetOverview profile={state.profile} />
           <QualityWarnings warnings={state.profile.warnings} />
-          <section className="rounded-xl border border-dashed border-zinc-300 px-4 py-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
-            Asking questions about your data is coming next.
-          </section>
+          <AskPanel key={state.profile.fileName + state.profile.rowCount} dataset={toDatasetContext(state.profile)} />
         </>
       ) : (
         <>
