@@ -81,13 +81,34 @@ function inMemory(): Counters {
   };
 }
 
+// Find the Upstash credentials. Vercel may add a custom prefix to the names
+// (for example STORAGE_KV_REST_API_URL), so match on the ending.
+function findRedisEnv(): { url: string; token: string } | null {
+  const pairs = [
+    ["UPSTASH_REDIS_REST_URL", "UPSTASH_REDIS_REST_TOKEN"],
+    ["KV_REST_API_URL", "KV_REST_API_TOKEN"],
+  ];
+  const names = Object.keys(process.env).sort((a, b) => a.length - b.length); // exact names first
+  for (const [urlName, tokenName] of pairs) {
+    for (const name of names) {
+      if (!name.endsWith(urlName)) continue;
+      const url = process.env[name];
+      const token = process.env[name.slice(0, -urlName.length) + tokenName];
+      if (url && token) return { url, token };
+    }
+  }
+  return null;
+}
+
 let counters: Counters | null = null;
+let storage: "database" | "memory" = "memory";
 function store(): Counters {
   if (!counters) {
-    const url = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
-    const token = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
-    if (url && token) counters = upstash(url, token);
-    else {
+    const redis = findRedisEnv();
+    if (redis) {
+      counters = upstash(redis.url, redis.token);
+      storage = "database";
+    } else {
       console.warn("Usage limits are kept in memory. Connect Upstash Redis for limits that hold across server instances.");
       counters = inMemory();
     }
@@ -187,9 +208,16 @@ export async function usageFor(request: Request) {
       questionsPerDay: QUESTIONS_PER_DAY,
       questionsLeft: Math.max(0, QUESTIONS_PER_DAY - asked),
       budgetReached: spent >= DAILY_BUDGET_USD * 1_000_000,
+      storage, // "database" when Upstash is connected; shown so the setup can be checked
     };
   } catch (err) {
     console.error("Usage lookup failed", err);
-    return { questionsPerDay: QUESTIONS_PER_DAY, questionsLeft: QUESTIONS_PER_DAY, budgetReached: false };
+    return {
+      questionsPerDay: QUESTIONS_PER_DAY,
+      questionsLeft: QUESTIONS_PER_DAY,
+      budgetReached: false,
+      storage: "database not reachable",
+      storageError: (err as Error).message,
+    };
   }
 }
