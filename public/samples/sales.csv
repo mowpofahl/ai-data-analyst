@@ -1,0 +1,2407 @@
+order_id,order_date,region,customer_segment,category,product,units,unit_price,discount,revenue
+ORD-00001,2025-04-03,Northeast,Consumer,Furniture,Office Chair,3,229,0.2,549.6
+ORD-00002,2025-11-14,South,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-00003,2025-11-16,Northeast,Enterprise,Electronics,Laptop Stand,24,39,0.2,748.8
+ORD-00004,2025-01-01,West,Enterprise,Furniture,Bookshelf,9,129,0,1161
+ORD-00005,2025-09-21,Midwest,Consumer,Office Supplies,Gel Pens (12),3,9,0.2,21.6
+ORD-00006,2025-10-11,Midwest,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00007,2025-03-25,Northeast,Consumer,Furniture,Standing Desk,6,449,0.2,2155.2
+ORD-00008,2025-06-20,South,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-00009,2025-06-06,West,Enterprise,Electronics,Laptop Stand,14,39,0,546
+ORD-00010,2025-02-04,West,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-00011,2025-01-24,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00012,2025-11-06,Northeast,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00013,2025-06-08,South,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-00014,2025-12-07,South,Enterprise,Office Supplies,Printer Paper,5,35,0.15,148.75
+ORD-00015,2025-12-28,Northeast,Small Business,Office Supplies,Printer Paper,7,35,0.1,220.5
+ORD-00016,2025-10-28,Northeast,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00017,2025-09-15,South,Enterprise,Electronics,USB-C Hub,11,45,0,495
+ORD-00018,2025-12-18,South,Small Business,Office Supplies,Notebook Pack,3,12,,36
+ORD-00019,2025-12-13,South,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00020,2025-02-04,South,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00021,2025-05-20,West,Small Business,Electronics,USB-C Hub,5,45,0,225
+ORD-00022,2025-04-05,Northeast,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-00023,2025-04-20,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00024,2025-10-27,Midwest,Small Business,Office Supplies,Printer Paper,3,35,,105
+ORD-00025,2025-06-02,Northeast,Enterprise,Office Supplies,Notebook Pack,13,12,0,156
+ORD-00026,2025-06-17,Midwest,Enterprise,Office Supplies,Notebook Pack,15,12,0,180
+ORD-00027,2025-03-23,West,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-00028,2025-07-25,Northeast,Enterprise,Office Supplies,Printer Paper,7,35,0,245
+ORD-00029,2025-03-05,West,Enterprise,Furniture,Office Chair,7,229,0.05,1522.85
+ORD-00030,2025-12-12,Midwest,Enterprise,Furniture,Office Chair,10,229,0,2290
+ORD-00031,2025-05-21,West,Enterprise,Electronics,Wireless Headphones,4,89,0,356
+ORD-00032,2025-04-10,Northeast,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-00033,2025-01-20,Northeast,Consumer,Electronics,Laptop Stand,5,39,0,195
+ORD-00034,2025-10-06,Midwest,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-00035,2025-07-21,South,Small Business,Electronics,Wireless Headphones,4,89,0.1,320.4
+ORD-00036,2025-08-08,South,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-00037,2025-10-16,South,Enterprise,Electronics,Wireless Headphones,10,89,0,890
+ORD-00038,2025-10-04,South,Consumer,Electronics,Bluetooth Speaker,2,59,0.05,112.1
+ORD-00039,2025-05-14,Northeast,Small Business,Furniture,Bookshelf,5,129,0.15,548.25
+ORD-00040,2025-07-06,West,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-00041,2025-10-08,South,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-00042,2025-05-04,West,Small Business,Office Supplies,Printer Paper,5,35,0.2,140
+ORD-00043,2025-05-25,Northeast,Small Business,Office Supplies,Desk Organizer,2,24,0.05,45.6
+ORD-00044,2025-03-23,South,Consumer,Furniture,Standing Desk,1,449,0,449
+ORD-00045,2025-11-10,Northeast,Enterprise,Furniture,Bookshelf,10,129,0,1290
+ORD-00046,2025-04-09,Northeast,Small Business,Office Supplies,Printer Paper,3,35,0.05,99.75
+ORD-00047,2025-07-13,West,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00048,2025-11-09,South,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00049,2025-11-21,Midwest,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00050,2025-03-02,Northeast,Consumer,Furniture,Standing Desk,5,449,0.2,1796
+ORD-00051,2025-11-22,Midwest,Small Business,Electronics,Laptop Stand,6,39,0,234
+ORD-00052,2025-03-18,West,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-00053,2025-11-18,West,Enterprise,Furniture,Standing Desk,25,449,0,11225
+ORD-00054,2025-06-20,Midwest,Enterprise,Furniture,Standing Desk,9,449,0,4041
+ORD-00055,2025-05-16,South,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00056,2025-02-07,Midwest,Enterprise,Furniture,Bookshelf,14,129,0,1806
+ORD-00057,2025-08-12,Midwest,Small Business,Office Supplies,Desk Organizer,5,24,0.15,102
+ORD-00058,2025-09-04,Midwest,Enterprise,Office Supplies,Printer Paper,6,35,0,210
+ORD-00059,2025-02-21,Midwest,Enterprise,Furniture,Standing Desk,5,449,0,2245
+ORD-00060,2025-11-28,South,Small Business,Electronics,USB-C Hub,7,45,0,315
+ORD-00061,2025-07-04,West,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-00062,2025-08-24,Northeast,Small Business,Furniture,Bookshelf,4,129,0.2,412.8
+ORD-00063,2025-04-25,South,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-00064,2025-03-28,South,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00065,2025-05-05,South,Enterprise,Furniture,Standing Desk,8,449,0,3592
+ORD-00066,2025-05-21,Northeast,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-00067,2025-12-18,Midwest,Enterprise,Furniture,Office Chair,10,229,0.05,2175.5
+ORD-00068,2025-01-12,West,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-00069,2025-08-23,South,Enterprise,Furniture,Bookshelf,10,129,0,1290
+ORD-00070,2025-04-15,Midwest,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00071,2025-12-08,Northeast,Consumer,Furniture,Standing Desk,6,449,0,2694
+ORD-00072,2025-12-20,Midwest,Consumer,Electronics,Laptop Stand,7,39,0,273
+ORD-00073,2025-07-26,Midwest,Enterprise,Electronics,USB-C Hub,6,45,0,270
+ORD-00074,2025-09-11,Midwest,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-00075,2025-07-05,West,Enterprise,Office Supplies,Notebook Pack,6,12,0,72
+ORD-00076,2025-08-15,Northeast,Enterprise,Furniture,Office Chair,7,229,0.2,1282.4
+ORD-00077,2025-09-01,South,Consumer,Office Supplies,Gel Pens (12),3,9,0.15,22.95
+ORD-00078,2025-10-12,South,Consumer,Office Supplies,Notebook Pack,3,12,0.05,34.2
+ORD-00079,2025-02-07,South,Enterprise,Office Supplies,Printer Paper,10,35,0.2,280
+ORD-00080,2025-12-12,West,Enterprise,Electronics,Wireless Headphones,14,89,,1246
+ORD-00081,2025-12-27,West,Small Business,Office Supplies,Gel Pens (12),4,9,0.1,32.4
+ORD-00082,2025-08-05,South,Consumer,Furniture,Standing Desk,3,449,0.15,1144.95
+ORD-00083,2025-09-04,South,Small Business,Office Supplies,Notebook Pack,4,12,0.05,45.6
+ORD-00084,2025-03-14,Midwest,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-00085,2025-01-28,South,Consumer,Electronics,USB-C Hub,2,45,0.05,85.5
+ORD-00086,2025-02-26,Midwest,Enterprise,Furniture,Standing Desk,13,449,0.05,5545.15
+ORD-00087,2025-08-28,South,Consumer,Electronics,Wireless Headphones,4,89,0.05,338.2
+ORD-00088,2025-03-23,South,Enterprise,Furniture,Office Chair,4,229,0,916
+ORD-00089,2025-02-28,West,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-00090,2025-06-17,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00091,2025-03-04,Midwest,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-00092,2025-07-18,Midwest,Consumer,Electronics,USB-C Hub,1,45,0,45
+ORD-00093,2025-07-13,West,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-00094,2025-05-13,West,Consumer,Furniture,Bookshelf,4,129,0.05,490.2
+ORD-00095,2025-07-17,Northeast,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00096,2025-10-21,West,Enterprise,Electronics,USB-C Hub,10,45,0.15,382.5
+ORD-00097,2025-05-16,Northeast,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-00098,2025-08-12,Midwest,Enterprise,Office Supplies,Notebook Pack,6,12,0,72
+ORD-00099,2025-06-18,Midwest,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-00100,2025-01-20,West,Small Business,Furniture,Office Chair,6,229,,1374
+ORD-00101,2025-08-12,Northeast,Consumer,Office Supplies,Notebook Pack,5,12,0.05,57
+ORD-00102,2025-06-08,Northeast,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00103,2025-12-17,Northeast,Small Business,Office Supplies,Desk Organizer,3,24,0,72
+ORD-00104,2025-12-28,Midwest,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-00105,2025-11-18,West,Enterprise,Furniture,Standing Desk,15,449,0,6735
+ORD-00106,2025-06-28,Northeast,Enterprise,Electronics,Laptop Stand,17,39,0.2,530.4
+ORD-00107,2025-08-05,West,Enterprise,Electronics,Bluetooth Speaker,8,59,0,472
+ORD-00108,2025-10-04,South,Enterprise,Furniture,Bookshelf,13,129,0,1677
+ORD-00109,2025-06-05,Northeast,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-00110,2025-05-14,Midwest,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00111,2025-06-07,South,Consumer,Electronics,USB-C Hub,1,45,0,45
+ORD-00112,2025-11-16,South,Enterprise,Furniture,Standing Desk,18,449,0,8082
+ORD-00113,2025-03-06,West,Small Business,Electronics,Wireless Headphones,6,89,0,534
+ORD-00114,2025-08-23,Northeast,Enterprise,Office Supplies,Notebook Pack,13,12,0,156
+ORD-00115,2025-10-02,Midwest,Small Business,Office Supplies,Desk Organizer,4,24,0.15,81.6
+ORD-00116,2025-11-06,South,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-00117,2025-09-28,Northeast,Enterprise,Electronics,Laptop Stand,9,39,0,351
+ORD-00118,2025-02-09,Northeast,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-00119,2025-08-14,West,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-00120,2025-06-07,Midwest,Enterprise,Furniture,Bookshelf,4,129,0,516
+ORD-00121,2025-11-14,South,Enterprise,Office Supplies,Desk Organizer,12,24,0,288
+ORD-00122,2025-06-19,West,Enterprise,Electronics,USB-C Hub,13,45,0.2,468
+ORD-00123,2025-02-20,Northeast,Consumer,Office Supplies,Printer Paper,4,35,0.1,126
+ORD-00124,2025-07-04,West,Enterprise,Electronics,Wireless Headphones,5,89,0.15,378.25
+ORD-00125,2025-07-25,West,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-00126,2025-01-21,South,Small Business,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-00127,2025-09-01,South,Small Business,Office Supplies,Gel Pens (12),3,9,0.2,21.6
+ORD-00128,2025-01-22,Midwest,Enterprise,Furniture,Standing Desk,8,449,0.05,3412.4
+ORD-00129,2025-09-18,Midwest,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-00130,2025-03-18,Midwest,Small Business,Electronics,USB-C Hub,4,45,0.05,171
+ORD-00131,2025-12-15,West,Small Business,Electronics,Bluetooth Speaker,8,59,0,472
+ORD-00132,2025-03-20,South,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-00133,2025-11-13,Northeast,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00134,2025-08-08,Midwest,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00135,2025-05-21,West,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-00136,2025-02-05,Midwest,Enterprise,Electronics,USB-C Hub,13,45,0,585
+ORD-00137,2025-02-26,South,Enterprise,Furniture,Bookshelf,9,129,0,1161
+ORD-00138,2025-02-22,West,Enterprise,Office Supplies,Notebook Pack,17,12,0,204
+ORD-00139,2025-05-11,Northeast,Small Business,Electronics,Laptop Stand,4,39,,156
+ORD-00140,2025-10-21,Midwest,Enterprise,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-00141,2025-12-15,Northeast,Consumer,Electronics,Bluetooth Speaker,9,59,0,531
+ORD-00142,2025-12-06,Midwest,Small Business,Office Supplies,Desk Organizer,7,24,0,168
+ORD-00143,2025-06-28,Midwest,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00144,2025-05-04,West,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-00145,2025-03-08,West,Enterprise,Office Supplies,Desk Organizer,14,24,0,336
+ORD-00146,2025-04-08,Northeast,Enterprise,Electronics,USB-C Hub,13,45,0,585
+ORD-00147,2025-02-21,South,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-00148,2025-09-09,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-00149,2025-09-27,South,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-00150,2025-06-07,West,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-00151,2025-05-17,Northeast,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-00152,2025-04-16,Midwest,Enterprise,Furniture,Office Chair,12,229,0,2748
+ORD-00153,2025-08-19,Northeast,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-00154,2025-04-04,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00155,2025-10-17,West,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00156,2025-06-13,West,Enterprise,Office Supplies,Printer Paper,13,35,0,455
+ORD-00157,2025-03-08,Northeast,Enterprise,Electronics,USB-C Hub,10,45,0,450
+ORD-00158,2025-11-19,Midwest,Consumer,Furniture,Office Chair,7,229,0.2,1282.4
+ORD-00159,2025-09-22,South,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00160,2025-10-22,Northeast,Consumer,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-00161,2025-06-24,South,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00162,2025-11-28,West,Consumer,Electronics,Wireless Headphones,7,89,0,623
+ORD-00163,2025-06-28,South,Consumer,Furniture,Bookshelf,1,129,,109.65
+ORD-00164,2025-08-07,Northeast,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00165,2025-02-21,South,Consumer,Furniture,Standing Desk,4,449,0.15,1526.6
+ORD-00166,2025-03-03,Midwest,Enterprise,Electronics,USB-C Hub,8,45,0.15,306
+ORD-00167,2025-08-03,West,Consumer,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00168,2025-06-24,West,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00169,2025-03-01,South,Small Business,Office Supplies,Gel Pens (12),2,9,0.2,14.4
+ORD-00170,2025-08-19,South,Enterprise,Furniture,Standing Desk,3,449,0,1347
+ORD-00171,2025-09-24,South,Consumer,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-00172,2025-07-25,Midwest,Consumer,Office Supplies,Printer Paper,1,35,0.2,28
+ORD-00173,2025-10-28,Midwest,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-00174,2025-04-22,South,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-00175,2025-03-28,South,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-00176,2025-10-03,Midwest,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-00177,2025-11-02,Midwest,Enterprise,Office Supplies,Printer Paper,16,35,0,560
+ORD-00178,2025-03-08,West,Enterprise,Furniture,Office Chair,14,229,0.1,2885.4
+ORD-00179,2025-12-03,South,Small Business,Electronics,USB-C Hub,7,45,0,315
+ORD-00180,2025-10-19,Northeast,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-00181,2025-07-15,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00182,2025-02-26,Northeast,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00183,2025-08-24,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0.15,200.6
+ORD-00184,2025-12-21,South,Small Business,Office Supplies,Desk Organizer,2,24,0.15,40.8
+ORD-00185,2025-05-23,South,Consumer,Furniture,Bookshelf,2,129,0.2,206.4
+ORD-00186,2025-07-19,South,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00187,2025-04-20,Midwest,Enterprise,Furniture,Standing Desk,12,449,0,5388
+ORD-00188,2025-06-10,South,Small Business,Office Supplies,Desk Organizer,4,24,0.2,76.8
+ORD-00189,2025-02-14,Northeast,Small Business,Office Supplies,Printer Paper,2,35,0.05,66.5
+ORD-00190,2025-03-12,West,Consumer,Electronics,Bluetooth Speaker,2,59,0.05,112.1
+ORD-00191,2025-02-05,Northeast,Small Business,Electronics,Laptop Stand,2,39,0.05,74.1
+ORD-00192,2025-03-28,South,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00193,2025-08-27,Northeast,Small Business,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00194,2025-11-26,Northeast,Enterprise,Office Supplies,Notebook Pack,24,12,0,288
+ORD-00195,2025-02-25,Midwest,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-00196,2025-07-13,Midwest,Consumer,Furniture,Bookshelf,3,129,,387
+ORD-00197,2025-10-27,South,Enterprise,Furniture,Office Chair,3,229,0,687
+ORD-00198,2025-09-11,West,Enterprise,Electronics,Laptop Stand,14,39,0,546
+ORD-00199,2025-03-21,West,Enterprise,Office Supplies,Gel Pens (12),14,9,0.05,119.7
+ORD-00200,2025-03-04,Midwest,Enterprise,Office Supplies,Desk Organizer,7,24,0,168
+ORD-00201,2025-11-23,Northeast,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-00202,2025-11-21,Midwest,Consumer,Office Supplies,Gel Pens (12),6,9,0.2,43.2
+ORD-00203,2025-01-14,South,Enterprise,Electronics,USB-C Hub,4,45,,180
+ORD-00204,2025-02-20,South,Consumer,Office Supplies,Printer Paper,1,35,,35
+ORD-00205,2025-04-07,South,Enterprise,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-00206,2025-04-25,South,Enterprise,Furniture,Bookshelf,11,129,0.05,1348.05
+ORD-00207,2025-07-27,Northeast,Consumer,Office Supplies,Desk Organizer,5,24,0.05,114
+ORD-00208,2025-01-08,West,Consumer,Office Supplies,Desk Organizer,4,24,,86.4
+ORD-00209,2025-11-13,South,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-00210,2025-04-19,South,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-00211,2025-04-21,Midwest,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00212,2025-09-22,Northeast,Enterprise,Electronics,Bluetooth Speaker,9,59,0,531
+ORD-00213,2025-11-23,Midwest,Consumer,Electronics,USB-C Hub,3,45,0.2,108
+ORD-00214,2025-05-17,Northeast,Consumer,Electronics,Laptop Stand,4,39,0,156
+ORD-00215,2025-12-22,West,Enterprise,Office Supplies,Desk Organizer,17,24,0,408
+ORD-00216,2025-08-04,Midwest,Enterprise,Office Supplies,Desk Organizer,13,24,0,312
+ORD-00217,2025-03-03,South,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-00218,2025-03-06,Northeast,Enterprise,Furniture,Office Chair,10,229,0.2,1832
+ORD-00219,2025-05-08,South,Consumer,Furniture,Bookshelf,4,129,,516
+ORD-00220,2025-11-22,Midwest,Enterprise,Office Supplies,Notebook Pack,23,12,0,276
+ORD-00221,2025-08-26,Northeast,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-00222,2025-08-05,Northeast,Enterprise,Office Supplies,Printer Paper,9,35,0,315
+ORD-00223,2025-06-18,West,Small Business,Electronics,Laptop Stand,6,39,0,234
+ORD-00224,2025-07-02,Northeast,Small Business,Electronics,Laptop Stand,3,39,0,117
+ORD-00225,2025-05-17,Midwest,Consumer,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-00226,2025-11-25,Northeast,Small Business,Office Supplies,Printer Paper,6,35,0,210
+ORD-00227,2025-10-25,Northeast,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-00228,2025-09-21,West,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-00229,2025-04-08,West,Consumer,Furniture,Office Chair,4,229,0.05,870.2
+ORD-00230,2025-10-16,Northeast,Enterprise,Furniture,Bookshelf,4,129,,464.4
+ORD-00231,2025-09-20,Midwest,Consumer,Office Supplies,Desk Organizer,1,24,0.05,22.8
+ORD-00232,2025-04-28,Midwest,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00233,2025-04-04,South,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-00234,2025-12-14,West,Consumer,Electronics,Wireless Headphones,7,89,0.15,529.55
+ORD-00235,2025-08-27,West,Consumer,Furniture,Bookshelf,2,129,0.15,219.3
+ORD-00236,2025-10-20,Northeast,Small Business,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-00237,2025-12-05,Northeast,Consumer,Furniture,Bookshelf,8,129,0,1032
+ORD-00238,2025-10-14,West,Enterprise,Electronics,USB-C Hub,14,45,0,630
+ORD-00239,2025-04-28,West,Enterprise,Office Supplies,Desk Organizer,15,24,0.15,306
+ORD-00240,2025-01-05,Northeast,Consumer,Office Supplies,Gel Pens (12),5,9,0.15,38.25
+ORD-00241,2025-10-06,West,Enterprise,Office Supplies,Notebook Pack,4,12,0.05,45.6
+ORD-00242,2025-03-27,South,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-00243,2025-06-06,West,Enterprise,Furniture,Bookshelf,5,129,0,645
+ORD-00244,2025-08-12,Midwest,Enterprise,Office Supplies,Desk Organizer,11,24,0,264
+ORD-00245,2025-06-27,West,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-00246,2025-06-22,South,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00247,2025-04-10,Midwest,Consumer,Office Supplies,Printer Paper,1,35,0,35
+ORD-00248,2025-04-18,West,Consumer,Office Supplies,Printer Paper,1,35,0,35
+ORD-00249,2025-12-01,Midwest,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-00250,2025-11-14,West,Consumer,Office Supplies,Notebook Pack,6,12,0,72
+ORD-00251,2025-10-13,Midwest,Enterprise,Office Supplies,Notebook Pack,12,12,0,144
+ORD-00252,2025-05-17,South,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00253,2025-01-19,South,Enterprise,Office Supplies,Desk Organizer,6,24,0,144
+ORD-00254,2025-08-12,Midwest,Small Business,Office Supplies,Notebook Pack,4,12,0.2,38.4
+ORD-00255,2025-08-03,Northeast,Consumer,Furniture,Standing Desk,3,449,0.2,1077.6
+ORD-00256,2025-04-15,Midwest,Consumer,Furniture,Standing Desk,3,449,0.2,1077.6
+ORD-00257,2025-09-27,West,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-00258,2025-09-20,Northeast,Consumer,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00259,2025-05-05,Northeast,Consumer,Electronics,Laptop Stand,5,39,,195
+ORD-00260,2025-12-27,West,Enterprise,Furniture,Bookshelf,7,129,0.2,722.4
+ORD-00261,2025-02-20,West,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00262,2025-12-24,Northeast,Enterprise,Electronics,Wireless Headphones,16,89,0,1424
+ORD-00263,2025-04-23,Midwest,Enterprise,Electronics,Bluetooth Speaker,10,59,0,590
+ORD-00264,2025-08-09,South,Enterprise,Office Supplies,Gel Pens (12),11,9,0,99
+ORD-00265,2025-09-24,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0.15,20.4
+ORD-00266,2025-12-26,South,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-00267,2025-06-11,Midwest,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-00268,2025-05-28,Northeast,Small Business,Electronics,Laptop Stand,2,39,0.15,66.3
+ORD-00269,2025-05-28,Midwest,Consumer,Furniture,Standing Desk,4,449,0.2,1436.8
+ORD-00270,2025-12-23,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0.15,226.95
+ORD-00271,2025-04-07,Midwest,Enterprise,Office Supplies,Notebook Pack,13,12,0,156
+ORD-00272,2025-01-11,Northeast,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00273,2025-11-23,West,Enterprise,Furniture,Bookshelf,18,129,,2322
+ORD-00274,2025-07-17,Northeast,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-00275,2025-08-28,West,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00276,2025-09-27,Midwest,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-00277,2025-01-04,Northeast,Consumer,Furniture,Standing Desk,4,449,0.2,1436.8
+ORD-00278,2025-04-25,West,Consumer,Electronics,USB-C Hub,3,45,0.05,128.25
+ORD-00279,2025-04-02,South,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-00280,2025-04-16,Midwest,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00281,2025-08-01,West,Small Business,Electronics,Laptop Stand,6,39,0,234
+ORD-00282,2025-03-21,Midwest,Enterprise,Furniture,Bookshelf,5,129,0.05,612.75
+ORD-00283,2025-12-08,Northeast,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-00284,2025-08-13,Northeast,Consumer,Furniture,Standing Desk,4,449,0.15,1526.6
+ORD-00285,2025-05-21,South,Enterprise,Furniture,Bookshelf,8,129,0,1032
+ORD-00286,2025-02-01,West,Enterprise,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-00287,2025-01-27,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00288,2025-04-22,West,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00289,2025-08-01,Northeast,Small Business,Office Supplies,Desk Organizer,5,24,0.1,108
+ORD-00290,2025-06-06,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00291,2025-08-12,Midwest,Consumer,Electronics,Laptop Stand,1,39,0,39
+ORD-00292,2025-05-14,South,Small Business,Furniture,Bookshelf,2,129,0.1,232.2
+ORD-00293,2025-03-04,South,Small Business,Furniture,Standing Desk,1,449,0,449
+ORD-00294,2025-02-24,Northeast,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-00295,2025-01-11,South,Enterprise,Office Supplies,Printer Paper,4,35,0,140
+ORD-00296,2025-12-26,Northeast,Enterprise,Furniture,Standing Desk,25,449,0.15,9541.25
+ORD-00297,2025-12-09,West,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00298,2025-04-09,Midwest,Consumer,Electronics,USB-C Hub,3,45,0.2,108
+ORD-00299,2025-05-03,South,Enterprise,Electronics,USB-C Hub,12,45,0,540
+ORD-00300,2025-09-03,Northeast,Consumer,Furniture,Office Chair,2,229,0.2,366.4
+ORD-00301,2025-02-07,West,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-00302,2025-02-08,Northeast,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-00303,2025-11-14,West,Enterprise,Electronics,Wireless Headphones,18,89,0.2,1281.6
+ORD-00304,2025-04-12,South,Small Business,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-00305,2025-02-27,Midwest,Enterprise,Office Supplies,Printer Paper,5,35,,175
+ORD-00306,2025-06-12,South,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-00307,2025-10-06,South,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00308,2025-12-15,South,Consumer,Electronics,Wireless Headphones,7,89,0.1,560.7
+ORD-00309,2025-01-22,Northeast,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-00310,2025-05-03,Northeast,Enterprise,Furniture,Bookshelf,5,129,0,645
+ORD-00311,2025-09-17,West,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00312,2025-02-24,Midwest,Enterprise,Electronics,Wireless Headphones,6,89,0,534
+ORD-00313,2025-02-25,Northeast,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00314,2025-05-14,West,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-00315,2025-11-19,West,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-00316,2025-05-15,Midwest,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00317,2025-03-19,South,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00318,2025-08-14,Northeast,Consumer,Electronics,Laptop Stand,3,39,0.2,93.6
+ORD-00319,2025-01-26,West,Consumer,Electronics,Laptop Stand,5,39,0,195
+ORD-00320,2025-10-10,West,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-00321,2025-04-03,Midwest,Enterprise,Furniture,Office Chair,3,229,0,687
+ORD-00322,2025-09-01,South,Enterprise,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00323,2025-01-02,Northeast,Small Business,Office Supplies,Desk Organizer,3,24,0,72
+ORD-00324,2025-07-05,West,Small Business,Electronics,USB-C Hub,6,45,0,270
+ORD-00325,2025-03-17,Northeast,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-00326,2025-08-06,Midwest,Small Business,Furniture,Office Chair,3,229,0.15,583.95
+ORD-00327,2025-06-03,Midwest,Enterprise,Furniture,Bookshelf,10,129,0,1290
+ORD-00328,2025-07-09,West,Small Business,Electronics,Wireless Headphones,2,89,0.15,151.3
+ORD-00329,2025-03-09,South,Enterprise,Furniture,Standing Desk,4,449,0,1796
+ORD-00330,2025-04-23,Northeast,Consumer,Office Supplies,Gel Pens (12),3,9,0.15,22.95
+ORD-00331,2025-12-10,Northeast,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-00332,2025-01-04,Northeast,Consumer,Electronics,USB-C Hub,4,45,0.1,162
+ORD-00333,2025-11-19,Northeast,Enterprise,Furniture,Office Chair,15,229,0,3435
+ORD-00334,2025-03-23,West,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00335,2025-09-04,South,Enterprise,Electronics,Laptop Stand,8,39,0,312
+ORD-00336,2025-11-27,Northeast,Enterprise,Furniture,Standing Desk,18,449,0,8082
+ORD-00337,2025-04-23,Northeast,Enterprise,Electronics,Wireless Headphones,12,89,0.2,854.4
+ORD-00338,2025-07-24,West,Consumer,Electronics,USB-C Hub,4,45,0.05,171
+ORD-00339,2025-10-05,Northeast,Enterprise,Office Supplies,Desk Organizer,10,24,0,240
+ORD-00340,2025-07-22,Midwest,Enterprise,Electronics,Laptop Stand,4,39,0.2,124.8
+ORD-00341,2025-09-28,Midwest,Small Business,Electronics,Laptop Stand,5,39,0.05,185.25
+ORD-00342,2025-11-12,Midwest,Enterprise,Furniture,Standing Desk,23,449,0,10327
+ORD-00343,2025-10-25,Northeast,Small Business,Electronics,USB-C Hub,5,45,0,225
+ORD-00344,2025-08-05,South,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-00345,2025-02-19,Northeast,Small Business,Furniture,Office Chair,2,229,0.15,389.3
+ORD-00346,2025-09-07,West,Enterprise,Electronics,Laptop Stand,11,39,0.2,343.2
+ORD-00347,2025-09-28,Midwest,Enterprise,Furniture,Office Chair,9,229,0,2061
+ORD-00348,2025-11-21,Northeast,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00349,2025-09-21,South,Enterprise,Furniture,Office Chair,7,229,0.1,1442.7
+ORD-00350,2025-04-04,South,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00351,2025-04-22,West,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-00352,2025-02-22,South,Small Business,Office Supplies,Desk Organizer,2,24,0.2,38.4
+ORD-00353,2025-12-21,West,Small Business,Office Supplies,Desk Organizer,10,24,0,240
+ORD-00354,2025-08-09,Midwest,Enterprise,Office Supplies,Notebook Pack,11,12,0,132
+ORD-00355,2025-04-16,South,Enterprise,Furniture,Bookshelf,13,129,0.2,1341.6
+ORD-00356,2025-07-28,West,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-00357,2025-02-22,Northeast,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-00358,2025-01-05,South,Consumer,Office Supplies,Desk Organizer,2,24,0,48
+ORD-00359,2025-11-19,Northeast,Consumer,Furniture,Bookshelf,7,129,0,903
+ORD-00360,2025-07-20,Midwest,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00361,2025-11-20,South,Consumer,Electronics,USB-C Hub,5,45,0.15,191.25
+ORD-00362,2025-07-26,Midwest,Enterprise,Furniture,Standing Desk,11,449,0,4939
+ORD-00363,2025-02-04,West,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-00364,2025-12-01,South,Consumer,Office Supplies,Notebook Pack,2,12,0.2,19.2
+ORD-00365,2025-02-15,South,Small Business,Electronics,USB-C Hub,2,45,0.15,76.5
+ORD-00366,2025-12-23,Midwest,Enterprise,Furniture,Standing Desk,12,449,0,5388
+ORD-00367,2025-09-28,South,Enterprise,Electronics,USB-C Hub,8,45,0,360
+ORD-00368,2025-07-01,Midwest,Small Business,Electronics,Laptop Stand,1,39,0.15,33.15
+ORD-00369,2025-09-24,Midwest,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-00370,2025-12-10,Northeast,Small Business,Furniture,Bookshelf,7,129,,857.85
+ORD-00371,2025-11-25,Northeast,Enterprise,Electronics,USB-C Hub,9,45,0,405
+ORD-00372,2025-01-24,Northeast,Enterprise,Furniture,Standing Desk,17,449,0,7633
+ORD-00373,2025-08-23,South,Small Business,Office Supplies,Notebook Pack,1,12,0.2,9.6
+ORD-00374,2025-04-17,West,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-00375,2025-06-12,South,Consumer,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-00376,2025-11-17,Northeast,Small Business,Office Supplies,Notebook Pack,6,12,0,72
+ORD-00377,2025-11-07,Midwest,Enterprise,Office Supplies,Notebook Pack,24,12,0,288
+ORD-00378,2025-03-13,West,Consumer,Furniture,Office Chair,1,229,0,229
+ORD-00379,2025-09-23,West,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-00380,2025-03-26,Northeast,Enterprise,Office Supplies,Gel Pens (12),9,9,0.2,64.8
+ORD-00381,2025-07-12,South,Enterprise,Furniture,Office Chair,11,229,0.2,2015.2
+ORD-00382,2025-07-04,Midwest,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00383,2025-10-28,West,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00384,2025-01-12,Northeast,Small Business,Electronics,Wireless Headphones,5,89,0.2,356
+ORD-00385,2025-04-24,Midwest,Small Business,Furniture,Standing Desk,2,449,0.05,853.1
+ORD-00386,2025-11-12,Northeast,Enterprise,Electronics,Laptop Stand,20,39,0.2,624
+ORD-00387,2025-05-13,South,Enterprise,Furniture,Office Chair,11,229,0.1,2267.1
+ORD-00388,2025-05-08,South,Small Business,Electronics,Laptop Stand,3,39,,93.6
+ORD-00389,2025-03-17,West,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00390,2025-02-23,Midwest,Enterprise,Furniture,Bookshelf,7,129,0,903
+ORD-00391,2025-05-05,West,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-00392,2025-12-08,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00393,2025-06-20,Midwest,Enterprise,Electronics,Wireless Headphones,15,89,0,1335
+ORD-00394,2025-04-16,West,Enterprise,Electronics,Wireless Headphones,8,89,,712
+ORD-00395,2025-11-25,South,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-00396,2025-02-18,Midwest,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-00397,2025-10-18,West,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-00398,2025-12-13,South,Enterprise,Office Supplies,Notebook Pack,6,12,0.1,64.8
+ORD-00399,2025-07-07,Midwest,Enterprise,Office Supplies,Desk Organizer,6,24,0,144
+ORD-00400,2025-06-05,Northeast,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-00401,2025-10-08,Midwest,Consumer,Electronics,Bluetooth Speaker,1,59,0.1,53.1
+ORD-00402,2025-11-04,Midwest,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00403,2025-11-04,Northeast,Consumer,Office Supplies,Desk Organizer,6,24,0,144
+ORD-00404,2025-03-20,Midwest,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-00405,2025-04-12,Midwest,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-00406,2025-09-17,West,Consumer,Furniture,Bookshelf,2,129,0.1,232.2
+ORD-00407,2025-08-21,Northeast,Enterprise,Office Supplies,Notebook Pack,4,12,0.1,43.2
+ORD-00408,2025-04-23,Northeast,Enterprise,Office Supplies,Desk Organizer,13,24,0.2,249.6
+ORD-00409,2025-09-09,West,Enterprise,Electronics,Laptop Stand,18,39,0,702
+ORD-00410,2025-03-27,West,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-00411,2025-06-27,West,Consumer,Furniture,Bookshelf,3,129,0.15,328.95
+ORD-00412,2025-12-21,Northeast,Consumer,Electronics,Wireless Headphones,3,89,0.05,253.65
+ORD-00413,2025-09-03,South,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-00414,2025-06-12,Midwest,Enterprise,Electronics,Laptop Stand,4,39,0.1,140.4
+ORD-00415,2025-05-02,South,Small Business,Furniture,Bookshelf,4,129,0.05,490.2
+ORD-00416,2025-06-21,Midwest,Enterprise,Office Supplies,Gel Pens (12),13,9,0,117
+ORD-00417,2025-06-26,West,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-00418,2025-09-04,West,Enterprise,Electronics,USB-C Hub,11,45,0,495
+ORD-00419,2025-12-11,South,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-00420,2025-01-16,West,Enterprise,Electronics,Laptop Stand,5,39,0,195
+ORD-00421,2025-03-18,South,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00422,2025-01-15,Northeast,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-00423,2025-04-26,West,Small Business,Furniture,Office Chair,4,229,0.05,870.2
+ORD-00424,2025-08-03,Midwest,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-00425,2025-08-13,Northeast,Enterprise,Office Supplies,Desk Organizer,14,24,0.1,302.4
+ORD-00426,2025-12-22,West,Consumer,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-00427,2025-03-09,West,Consumer,Furniture,Bookshelf,2,129,0.1,232.2
+ORD-00428,2025-11-06,West,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-00429,2025-12-14,Northeast,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00430,2025-03-19,West,Consumer,Electronics,Bluetooth Speaker,2,59,0.15,100.3
+ORD-00431,2025-09-13,Northeast,Consumer,Office Supplies,Desk Organizer,5,24,0.2,96
+ORD-00432,2025-03-11,Northeast,Small Business,Office Supplies,Printer Paper,3,35,0,105
+ORD-00433,2025-09-22,Northeast,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-00434,2025-05-15,Midwest,Enterprise,Furniture,Standing Desk,10,449,0.05,4265.5
+ORD-00435,2025-05-20,West,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-00436,2025-06-11,West,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00437,2025-06-12,Northeast,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-00438,2025-04-16,Midwest,Consumer,Office Supplies,Desk Organizer,2,24,0.15,40.8
+ORD-00439,2025-10-20,South,Enterprise,Furniture,Bookshelf,7,129,0,903
+ORD-00440,2025-06-06,Midwest,Enterprise,Office Supplies,Printer Paper,10,35,0,350
+ORD-00441,2025-09-15,South,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-00442,2025-11-06,Midwest,Enterprise,Electronics,Bluetooth Speaker,12,59,0,708
+ORD-00443,2025-06-15,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00444,2025-05-17,West,Enterprise,Electronics,Wireless Headphones,18,89,0.1,1441.8
+ORD-00445,2025-05-13,Northeast,Consumer,Office Supplies,Desk Organizer,2,24,0.15,40.8
+ORD-00446,2025-03-26,Northeast,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-00447,2025-07-01,South,Enterprise,Electronics,USB-C Hub,7,45,0,315
+ORD-00448,2025-12-09,Midwest,Small Business,Office Supplies,Notebook Pack,3,12,0.05,34.2
+ORD-00449,2025-01-12,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0.2,28.8
+ORD-00450,2025-12-25,Northeast,Enterprise,Furniture,Bookshelf,26,129,0.1,3018.6
+ORD-00451,2025-02-28,West,Enterprise,Electronics,Laptop Stand,16,39,0.1,561.6
+ORD-00452,2025-04-13,South,Small Business,Furniture,Office Chair,4,229,0.15,778.6
+ORD-00453,2025-01-18,South,Consumer,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-00454,2025-06-10,South,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-00455,2025-03-18,South,Enterprise,Electronics,Bluetooth Speaker,11,59,0,649
+ORD-00456,2025-05-16,Midwest,Enterprise,Furniture,Bookshelf,6,129,0,774
+ORD-00457,2025-02-14,South,Enterprise,Electronics,USB-C Hub,6,45,0,270
+ORD-00458,2025-01-16,Northeast,Enterprise,Office Supplies,Gel Pens (12),17,9,0.2,122.4
+ORD-00459,2025-07-22,West,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-00460,2025-02-13,West,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-00461,2025-08-21,South,Small Business,Office Supplies,Notebook Pack,4,12,0.1,43.2
+ORD-00462,2025-06-17,Midwest,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-00463,2025-06-05,West,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00464,2025-10-21,Northeast,Consumer,Electronics,Laptop Stand,4,39,0,156
+ORD-00465,2025-06-18,Midwest,Enterprise,Electronics,Laptop Stand,6,39,0,234
+ORD-00466,2025-10-15,Northeast,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-00467,2025-05-11,Midwest,Consumer,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-00468,2025-06-18,Midwest,Enterprise,Electronics,USB-C Hub,12,45,0,540
+ORD-00469,2025-02-17,Midwest,Enterprise,Furniture,Standing Desk,11,449,0,4939
+ORD-00470,2025-10-21,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00471,2025-12-11,Northeast,Enterprise,Office Supplies,Desk Organizer,7,24,0,168
+ORD-00472,2025-10-22,South,Consumer,Furniture,Office Chair,1,229,0,229
+ORD-00473,2025-09-27,South,Small Business,Electronics,Wireless Headphones,1,89,0,89
+ORD-00474,2025-12-17,West,Enterprise,Furniture,Bookshelf,18,129,0,2322
+ORD-00475,2025-05-14,West,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00476,2025-06-13,West,Consumer,Electronics,USB-C Hub,5,45,0.05,213.75
+ORD-00477,2025-12-19,Northeast,Consumer,Furniture,Standing Desk,6,449,0.05,2559.3
+ORD-00478,2025-02-19,Midwest,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00479,2025-10-28,West,Small Business,Electronics,Laptop Stand,5,39,,195
+ORD-00480,2025-11-01,Midwest,Consumer,Electronics,Laptop Stand,5,39,0.1,175.5
+ORD-00481,2025-08-02,South,Enterprise,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00482,2025-08-26,West,Small Business,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00483,2025-04-24,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-00484,2025-10-23,South,Enterprise,Furniture,Standing Desk,5,449,0,2245
+ORD-00485,2025-01-16,West,Small Business,Furniture,Bookshelf,1,129,0,129
+ORD-00486,2025-10-23,South,Enterprise,Electronics,Bluetooth Speaker,11,59,0.1,584.1
+ORD-00487,2025-10-15,West,Small Business,Electronics,Laptop Stand,6,39,0,234
+ORD-00488,2025-09-07,West,Enterprise,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00489,2025-03-22,Northeast,Enterprise,Electronics,Laptop Stand,4,39,0.05,148.2
+ORD-00490,2025-09-25,South,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-00491,2025-11-15,West,Enterprise,Electronics,Laptop Stand,20,39,0,780
+ORD-00492,2025-03-19,West,Enterprise,Office Supplies,Notebook Pack,6,12,0,72
+ORD-00493,2025-01-01,Midwest,Enterprise,Electronics,Laptop Stand,10,39,0,390
+ORD-00494,2025-11-13,Midwest,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00495,2025-04-20,Midwest,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-00496,2025-05-16,South,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00497,2025-08-16,Northeast,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-00498,2025-08-06,Midwest,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00499,2025-02-11,West,Consumer,Electronics,Wireless Headphones,6,89,0,534
+ORD-00500,2025-12-27,West,Enterprise,Electronics,Laptop Stand,14,39,0.1,491.4
+ORD-00501,2025-11-06,Midwest,Enterprise,Furniture,Office Chair,8,229,0.2,1465.6
+ORD-00502,2025-09-01,Northeast,Enterprise,Office Supplies,Printer Paper,8,35,0.2,224
+ORD-00503,2025-05-13,West,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-00504,2025-12-22,Midwest,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00505,2025-11-16,Northeast,Small Business,Office Supplies,Printer Paper,7,35,0,245
+ORD-00506,2025-08-24,South,Consumer,Electronics,Bluetooth Speaker,4,59,,224.2
+ORD-00507,2025-07-12,Northeast,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-00508,2025-03-20,Midwest,Small Business,Electronics,Laptop Stand,2,39,0.05,74.1
+ORD-00509,2025-05-11,Northeast,Enterprise,Furniture,Bookshelf,5,129,0,645
+ORD-00510,2025-02-09,West,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-00511,2025-02-05,West,Enterprise,Office Supplies,Notebook Pack,9,12,0,108
+ORD-00512,2025-06-08,Midwest,Small Business,Electronics,Laptop Stand,1,39,0.2,31.2
+ORD-00513,2025-08-24,Northeast,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00514,2025-09-21,Northeast,Enterprise,Furniture,Bookshelf,11,129,,1419
+ORD-00515,2025-08-04,West,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-00516,2025-11-11,Midwest,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-00517,2025-11-17,Northeast,Small Business,Office Supplies,Desk Organizer,4,24,0.05,91.2
+ORD-00518,2025-08-23,Midwest,Small Business,Office Supplies,Desk Organizer,3,24,0.2,57.6
+ORD-00519,2025-07-20,West,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-00520,2025-01-24,South,Small Business,Furniture,Office Chair,4,229,0.2,732.8
+ORD-00521,2025-11-17,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-00522,2025-02-18,Northeast,Enterprise,Electronics,Wireless Headphones,6,89,0.2,427.2
+ORD-00523,2025-02-10,West,Enterprise,Electronics,USB-C Hub,4,45,0.15,153
+ORD-00524,2025-04-01,Northeast,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-00525,2025-12-03,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0.05,66.5
+ORD-00526,2025-01-14,Northeast,Small Business,Electronics,USB-C Hub,5,45,0,225
+ORD-00527,2025-09-18,West,Consumer,Electronics,USB-C Hub,6,45,,270
+ORD-00528,2025-09-06,Northeast,Small Business,Furniture,Bookshelf,4,129,,516
+ORD-00529,2025-07-06,West,Small Business,Furniture,Office Chair,6,229,0,1374
+ORD-00530,2025-05-21,South,Enterprise,Electronics,USB-C Hub,3,45,0,135
+ORD-00531,2025-11-27,South,Enterprise,Office Supplies,Notebook Pack,7,12,0.2,67.2
+ORD-00532,2025-06-22,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00533,2025-10-23,West,Enterprise,Furniture,Standing Desk,18,449,0.05,7677.9
+ORD-00534,2025-06-21,Northeast,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00535,2025-01-05,South,Enterprise,Furniture,Office Chair,4,229,0.1,824.4
+ORD-00536,2025-10-09,West,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00537,2025-12-01,Northeast,Enterprise,Electronics,Laptop Stand,16,39,0,624
+ORD-00538,2025-08-14,Midwest,Consumer,Office Supplies,Desk Organizer,4,24,0.1,86.4
+ORD-00539,2025-08-12,Midwest,Small Business,Furniture,Standing Desk,2,449,0.2,718.4
+ORD-00540,2025-01-18,Northeast,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-00541,2025-01-28,South,Consumer,Electronics,Laptop Stand,4,39,0,156
+ORD-00542,2025-04-14,West,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-00543,2025-08-21,West,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00544,2025-01-15,West,Small Business,Office Supplies,Notebook Pack,4,12,0.15,40.8
+ORD-00545,2025-03-17,Northeast,Enterprise,Furniture,Bookshelf,8,129,0,1032
+ORD-00546,2025-11-25,West,Consumer,Furniture,Standing Desk,7,449,0,3143
+ORD-00547,2025-10-12,Midwest,Small Business,Electronics,Bluetooth Speaker,2,59,,118
+ORD-00548,2025-10-26,West,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-00549,2025-02-12,West,Enterprise,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00550,2025-01-16,Northeast,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00551,2025-10-10,South,Small Business,Electronics,Bluetooth Speaker,2,59,,106.2
+ORD-00552,2025-09-04,South,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00553,2025-09-23,Midwest,Consumer,Office Supplies,Notebook Pack,5,12,0,60
+ORD-00554,2025-09-07,South,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-00555,2025-04-25,Northeast,Small Business,Furniture,Bookshelf,4,129,0.15,438.6
+ORD-00556,2025-08-02,South,Enterprise,Furniture,Office Chair,10,229,0.2,1832
+ORD-00557,2025-10-23,Midwest,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-00558,2025-11-23,South,Consumer,Office Supplies,Desk Organizer,2,24,,48
+ORD-00559,2025-06-27,Northeast,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-00560,2025-01-11,South,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00561,2025-05-19,South,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00562,2025-11-02,West,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-00563,2025-04-21,Northeast,Enterprise,Furniture,Bookshelf,6,129,0,774
+ORD-00564,2025-01-05,West,Consumer,Furniture,Standing Desk,5,449,,1796
+ORD-00565,2025-09-11,West,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-00566,2025-12-03,West,Enterprise,Electronics,Laptop Stand,27,39,0,1053
+ORD-00567,2025-06-20,South,Small Business,Office Supplies,Notebook Pack,4,12,0.2,38.4
+ORD-00568,2025-03-04,West,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-00569,2025-10-13,Midwest,Consumer,Electronics,USB-C Hub,4,45,0.15,153
+ORD-00570,2025-07-17,Northeast,Small Business,Furniture,Office Chair,6,229,0,1374
+ORD-00571,2025-05-27,Northeast,Consumer,Furniture,Office Chair,2,229,0.15,389.3
+ORD-00572,2025-01-07,Midwest,Consumer,Office Supplies,Desk Organizer,2,24,0.1,43.2
+ORD-00573,2025-09-16,Midwest,Small Business,Office Supplies,Desk Organizer,3,24,0.2,57.6
+ORD-00574,2025-10-15,Midwest,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-00575,2025-03-13,South,Enterprise,Office Supplies,Notebook Pack,12,12,0.15,122.4
+ORD-00576,2025-05-16,Northeast,Small Business,Furniture,Standing Desk,5,449,0.15,1908.25
+ORD-00577,2025-08-28,West,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00578,2025-01-19,South,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00579,2025-07-22,South,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00580,2025-08-19,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-00581,2025-01-08,South,Small Business,Furniture,Standing Desk,2,449,0.05,853.1
+ORD-00582,2025-07-11,South,Small Business,Furniture,Bookshelf,1,129,0,129
+ORD-00583,2025-12-05,Midwest,Enterprise,Electronics,Wireless Headphones,14,89,0.2,996.8
+ORD-00584,2025-06-16,Midwest,Consumer,Office Supplies,Printer Paper,2,35,0,70
+ORD-00585,2025-11-18,West,Consumer,Furniture,Bookshelf,6,129,0,774
+ORD-00586,2025-09-25,South,Enterprise,Office Supplies,Printer Paper,12,35,0,420
+ORD-00587,2025-04-28,Midwest,Small Business,Electronics,USB-C Hub,4,45,0.05,171
+ORD-00588,2025-12-14,Northeast,Small Business,Office Supplies,Desk Organizer,7,24,0.1,151.2
+ORD-00589,2025-10-28,Midwest,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-00590,2025-10-02,West,Enterprise,Office Supplies,Printer Paper,18,35,0,630
+ORD-00591,2025-02-25,Midwest,Enterprise,Office Supplies,Desk Organizer,8,24,0,192
+ORD-00592,2025-02-18,West,Enterprise,Furniture,Office Chair,16,229,0.05,3480.8
+ORD-00593,2025-01-24,Midwest,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-00594,2025-04-08,South,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-00595,2025-02-25,South,Enterprise,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-00596,2025-11-16,South,Consumer,Office Supplies,Printer Paper,2,35,0.05,66.5
+ORD-00597,2025-07-26,Northeast,Enterprise,Office Supplies,Notebook Pack,9,12,0,108
+ORD-00598,2025-01-26,West,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00599,2025-02-19,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-00600,2025-07-08,West,Consumer,Office Supplies,Desk Organizer,5,24,,120
+ORD-00601,2025-06-14,Midwest,Small Business,Office Supplies,Notebook Pack,5,12,0.1,54
+ORD-00602,2025-02-15,South,Consumer,Office Supplies,Printer Paper,1,35,,35
+ORD-00603,2025-12-16,Northeast,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-00604,2025-03-01,South,Enterprise,Office Supplies,Printer Paper,5,35,,175
+ORD-00605,2025-03-26,West,Enterprise,Furniture,Standing Desk,14,449,0,6286
+ORD-00606,2025-06-26,Midwest,Consumer,Furniture,Standing Desk,4,449,0.2,1436.8
+ORD-00607,2025-12-15,Midwest,Consumer,Furniture,Office Chair,6,229,0.15,1167.9
+ORD-00608,2025-07-01,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00609,2025-12-13,West,Enterprise,Office Supplies,Printer Paper,29,35,0,1015
+ORD-00610,2025-06-17,Northeast,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00611,2025-07-20,Northeast,Consumer,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-00612,2025-09-24,South,Enterprise,Office Supplies,Gel Pens (12),9,9,0,81
+ORD-00613,2025-06-13,Midwest,Enterprise,Electronics,USB-C Hub,7,45,0,315
+ORD-00614,2025-11-21,Midwest,Consumer,Furniture,Bookshelf,7,129,0,903
+ORD-00615,2025-10-22,Midwest,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00616,2025-01-11,Midwest,Small Business,Furniture,Office Chair,4,229,,916
+ORD-00617,2025-02-05,Northeast,Small Business,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-00618,2025-01-15,Midwest,Small Business,Office Supplies,Printer Paper,3,35,0,105
+ORD-00619,2025-06-06,Midwest,Small Business,Office Supplies,Notebook Pack,1,12,0,12
+ORD-00620,2025-12-24,South,Small Business,Furniture,Office Chair,5,229,0.2,916
+ORD-00621,2025-12-28,Northeast,Small Business,Office Supplies,Notebook Pack,5,12,0,60
+ORD-00622,2025-08-06,West,Enterprise,Electronics,Bluetooth Speaker,7,59,0,413
+ORD-00623,2025-04-21,Northeast,Small Business,Furniture,Bookshelf,4,129,0.05,490.2
+ORD-00624,2025-09-11,West,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-00625,2025-12-27,Northeast,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00626,2025-01-09,West,Enterprise,Electronics,Wireless Headphones,14,89,0,1246
+ORD-00627,2025-03-04,Midwest,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00628,2025-01-23,South,Enterprise,Furniture,Office Chair,12,229,0,2748
+ORD-00629,2025-10-12,Northeast,Small Business,Electronics,Bluetooth Speaker,3,59,,177
+ORD-00630,2025-06-04,West,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-00631,2025-06-05,Midwest,Small Business,Electronics,Wireless Headphones,5,89,0.05,422.75
+ORD-00632,2025-10-07,South,Small Business,Electronics,Wireless Headphones,1,89,0.15,75.65
+ORD-00633,2025-11-15,Midwest,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00634,2025-11-22,Northeast,Enterprise,Electronics,Wireless Headphones,26,89,0,2314
+ORD-00635,2025-07-06,West,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00636,2025-10-28,Northeast,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-00637,2025-04-28,West,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00638,2025-01-28,West,Enterprise,Furniture,Standing Desk,11,449,0,4939
+ORD-00639,2025-04-19,Midwest,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-00640,2025-07-18,South,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-00641,2025-05-17,South,Enterprise,Furniture,Standing Desk,12,449,0,5388
+ORD-00642,2025-05-27,Northeast,Enterprise,Furniture,Office Chair,8,229,0,1832
+ORD-00643,2025-01-26,Northeast,Enterprise,Furniture,Bookshelf,4,129,0,516
+ORD-00644,2025-12-07,West,Small Business,Furniture,Standing Desk,8,449,0,3592
+ORD-00645,2025-10-28,West,Enterprise,Office Supplies,Printer Paper,18,35,0,630
+ORD-00646,2025-11-22,South,Enterprise,Furniture,Office Chair,20,229,0,4580
+ORD-00647,2025-07-23,West,Small Business,Office Supplies,Notebook Pack,5,12,0,60
+ORD-00648,2025-11-14,West,Enterprise,Furniture,Office Chair,23,229,0,5267
+ORD-00649,2025-12-13,West,Small Business,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-00650,2025-07-14,Northeast,Consumer,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-00651,2025-01-03,South,Small Business,Electronics,Bluetooth Speaker,2,59,,118
+ORD-00652,2025-09-15,South,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00653,2025-12-22,South,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-00654,2025-06-01,West,Enterprise,Office Supplies,Printer Paper,6,35,0.15,178.5
+ORD-00655,2025-08-06,West,Enterprise,Office Supplies,Desk Organizer,13,24,0,312
+ORD-00656,2025-01-06,West,Small Business,Office Supplies,Printer Paper,1,35,0.2,28
+ORD-00657,2025-08-06,Northeast,Consumer,Office Supplies,Printer Paper,2,35,,63
+ORD-00658,2025-11-03,Midwest,Small Business,Electronics,Laptop Stand,3,39,0,117
+ORD-00659,2025-07-10,Northeast,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-00660,2025-04-25,Northeast,Enterprise,Electronics,Wireless Headphones,5,89,0,445
+ORD-00661,2025-09-12,Midwest,Small Business,Office Supplies,Printer Paper,3,35,0,105
+ORD-00662,2025-04-09,South,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-00663,2025-09-05,Northeast,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-00664,2025-05-23,West,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-00665,2025-11-24,Midwest,Enterprise,Electronics,Bluetooth Speaker,7,59,0.2,330.4
+ORD-00666,2025-09-06,Northeast,Consumer,Electronics,Bluetooth Speaker,4,59,,236
+ORD-00667,2025-05-07,South,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-00668,2025-07-20,West,Enterprise,Furniture,Standing Desk,17,449,0.2,6106.4
+ORD-00669,2025-12-26,West,Enterprise,Furniture,Office Chair,23,229,0,5267
+ORD-00670,2025-06-14,Northeast,Small Business,Office Supplies,Notebook Pack,6,12,0,72
+ORD-00671,2025-02-08,Midwest,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-00672,2025-02-05,South,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00673,2025-11-06,Northeast,Consumer,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-00674,2025-05-18,Midwest,Enterprise,Electronics,USB-C Hub,11,45,0.2,396
+ORD-00675,2025-11-07,Midwest,Enterprise,Electronics,Bluetooth Speaker,12,59,0.05,672.6
+ORD-00676,2025-12-14,South,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-00677,2025-12-12,Northeast,Enterprise,Electronics,Wireless Headphones,18,89,0,1602
+ORD-00678,2025-11-22,Midwest,Small Business,Electronics,Wireless Headphones,7,89,0,623
+ORD-00679,2025-03-28,Northeast,Enterprise,Office Supplies,Desk Organizer,15,24,0.2,288
+ORD-00680,2025-03-14,South,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-00681,2025-08-23,Midwest,Consumer,Furniture,Bookshelf,5,129,0.1,580.5
+ORD-00682,2025-07-22,South,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-00683,2025-02-26,South,Enterprise,Furniture,Standing Desk,13,449,,5837
+ORD-00684,2025-08-25,Northeast,Enterprise,Electronics,Wireless Headphones,17,89,0,1513
+ORD-00685,2025-03-17,West,Enterprise,Furniture,Bookshelf,10,129,0.1,1161
+ORD-00686,2025-08-06,Midwest,Consumer,Furniture,Office Chair,5,229,0.15,973.25
+ORD-00687,2025-02-06,Northeast,Enterprise,Electronics,Laptop Stand,17,39,0,663
+ORD-00688,2025-05-09,Northeast,Small Business,Furniture,Office Chair,2,229,0.1,412.2
+ORD-00689,2025-03-19,Northeast,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-00690,2025-10-03,Midwest,Enterprise,Office Supplies,Desk Organizer,8,24,0.15,163.2
+ORD-00691,2025-12-15,Northeast,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00692,2025-12-21,Midwest,Consumer,Office Supplies,Printer Paper,6,35,0,210
+ORD-00693,2025-05-07,Northeast,Small Business,Furniture,Standing Desk,5,449,0.05,2132.75
+ORD-00694,2025-03-09,West,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00695,2025-11-03,Midwest,Enterprise,Office Supplies,Printer Paper,23,35,0.15,684.25
+ORD-00696,2025-05-12,South,Small Business,Office Supplies,Printer Paper,3,35,0,105
+ORD-00697,2025-02-04,Midwest,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00698,2025-06-01,Northeast,Consumer,Office Supplies,Printer Paper,2,35,,70
+ORD-00699,2025-02-20,Northeast,Consumer,Electronics,Wireless Headphones,5,89,0.05,422.75
+ORD-00700,2025-02-16,Midwest,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-00701,2025-04-22,West,Enterprise,Office Supplies,Gel Pens (12),17,9,0,153
+ORD-00702,2025-04-18,Northeast,Small Business,Electronics,Bluetooth Speaker,4,59,0.05,224.2
+ORD-00703,2025-08-26,Midwest,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00704,2025-06-15,West,Enterprise,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-00705,2025-09-18,South,Small Business,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-00706,2025-08-07,Northeast,Enterprise,Office Supplies,Notebook Pack,10,12,0.2,96
+ORD-00707,2025-11-11,West,Enterprise,Office Supplies,Printer Paper,29,35,0.1,913.5
+ORD-00708,2025-02-21,Northeast,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-00709,2025-06-27,Midwest,Enterprise,Electronics,USB-C Hub,13,45,0.2,468
+ORD-00710,2025-02-01,West,Small Business,Furniture,Standing Desk,3,449,0.05,1279.65
+ORD-00711,2025-07-24,Midwest,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-00712,2025-11-15,Northeast,Small Business,Electronics,Wireless Headphones,2,89,0.2,142.4
+ORD-00713,2025-08-15,Midwest,Enterprise,Office Supplies,Printer Paper,4,35,0,140
+ORD-00714,2025-06-10,Northeast,Enterprise,Furniture,Standing Desk,4,449,0,1796
+ORD-00715,2025-09-24,Midwest,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-00716,2025-04-20,West,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00717,2025-03-15,Northeast,Small Business,Furniture,Standing Desk,2,449,,853.1
+ORD-00718,2025-02-03,Northeast,Small Business,Office Supplies,Gel Pens (12),5,9,,40.5
+ORD-00719,2025-05-16,South,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-00720,2025-10-03,South,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-00721,2025-06-17,West,Enterprise,Furniture,Bookshelf,15,129,0,1935
+ORD-00722,2025-11-10,Northeast,Consumer,Office Supplies,Desk Organizer,7,24,0,168
+ORD-00723,2025-06-25,South,Small Business,Furniture,Office Chair,1,229,0.05,217.55
+ORD-00724,2025-02-01,West,Small Business,Electronics,Laptop Stand,4,39,0.15,132.6
+ORD-00725,2025-01-09,Midwest,Enterprise,Furniture,Standing Desk,10,449,0,4490
+ORD-00726,2025-10-28,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-00727,2025-02-10,Midwest,Consumer,Furniture,Bookshelf,3,129,0.05,367.65
+ORD-00728,2025-08-15,West,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-00729,2025-05-22,Midwest,Small Business,Furniture,Standing Desk,4,449,0.2,1436.8
+ORD-00730,2025-01-05,Northeast,Enterprise,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-00731,2025-11-21,West,Consumer,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-00732,2025-02-20,West,Consumer,Electronics,USB-C Hub,5,45,,213.75
+ORD-00733,2025-12-28,South,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00734,2025-12-11,West,Consumer,Furniture,Office Chair,5,229,0.15,973.25
+ORD-00735,2025-04-25,Northeast,Enterprise,Electronics,Wireless Headphones,5,89,0,445
+ORD-00736,2025-07-19,Midwest,Enterprise,Office Supplies,Desk Organizer,8,24,0,192
+ORD-00737,2025-02-16,West,Enterprise,Office Supplies,Gel Pens (12),18,9,0.05,153.9
+ORD-00738,2025-08-09,Midwest,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-00739,2025-02-09,South,Enterprise,Office Supplies,Printer Paper,5,35,0,175
+ORD-00740,2025-03-17,South,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00741,2025-05-27,West,Enterprise,Office Supplies,Gel Pens (12),17,9,0,153
+ORD-00742,2025-04-14,West,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-00743,2025-11-09,Midwest,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00744,2025-06-17,West,Enterprise,Office Supplies,Notebook Pack,9,12,0,108
+ORD-00745,2025-02-20,Northeast,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-00746,2025-05-11,South,Enterprise,Furniture,Standing Desk,12,449,0,5388
+ORD-00747,2025-01-01,West,Enterprise,Furniture,Office Chair,7,229,0.05,1522.85
+ORD-00748,2025-01-18,South,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-00749,2025-09-17,Midwest,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00750,2025-06-20,Northeast,Small Business,Office Supplies,Gel Pens (12),4,9,0.1,32.4
+ORD-00751,2025-12-14,West,Enterprise,Electronics,Wireless Headphones,10,89,0,890
+ORD-00752,2025-03-23,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-00753,2025-10-17,West,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-00754,2025-10-13,Northeast,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00755,2025-01-08,South,Small Business,Electronics,Bluetooth Speaker,4,59,0.15,200.6
+ORD-00756,2025-07-25,Northeast,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-00757,2025-04-11,South,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-00758,2025-12-01,South,Consumer,Electronics,Bluetooth Speaker,6,59,0.05,336.3
+ORD-00759,2025-12-28,Midwest,Enterprise,Furniture,Standing Desk,19,449,0,8531
+ORD-00760,2025-01-18,Northeast,Consumer,Furniture,Standing Desk,5,449,0.2,1796
+ORD-00761,2025-09-12,Northeast,Small Business,Office Supplies,Gel Pens (12),3,9,0.2,21.6
+ORD-00762,2025-07-12,Midwest,Enterprise,Office Supplies,Notebook Pack,9,12,0,108
+ORD-00763,2025-08-08,South,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00764,2025-04-22,Midwest,Enterprise,Electronics,USB-C Hub,3,45,0.2,108
+ORD-00765,2025-03-22,West,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00766,2025-03-15,Northeast,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-00767,2025-12-22,South,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00768,2025-10-28,Northeast,Consumer,Furniture,Standing Desk,2,449,0.2,718.4
+ORD-00769,2025-05-20,West,Small Business,Furniture,Bookshelf,5,129,0.05,612.75
+ORD-00770,2025-10-28,South,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00771,2025-01-13,Midwest,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00772,2025-09-03,West,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-00773,2025-12-15,Northeast,Small Business,Electronics,Wireless Headphones,8,89,0,712
+ORD-00774,2025-10-23,West,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-00775,2025-06-18,South,Enterprise,Electronics,Bluetooth Speaker,13,59,,767
+ORD-00776,2025-08-19,South,Enterprise,Electronics,Laptop Stand,12,39,0,468
+ORD-00777,2025-01-07,West,Consumer,Electronics,Laptop Stand,250,39,0,9750
+ORD-00778,2025-07-04,Northeast,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-00779,2025-05-23,Midwest,Consumer,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-00780,2025-04-23,Northeast,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00781,2025-09-13,South,Enterprise,Electronics,Wireless Headphones,9,89,0,801
+ORD-00782,2025-06-09,West,Enterprise,Office Supplies,Notebook Pack,9,12,0,108
+ORD-00783,2025-05-09,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-00784,2025-08-24,Northeast,Enterprise,Electronics,Bluetooth Speaker,11,59,0,649
+ORD-00785,2025-09-03,Northeast,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-00786,2025-05-17,Northeast,Enterprise,Office Supplies,Gel Pens (12),10,9,0,90
+ORD-00787,2025-12-04,West,Small Business,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-00788,2025-09-26,West,Enterprise,Electronics,Wireless Headphones,7,89,0,623
+ORD-00789,2025-08-19,South,Enterprise,Furniture,Standing Desk,11,449,0,4939
+ORD-00790,2025-11-07,Northeast,Small Business,Office Supplies,Notebook Pack,7,12,0,84
+ORD-00791,2025-11-13,South,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-00792,2025-02-17,Northeast,Consumer,Office Supplies,Desk Organizer,6,24,0,144
+ORD-00793,2025-03-18,Northeast,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00794,2025-09-07,West,Enterprise,Office Supplies,Printer Paper,14,35,0.2,392
+ORD-00795,2025-01-27,South,Small Business,Electronics,USB-C Hub,2,45,0.2,72
+ORD-00796,2025-09-02,Northeast,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-00797,2025-03-01,Midwest,Small Business,Furniture,Standing Desk,3,449,0.1,1212.3
+ORD-00798,2025-06-13,Midwest,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-00799,2025-12-21,Midwest,Enterprise,Electronics,Laptop Stand,22,39,0.1,772.2
+ORD-00800,2025-12-17,Midwest,Small Business,Office Supplies,Desk Organizer,2,24,,43.2
+ORD-00801,2025-02-18,South,Enterprise,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00802,2025-06-24,West,Enterprise,Electronics,Laptop Stand,9,39,0.05,333.45
+ORD-00803,2025-06-27,South,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-00804,2025-05-01,Northeast,Enterprise,Electronics,Wireless Headphones,12,89,0.1,961.2
+ORD-00805,2025-12-16,South,Consumer,Office Supplies,Gel Pens (12),4,9,0.05,34.2
+ORD-00806,2025-06-26,West,Enterprise,Electronics,Wireless Headphones,18,89,0.1,1441.8
+ORD-00807,2025-02-08,South,Enterprise,Furniture,Bookshelf,11,129,0,1419
+ORD-00808,2025-08-11,Midwest,Consumer,Office Supplies,Desk Organizer,2,24,0,48
+ORD-00809,2025-01-08,Midwest,Consumer,Office Supplies,Desk Organizer,2,24,0,48
+ORD-00810,2025-02-23,Northeast,Consumer,Electronics,Laptop Stand,3,39,0.1,105.3
+ORD-00811,2025-09-14,South,Small Business,Office Supplies,Notebook Pack,3,12,0.1,32.4
+ORD-00812,2025-07-12,Northeast,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00813,2025-01-05,West,Consumer,Electronics,USB-C Hub,3,45,0.05,128.25
+ORD-00814,2025-03-03,Northeast,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-00815,2025-12-01,South,Enterprise,Electronics,Bluetooth Speaker,15,59,0,885
+ORD-00816,2025-03-16,West,Consumer,Electronics,USB-C Hub,6,45,0.05,256.5
+ORD-00817,2025-12-05,West,Consumer,Furniture,Office Chair,10,229,0,2290
+ORD-00818,2025-04-18,Midwest,Enterprise,Furniture,Bookshelf,4,129,0,516
+ORD-00819,2025-01-12,Northeast,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-00820,2025-11-21,Midwest,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-00821,2025-01-21,Northeast,Enterprise,Electronics,USB-C Hub,12,45,0,540
+ORD-00822,2025-08-10,South,Enterprise,Furniture,Standing Desk,11,449,0.2,3951.2
+ORD-00823,2025-07-22,Northeast,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00824,2025-07-02,West,Small Business,Office Supplies,Printer Paper,1,35,0.15,29.75
+ORD-00825,2025-08-10,Midwest,Enterprise,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00826,2025-11-02,Midwest,Consumer,Furniture,Standing Desk,7,449,0.2,2514.4
+ORD-00827,2025-05-23,Midwest,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-00828,2025-07-10,Midwest,Consumer,Electronics,Wireless Headphones,5,89,0.2,356
+ORD-00829,2025-09-05,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00830,2025-07-21,Northeast,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-00831,2025-12-19,South,Consumer,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-00832,2025-07-08,South,Consumer,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-00833,2025-07-10,South,Enterprise,Electronics,Wireless Headphones,12,89,0,1068
+ORD-00834,2025-02-10,South,Consumer,Electronics,USB-C Hub,3,45,0.2,108
+ORD-00835,2025-06-15,Midwest,Enterprise,Office Supplies,Printer Paper,5,35,0.05,166.25
+ORD-00836,2025-09-20,Midwest,Enterprise,Furniture,Office Chair,10,229,0,2290
+ORD-00837,2025-02-18,Northeast,Enterprise,Office Supplies,Notebook Pack,8,12,0.05,91.2
+ORD-00838,2025-05-23,South,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00839,2025-04-02,South,Consumer,Electronics,Wireless Headphones,1,89,0,89
+ORD-00840,2025-11-22,Midwest,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-00841,2025-04-23,Northeast,Enterprise,Office Supplies,Printer Paper,13,35,0,455
+ORD-00842,2025-04-09,South,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-00843,2025-06-03,South,Enterprise,Electronics,Wireless Headphones,6,89,0.2,427.2
+ORD-00844,2025-01-12,Northeast,Enterprise,Office Supplies,Gel Pens (12),13,9,0,117
+ORD-00845,2025-10-14,West,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-00846,2025-08-04,Midwest,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-00847,2025-05-24,South,Small Business,Electronics,Laptop Stand,2,39,,78
+ORD-00848,2025-02-05,Northeast,Consumer,Office Supplies,Printer Paper,1,35,0,35
+ORD-00849,2025-01-12,West,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-00850,2025-10-08,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00851,2025-10-20,South,Enterprise,Office Supplies,Desk Organizer,9,24,,216
+ORD-00852,2025-02-13,West,Small Business,Furniture,Office Chair,1,229,0,229
+ORD-00853,2025-10-13,West,Consumer,Office Supplies,Notebook Pack,2,12,0.1,21.6
+ORD-00854,2025-05-03,South,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00855,2025-01-02,South,Enterprise,Furniture,Bookshelf,11,129,0,1419
+ORD-00856,2025-11-18,Northeast,Enterprise,Furniture,Office Chair,16,229,0,3664
+ORD-00857,2025-03-03,South,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-00858,2025-07-23,Northeast,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-00859,2025-12-25,Midwest,Small Business,Electronics,Laptop Stand,7,39,0.15,232.05
+ORD-00860,2025-09-04,Midwest,Enterprise,Furniture,Office Chair,13,229,0,2977
+ORD-00861,2025-08-18,South,Consumer,Electronics,Laptop Stand,1,39,0.05,37.05
+ORD-00862,2025-12-02,South,Enterprise,Office Supplies,Desk Organizer,8,24,,192
+ORD-00863,2025-08-18,West,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-00864,2025-09-22,South,Enterprise,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-00865,2025-12-27,Northeast,Consumer,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-00866,2025-12-26,Midwest,Consumer,Office Supplies,Desk Organizer,8,24,0,192
+ORD-00867,2025-09-28,Northeast,Enterprise,Furniture,Standing Desk,14,449,0,6286
+ORD-00868,2025-04-21,West,Small Business,Office Supplies,Printer Paper,6,35,0,210
+ORD-00869,2025-11-15,West,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00870,2025-12-09,South,Consumer,Electronics,Wireless Headphones,7,89,0,623
+ORD-00871,2025-11-12,South,Consumer,Furniture,Office Chair,6,229,0,1374
+ORD-00872,2025-12-25,West,Enterprise,Office Supplies,Gel Pens (12),10,9,0.15,76.5
+ORD-00873,2025-10-23,Midwest,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-00874,2025-10-06,South,Enterprise,Electronics,USB-C Hub,13,45,0,585
+ORD-00875,2025-11-03,South,Consumer,Electronics,USB-C Hub,6,45,0.05,256.5
+ORD-00876,2025-10-15,West,Small Business,Furniture,Office Chair,6,229,0,1374
+ORD-00877,2025-10-19,West,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-00878,2025-11-24,Midwest,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-00879,2025-09-14,Midwest,Small Business,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-00880,2025-10-24,Northeast,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00881,2025-11-23,West,Small Business,Furniture,Office Chair,6,229,0,1374
+ORD-00882,2025-10-13,West,Consumer,Furniture,Bookshelf,6,129,0,774
+ORD-00883,2025-08-28,West,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-00884,2025-03-18,Northeast,Consumer,Office Supplies,Desk Organizer,1,24,0,24
+ORD-00885,2025-12-01,West,Enterprise,Electronics,Laptop Stand,12,39,0,468
+ORD-00886,2025-08-19,Midwest,Enterprise,Furniture,Office Chair,13,229,0,2977
+ORD-00887,2025-11-12,Northeast,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00888,2025-06-26,Northeast,Consumer,Electronics,Bluetooth Speaker,6,59,0.2,283.2
+ORD-00889,2025-02-27,South,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-00890,2025-08-14,South,Enterprise,Electronics,Laptop Stand,5,39,0,195
+ORD-00891,2025-11-10,Northeast,Consumer,Electronics,Bluetooth Speaker,3,59,0.05,168.15
+ORD-00892,2025-11-10,South,Enterprise,Electronics,Wireless Headphones,20,89,0,1780
+ORD-00893,2025-04-06,Northeast,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-00894,2025-08-26,Northeast,Consumer,Electronics,Bluetooth Speaker,3,59,0.05,168.15
+ORD-00895,2025-01-05,Midwest,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-00896,2025-12-12,West,Consumer,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-00897,2025-03-19,South,Enterprise,Furniture,Bookshelf,4,129,0,516
+ORD-00898,2025-07-07,South,Consumer,Furniture,Office Chair,2,229,0.2,366.4
+ORD-00899,2025-04-20,West,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-00900,2025-11-10,West,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-00901,2025-01-28,West,Enterprise,Electronics,Bluetooth Speaker,13,59,0,767
+ORD-00902,2025-10-25,Midwest,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-00903,2025-01-03,West,Enterprise,Office Supplies,Notebook Pack,7,12,0,84
+ORD-00904,2025-01-15,Northeast,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-00905,2025-10-22,Northeast,Consumer,Electronics,Laptop Stand,3,39,0.2,93.6
+ORD-00906,2025-02-10,West,Small Business,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-00907,2025-10-23,Northeast,Small Business,Furniture,Bookshelf,3,129,,387
+ORD-00908,2025-07-27,Northeast,Enterprise,Electronics,Wireless Headphones,4,89,0,356
+ORD-00909,2025-03-09,West,Enterprise,Office Supplies,Notebook Pack,17,12,0,204
+ORD-00910,2025-09-14,West,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-00911,2025-11-04,Northeast,Small Business,Electronics,Wireless Headphones,6,89,0,534
+ORD-00912,2025-05-09,Northeast,Consumer,Office Supplies,Desk Organizer,4,24,0.15,81.6
+ORD-00913,2025-01-26,Midwest,Enterprise,Furniture,Bookshelf,11,129,0,1419
+ORD-00914,2025-03-09,West,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-00915,2025-04-04,West,Enterprise,Office Supplies,Notebook Pack,12,12,0,144
+ORD-00916,2025-06-28,Midwest,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-00917,2025-06-11,South,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-00918,2025-10-04,West,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-00919,2025-10-21,West,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-00920,2025-11-05,Midwest,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-00921,2025-01-28,Midwest,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-00922,2025-10-20,West,Enterprise,Electronics,Wireless Headphones,9,89,0,801
+ORD-00923,2025-10-19,Northeast,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-00924,2025-06-01,Northeast,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00925,2025-10-19,South,Enterprise,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-00926,2025-04-01,West,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00927,2025-06-21,West,Small Business,Electronics,Bluetooth Speaker,4,59,0.15,200.6
+ORD-00928,2025-09-27,Midwest,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-00929,2025-01-18,Midwest,Enterprise,Electronics,Laptop Stand,15,39,0.2,468
+ORD-00930,2025-04-15,Midwest,Enterprise,Office Supplies,Notebook Pack,14,12,0,168
+ORD-00931,2025-02-25,West,Consumer,Office Supplies,Notebook Pack,6,12,0.15,61.2
+ORD-00932,2025-06-16,West,Enterprise,Office Supplies,Notebook Pack,12,12,0,144
+ORD-00933,2025-12-02,Northeast,Enterprise,Furniture,Bookshelf,27,129,0.2,2786.4
+ORD-00934,2025-10-28,South,Enterprise,Furniture,Bookshelf,13,129,0,1677
+ORD-00935,2025-11-20,Northeast,Enterprise,Electronics,Laptop Stand,21,39,0.05,778.05
+ORD-00936,2025-08-12,Midwest,Consumer,Office Supplies,Gel Pens (12),4,9,0.05,34.2
+ORD-00937,2025-09-01,Northeast,Small Business,Electronics,Laptop Stand,6,39,0,234
+ORD-00938,2025-07-17,Midwest,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-00939,2025-09-20,Midwest,Enterprise,Office Supplies,Desk Organizer,15,24,0,360
+ORD-00940,2025-04-04,West,Small Business,Electronics,Laptop Stand,2,39,0.05,74.1
+ORD-00941,2025-08-01,Northeast,Small Business,Office Supplies,Desk Organizer,1,24,0.05,22.8
+ORD-00942,2025-08-26,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-00943,2025-06-10,Midwest,Enterprise,Electronics,USB-C Hub,6,45,0,270
+ORD-00944,2025-02-08,Midwest,Enterprise,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-00945,2025-06-09,Northeast,Small Business,Office Supplies,Notebook Pack,5,12,0,60
+ORD-00946,2025-07-21,South,Enterprise,Office Supplies,Notebook Pack,12,12,0,144
+ORD-00947,2025-05-13,Midwest,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-00948,2025-06-24,West,Consumer,Office Supplies,Desk Organizer,6,24,0,144
+ORD-00949,2025-12-18,Midwest,Enterprise,Furniture,Office Chair,20,229,0,4580
+ORD-00950,2025-06-18,West,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-00951,2025-09-22,Northeast,Small Business,Office Supplies,Printer Paper,3,35,0.1,94.5
+ORD-00952,2025-03-26,South,Consumer,Electronics,Laptop Stand,4,39,0,156
+ORD-00953,2025-11-01,Northeast,Consumer,Furniture,Office Chair,9,229,0,2061
+ORD-00954,2025-09-06,Midwest,Consumer,Electronics,Wireless Headphones,2,89,0.05,169.1
+ORD-00955,2025-08-26,Midwest,Enterprise,Electronics,USB-C Hub,6,45,0,270
+ORD-00956,2025-01-27,South,Small Business,Office Supplies,Desk Organizer,2,24,0.2,38.4
+ORD-00957,2025-11-18,West,Small Business,Office Supplies,Desk Organizer,6,24,0,144
+ORD-00958,2025-01-20,South,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-00959,2025-06-24,West,Consumer,Electronics,Laptop Stand,5,39,0,195
+ORD-00960,2025-12-05,West,Enterprise,Furniture,Bookshelf,13,129,,1593.15
+ORD-00961,2025-02-16,Northeast,Enterprise,Electronics,Wireless Headphones,6,89,0,534
+ORD-00962,2025-01-24,South,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00963,2025-02-19,Midwest,Enterprise,Office Supplies,Notebook Pack,11,12,0,132
+ORD-00964,2025-06-15,Northeast,Small Business,Electronics,USB-C Hub,5,45,0.15,191.25
+ORD-00965,2025-04-19,South,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-00966,2025-08-13,Midwest,Enterprise,Office Supplies,Printer Paper,12,35,0,420
+ORD-00967,2025-08-13,West,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-00968,2025-05-21,South,Enterprise,Electronics,Wireless Headphones,9,89,0.2,640.8
+ORD-00969,2025-08-22,Midwest,Consumer,Office Supplies,Desk Organizer,1,24,0.15,20.4
+ORD-00970,2025-01-08,Midwest,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-00971,2025-04-22,Northeast,Consumer,Office Supplies,Notebook Pack,1,12,0,12
+ORD-00972,2025-11-27,Northeast,Consumer,Office Supplies,Desk Organizer,6,24,0.15,122.4
+ORD-00973,2025-04-23,Northeast,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-00974,2025-11-17,West,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-00975,2025-01-06,West,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-00976,2025-08-17,Northeast,Enterprise,Furniture,Office Chair,14,229,0,3206
+ORD-00977,2025-10-01,South,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-00978,2025-07-10,Northeast,Consumer,Furniture,Office Chair,2,229,0.05,435.1
+ORD-00979,2025-04-26,Midwest,Consumer,Electronics,Wireless Headphones,3,89,,267
+ORD-00980,2025-03-05,West,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-00981,2025-01-14,Northeast,Small Business,Office Supplies,Notebook Pack,5,12,0,60
+ORD-00982,2025-07-04,Midwest,Small Business,Furniture,Office Chair,1,229,0.05,217.55
+ORD-00983,2025-06-24,Northeast,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-00984,2025-09-01,South,Consumer,Furniture,Bookshelf,4,129,0.2,412.8
+ORD-00985,2025-01-11,South,Enterprise,Electronics,USB-C Hub,3,45,0.05,128.25
+ORD-00986,2025-10-15,West,Consumer,Electronics,USB-C Hub,6,45,0,270
+ORD-00987,2025-08-17,South,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-00988,2025-02-22,Midwest,Small Business,Furniture,Office Chair,3,229,0.15,583.95
+ORD-00989,2025-12-21,Northeast,Small Business,Furniture,Standing Desk,5,449,0.2,1796
+ORD-00990,2025-01-03,Northeast,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-00991,2025-07-18,Northeast,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-00992,2025-10-05,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-00993,2025-02-12,Midwest,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-00994,2025-11-13,Northeast,Small Business,Furniture,Bookshelf,7,129,0,903
+ORD-00995,2025-01-06,West,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-00996,2025-01-25,South,Consumer,Office Supplies,Gel Pens (12),3,9,0.2,21.6
+ORD-00997,2025-09-28,Northeast,Enterprise,Office Supplies,Notebook Pack,12,12,0,144
+ORD-00998,2025-09-15,South,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-00999,2025-01-16,West,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01000,2025-01-20,South,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-01001,2025-01-04,Midwest,Enterprise,Furniture,Standing Desk,4,449,0,1796
+ORD-01002,2025-06-12,Midwest,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-01003,2025-04-10,West,Enterprise,Office Supplies,Printer Paper,17,35,0,595
+ORD-01004,2025-07-22,Northeast,Small Business,Electronics,Bluetooth Speaker,4,59,,236
+ORD-01005,2025-09-22,West,Enterprise,Furniture,Standing Desk,15,449,0,6735
+ORD-01006,2025-12-07,Northeast,Enterprise,Office Supplies,Printer Paper,16,35,0.15,476
+ORD-01007,2025-04-15,West,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01008,2025-04-28,Midwest,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01009,2025-01-19,Northeast,Enterprise,Furniture,Bookshelf,12,129,0.2,1238.4
+ORD-01010,2025-02-23,West,Enterprise,Electronics,USB-C Hub,5,45,0.2,180
+ORD-01011,2025-01-26,South,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-01012,2025-12-23,West,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-01013,2025-02-16,West,Enterprise,Furniture,Office Chair,9,229,0,2061
+ORD-01014,2025-11-15,Midwest,Consumer,Electronics,USB-C Hub,6,45,0,270
+ORD-01015,2025-06-20,West,Enterprise,Office Supplies,Printer Paper,9,35,0,315
+ORD-01016,2025-12-19,Midwest,Enterprise,Electronics,Laptop Stand,22,39,0,858
+ORD-01017,2025-06-17,Midwest,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01018,2025-05-06,West,Enterprise,Office Supplies,Gel Pens (12),17,9,0.05,145.35
+ORD-01019,2025-08-21,Northeast,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01020,2025-07-20,South,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01021,2025-12-23,Northeast,Small Business,Office Supplies,Desk Organizer,3,24,0.15,61.2
+ORD-01022,2025-10-09,Northeast,Enterprise,Furniture,Office Chair,11,229,0.15,2141.15
+ORD-01023,2025-03-20,West,Enterprise,Electronics,Bluetooth Speaker,15,59,0,885
+ORD-01024,2025-08-26,Midwest,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-01025,2025-07-13,Northeast,Small Business,Electronics,USB-C Hub,3,45,0.15,114.75
+ORD-01026,2025-12-14,Midwest,Consumer,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-01027,2025-03-19,Midwest,Enterprise,Electronics,Wireless Headphones,13,89,0.15,983.45
+ORD-01028,2025-10-28,South,Consumer,Office Supplies,Notebook Pack,2,12,0.1,21.6
+ORD-01029,2025-04-09,Northeast,Enterprise,Furniture,Bookshelf,10,129,0,1290
+ORD-01030,2025-10-26,West,Enterprise,Furniture,Bookshelf,13,129,0,1677
+ORD-01031,2025-11-07,South,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01032,2025-07-03,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0.2,140
+ORD-01033,2025-04-22,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01034,2025-01-19,Northeast,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-01035,2025-04-09,Midwest,Enterprise,Electronics,Wireless Headphones,12,89,0.15,907.8
+ORD-01036,2025-11-25,West,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01037,2025-01-28,South,Enterprise,Office Supplies,Printer Paper,13,35,0.15,386.75
+ORD-01038,2025-04-01,South,Small Business,Office Supplies,Desk Organizer,2,24,0.1,43.2
+ORD-01039,2025-03-19,South,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-01040,2025-08-21,West,Small Business,Furniture,Standing Desk,5,449,,2245
+ORD-01041,2025-05-26,South,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01042,2025-08-09,Northeast,Enterprise,Furniture,Office Chair,10,229,0.15,1946.5
+ORD-01043,2025-02-15,Northeast,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01044,2025-01-08,West,Small Business,Electronics,Bluetooth Speaker,3,59,0.2,141.6
+ORD-01045,2025-07-26,South,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-01046,2025-12-08,Midwest,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-01047,2025-11-22,West,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-01048,2025-05-01,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-01049,2025-06-02,Northeast,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01050,2025-06-18,South,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-01051,2025-03-02,West,Enterprise,Electronics,Laptop Stand,7,39,0.1,245.7
+ORD-01052,2025-07-16,Midwest,Small Business,Electronics,USB-C Hub,3,45,0.05,128.25
+ORD-01053,2025-11-14,Northeast,Enterprise,Furniture,Office Chair,24,229,0.2,4396.8
+ORD-01054,2025-04-04,Midwest,Small Business,Electronics,Laptop Stand,2,39,0.2,62.4
+ORD-01055,2025-01-02,Midwest,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01056,2025-01-16,South,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-01057,2025-08-08,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0.1,126
+ORD-01058,2025-04-17,Northeast,Small Business,Office Supplies,Gel Pens (12),3,9,,25.65
+ORD-01059,2025-12-01,South,Small Business,Electronics,USB-C Hub,5,45,0,225
+ORD-01060,2025-09-01,Midwest,Enterprise,Furniture,Bookshelf,7,129,0,903
+ORD-01061,2025-08-23,South,Consumer,Office Supplies,Gel Pens (12),2,9,,18
+ORD-01062,2025-10-11,Northeast,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-01063,2025-05-27,South,Small Business,Furniture,Office Chair,1,229,0,229
+ORD-01064,2025-11-04,West,Enterprise,Electronics,Laptop Stand,25,39,0,975
+ORD-01065,2025-03-05,Northeast,Consumer,Electronics,USB-C Hub,1,45,0,45
+ORD-01066,2025-08-01,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01067,2025-07-19,West,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-01068,2025-05-28,Northeast,Consumer,Electronics,Laptop Stand,4,39,0,156
+ORD-01069,2025-06-07,West,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-01070,2025-11-11,West,Enterprise,Furniture,Standing Desk,27,449,0,12123
+ORD-01071,2025-12-28,Northeast,Enterprise,Electronics,Wireless Headphones,21,89,0,1869
+ORD-01072,2025-01-02,West,Enterprise,Electronics,USB-C Hub,16,45,0,720
+ORD-01073,2025-05-08,West,Enterprise,Office Supplies,Gel Pens (12),18,9,0,162
+ORD-01074,2025-11-10,Northeast,Enterprise,Furniture,Office Chair,19,229,0,4351
+ORD-01075,2025-11-08,South,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01076,2025-01-10,Midwest,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-01077,2025-11-07,Northeast,Small Business,Electronics,USB-C Hub,8,45,0,360
+ORD-01078,2025-06-02,West,Enterprise,Electronics,Wireless Headphones,11,89,0.05,930.05
+ORD-01079,2025-11-18,South,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-01080,2025-10-01,West,Small Business,Electronics,Bluetooth Speaker,3,59,0.2,141.6
+ORD-01081,2025-10-05,Northeast,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01082,2025-01-19,Midwest,Enterprise,Office Supplies,Printer Paper,11,35,0,385
+ORD-01083,2025-01-28,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0.15,119
+ORD-01084,2025-08-10,Midwest,Small Business,Furniture,Office Chair,1,229,0,229
+ORD-01085,2025-11-14,West,Small Business,Furniture,Bookshelf,6,129,0,774
+ORD-01086,2025-11-06,Northeast,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-01087,2025-12-03,Midwest,Enterprise,Furniture,Standing Desk,5,449,0,2245
+ORD-01088,2025-03-20,South,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-01089,2025-04-15,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01090,2025-03-13,South,Consumer,Electronics,Wireless Headphones,1,89,0,89
+ORD-01091,2025-09-28,Northeast,Enterprise,Furniture,Office Chair,15,229,0,3435
+ORD-01092,2025-02-26,Northeast,Enterprise,Office Supplies,Notebook Pack,5,12,0,60
+ORD-01093,2025-11-28,West,Enterprise,Office Supplies,Printer Paper,30,35,0,1050
+ORD-01094,2025-02-18,Northeast,Consumer,Furniture,Standing Desk,5,449,0.05,2132.75
+ORD-01095,2025-02-15,Midwest,Small Business,Office Supplies,Printer Paper,1,35,0,35
+ORD-01096,2025-06-14,South,Small Business,Furniture,Office Chair,3,229,0.2,549.6
+ORD-01097,2025-09-15,West,Consumer,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01098,2025-08-18,West,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01099,2025-01-21,West,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-01100,2025-06-02,South,Enterprise,Furniture,Office Chair,8,229,0,1832
+ORD-01101,2025-08-04,West,Enterprise,Office Supplies,Desk Organizer,6,24,0,144
+ORD-01102,2025-06-09,Midwest,Enterprise,Office Supplies,Gel Pens (12),9,9,0,81
+ORD-01103,2025-08-27,Midwest,Enterprise,Electronics,USB-C Hub,3,45,0,135
+ORD-01104,2025-11-03,West,Consumer,Electronics,Bluetooth Speaker,6,59,0.15,300.9
+ORD-01105,2025-02-07,Midwest,Consumer,Electronics,Bluetooth Speaker,1,59,,53.1
+ORD-01106,2025-08-23,West,Enterprise,Furniture,Office Chair,12,229,0,2748
+ORD-01107,2025-09-19,South,Small Business,Office Supplies,Desk Organizer,4,24,0.2,76.8
+ORD-01108,2025-03-06,Northeast,Enterprise,Electronics,Bluetooth Speaker,7,59,0,413
+ORD-01109,2025-06-14,Midwest,Enterprise,Office Supplies,Gel Pens (12),14,9,0,126
+ORD-01110,2025-07-21,West,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01111,2025-08-27,South,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-01112,2025-05-15,Midwest,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01113,2025-04-22,Northeast,Enterprise,Office Supplies,Printer Paper,17,35,0,595
+ORD-01114,2025-01-26,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01115,2025-08-11,West,Enterprise,Furniture,Office Chair,11,229,0,2519
+ORD-01116,2025-05-26,West,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-01117,2025-04-27,Northeast,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01118,2025-10-24,West,Small Business,Furniture,Bookshelf,6,129,0,774
+ORD-01119,2025-11-14,Midwest,Small Business,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-01120,2025-09-27,West,Enterprise,Office Supplies,Notebook Pack,11,12,0.05,125.4
+ORD-01121,2025-05-02,Northeast,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-01122,2025-08-15,Midwest,Enterprise,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01123,2025-04-20,Northeast,Small Business,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-01124,2025-03-23,Midwest,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-01125,2025-09-12,Midwest,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-01126,2025-07-12,West,Small Business,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-01127,2025-04-23,South,Consumer,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01128,2025-04-10,South,Consumer,Electronics,Bluetooth Speaker,3,59,0.1,159.3
+ORD-01129,2025-02-28,Midwest,Small Business,Furniture,Office Chair,3,229,0.2,549.6
+ORD-01130,2025-07-21,West,Consumer,Electronics,Laptop Stand,4,39,0,156
+ORD-01131,2025-09-27,Northeast,Enterprise,Electronics,USB-C Hub,13,45,0,585
+ORD-01132,2025-01-22,West,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01133,2025-02-08,Northeast,Small Business,Office Supplies,Gel Pens (12),2,9,0.1,16.2
+ORD-01134,2025-07-10,Northeast,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-01135,2025-06-15,Midwest,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-01136,2025-04-02,Northeast,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-01137,2025-05-18,South,Consumer,Furniture,Standing Desk,3,449,0.1,1212.3
+ORD-01138,2025-10-25,Northeast,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01139,2025-06-04,Midwest,Consumer,Electronics,USB-C Hub,1,45,0,45
+ORD-01140,2025-07-12,Midwest,Enterprise,Office Supplies,Desk Organizer,15,24,0,360
+ORD-01141,2025-12-13,Midwest,Enterprise,Furniture,Office Chair,13,229,0.05,2828.15
+ORD-01142,2025-06-15,West,Small Business,Electronics,Laptop Stand,4,39,0.1,140.4
+ORD-01143,2025-02-03,Northeast,Enterprise,Office Supplies,Desk Organizer,9,24,0,216
+ORD-01144,2025-04-11,Northeast,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-01145,2025-04-17,South,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-01146,2025-09-18,Northeast,Enterprise,Electronics,USB-C Hub,14,45,0,630
+ORD-01147,2025-01-16,West,Enterprise,Office Supplies,Desk Organizer,16,24,0,384
+ORD-01148,2025-05-01,West,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01149,2025-01-02,West,Small Business,Electronics,Laptop Stand,3,39,0.1,105.3
+ORD-01150,2025-09-07,West,Enterprise,Electronics,Bluetooth Speaker,10,59,0,590
+ORD-01151,2025-11-10,West,Enterprise,Office Supplies,Desk Organizer,17,24,0,408
+ORD-01152,2025-07-07,West,Enterprise,Furniture,Office Chair,7,229,0,1603
+ORD-01153,2025-10-14,Midwest,Enterprise,Electronics,USB-C Hub,15,45,0,675
+ORD-01154,2025-05-21,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01155,2025-08-06,Northeast,Enterprise,Furniture,Office Chair,16,229,0,3664
+ORD-01156,2025-06-17,Midwest,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-01157,2025-01-23,Northeast,Small Business,Office Supplies,Desk Organizer,3,24,0,72
+ORD-01158,2025-03-10,Midwest,Consumer,Electronics,USB-C Hub,3,45,0.15,114.75
+ORD-01159,2025-01-21,Northeast,Enterprise,Office Supplies,Printer Paper,4,35,0.2,112
+ORD-01160,2025-08-21,South,Small Business,Office Supplies,Printer Paper,1,35,0,35
+ORD-01161,2025-10-15,South,Small Business,Office Supplies,Printer Paper,1,35,0.05,33.25
+ORD-01162,2025-08-18,Northeast,Enterprise,Furniture,Bookshelf,15,129,0,1935
+ORD-01163,2025-03-13,South,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-01164,2025-12-04,Northeast,Small Business,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-01165,2025-08-22,South,Small Business,Electronics,Wireless Headphones,1,89,0,89
+ORD-01166,2025-06-25,West,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-01167,2025-02-19,Northeast,Enterprise,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-01168,2025-07-15,South,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-01169,2025-07-14,South,Small Business,Furniture,Office Chair,4,229,,916
+ORD-01170,2025-05-24,West,Consumer,Electronics,Wireless Headphones,5,89,0.15,378.25
+ORD-01171,2025-06-02,West,Consumer,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-01172,2025-11-06,West,Enterprise,Electronics,Laptop Stand,11,39,0,429
+ORD-01173,2025-12-06,West,Enterprise,Office Supplies,Gel Pens (12),24,9,0,216
+ORD-01174,2025-08-23,Northeast,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-01175,2025-12-04,West,Small Business,Electronics,USB-C Hub,2,45,0.15,76.5
+ORD-01176,2025-06-07,West,Small Business,Electronics,USB-C Hub,4,45,0,180
+ORD-01177,2025-09-28,South,Small Business,Office Supplies,Gel Pens (12),4,9,0.2,28.8
+ORD-01178,2025-01-08,West,Consumer,Office Supplies,Desk Organizer,5,24,,120
+ORD-01179,2025-09-12,Midwest,Small Business,Electronics,Laptop Stand,2,39,0.15,66.3
+ORD-01180,2025-04-04,Midwest,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-01181,2025-07-27,Midwest,Enterprise,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01182,2025-04-03,West,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-01183,2025-02-18,South,Enterprise,Furniture,Bookshelf,7,129,0,903
+ORD-01184,2025-03-28,West,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-01185,2025-04-20,South,Enterprise,Office Supplies,Notebook Pack,12,12,,144
+ORD-01186,2025-06-06,South,Consumer,Office Supplies,Notebook Pack,2,12,0.15,20.4
+ORD-01187,2025-04-06,West,Consumer,Furniture,Office Chair,3,229,0.15,583.95
+ORD-01188,2025-02-08,South,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-01189,2025-02-20,Midwest,Consumer,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01190,2025-08-20,South,Enterprise,Office Supplies,Desk Organizer,12,24,,288
+ORD-01191,2025-08-18,Northeast,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01192,2025-07-07,West,Consumer,Electronics,Bluetooth Speaker,1,59,0.1,53.1
+ORD-01193,2025-07-27,Northeast,Consumer,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-01194,2025-11-19,West,Consumer,Furniture,Office Chair,4,229,0.05,870.2
+ORD-01195,2025-12-04,Midwest,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-01196,2025-07-14,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0.05,22.8
+ORD-01197,2025-10-14,South,Small Business,Electronics,USB-C Hub,1,45,0,45
+ORD-01198,2025-02-25,South,Consumer,Furniture,Office Chair,2,229,0.1,412.2
+ORD-01199,2025-04-19,South,Enterprise,Furniture,Standing Desk,8,449,0.05,3412.4
+ORD-01200,2025-09-14,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01201,2025-02-03,Northeast,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-01202,2025-07-08,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01203,2025-07-04,Midwest,Enterprise,Electronics,USB-C Hub,13,45,0,585
+ORD-01204,2025-05-21,Northeast,Consumer,Office Supplies,Gel Pens (12),3,9,0.05,25.65
+ORD-01205,2025-11-20,South,Enterprise,Office Supplies,Desk Organizer,15,24,0,360
+ORD-01206,2025-01-22,Midwest,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-01207,2025-08-01,Midwest,Small Business,Electronics,Wireless Headphones,4,89,,320.4
+ORD-01208,2025-09-07,West,Consumer,Furniture,Standing Desk,4,449,0.1,1616.4
+ORD-01209,2025-10-05,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01210,2025-01-28,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0.15,119
+ORD-01211,2025-04-27,South,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01212,2025-10-02,Midwest,Consumer,Office Supplies,Desk Organizer,4,24,0.15,81.6
+ORD-01213,2025-07-09,Northeast,Consumer,Electronics,Wireless Headphones,5,89,0.05,422.75
+ORD-01214,2025-11-04,Northeast,Enterprise,Furniture,Office Chair,7,229,0.2,1282.4
+ORD-01215,2025-10-28,Midwest,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01216,2025-06-20,West,Small Business,Office Supplies,Notebook Pack,5,12,0,60
+ORD-01217,2025-04-07,Northeast,Small Business,Electronics,USB-C Hub,5,45,0,225
+ORD-01218,2025-07-09,West,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-01219,2025-06-04,Midwest,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-01220,2025-02-05,West,Small Business,Furniture,Office Chair,6,229,0,1374
+ORD-01221,2025-02-26,West,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01222,2025-06-09,Midwest,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-01223,2025-11-15,Northeast,Enterprise,Furniture,Standing Desk,26,449,0,11674
+ORD-01224,2025-03-27,Northeast,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-01225,2025-02-15,Midwest,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-01226,2025-02-05,West,Consumer,Office Supplies,Printer Paper,2,35,0,70
+ORD-01227,2025-01-27,South,Enterprise,Furniture,Office Chair,5,229,0,1145
+ORD-01228,2025-04-05,Midwest,Consumer,Furniture,Office Chair,1,229,0.2,183.2
+ORD-01229,2025-10-19,West,Enterprise,Office Supplies,Printer Paper,17,35,0,595
+ORD-01230,2025-01-05,West,Enterprise,Office Supplies,Printer Paper,8,35,0,280
+ORD-01231,2025-03-24,Northeast,Enterprise,Electronics,Wireless Headphones,5,89,0,445
+ORD-01232,2025-04-12,South,Small Business,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-01233,2025-11-10,Northeast,Consumer,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-01234,2025-09-06,South,Enterprise,Electronics,USB-C Hub,6,45,0.1,243
+ORD-01235,2025-06-28,South,Enterprise,Office Supplies,Gel Pens (12),11,9,0,99
+ORD-01236,2025-08-08,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01237,2025-01-11,Northeast,Enterprise,Office Supplies,Notebook Pack,6,12,0,72
+ORD-01238,2025-09-06,South,Enterprise,Office Supplies,Gel Pens (12),4,9,0.15,30.6
+ORD-01239,2025-04-15,South,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-01240,2025-10-09,Northeast,Small Business,Office Supplies,Printer Paper,1,35,0,35
+ORD-01241,2025-09-06,West,Small Business,Electronics,Bluetooth Speaker,5,59,0.15,250.75
+ORD-01242,2025-05-14,Midwest,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01243,2025-10-14,Northeast,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-01244,2025-06-04,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-01245,2025-06-06,Midwest,Small Business,Office Supplies,Printer Paper,3,35,0.05,99.75
+ORD-01246,2025-02-21,West,Consumer,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-01247,2025-04-07,Midwest,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-01248,2025-05-21,South,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-01249,2025-02-08,Midwest,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01250,2025-11-01,South,Enterprise,Office Supplies,Notebook Pack,11,12,0,132
+ORD-01251,2025-05-27,Northeast,Enterprise,Electronics,USB-C Hub,4,45,0,180
+ORD-01252,2025-07-05,Midwest,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-01253,2025-04-02,West,Consumer,Furniture,Standing Desk,3,449,0.2,1077.6
+ORD-01254,2025-06-23,Northeast,Enterprise,Electronics,Bluetooth Speaker,7,59,0,413
+ORD-01255,2025-12-17,Northeast,Small Business,Office Supplies,Desk Organizer,9,24,0,216
+ORD-01256,2025-05-28,Midwest,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-01257,2025-03-01,South,Consumer,Electronics,Laptop Stand,1,39,0.05,37.05
+ORD-01258,2025-11-07,West,Consumer,Furniture,Standing Desk,9,449,0,4041
+ORD-01259,2025-10-21,West,Enterprise,Furniture,Office Chair,9,229,0,2061
+ORD-01260,2025-07-13,Northeast,Small Business,Office Supplies,Desk Organizer,6,24,0,144
+ORD-01261,2025-08-26,Northeast,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-01262,2025-06-02,South,Small Business,Furniture,Office Chair,1,229,0,229
+ORD-01263,2025-01-19,South,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01264,2025-11-28,West,Small Business,Furniture,Bookshelf,6,129,0,774
+ORD-01265,2025-07-15,West,Enterprise,Electronics,USB-C Hub,5,45,0,225
+ORD-01266,2025-01-06,Northeast,Small Business,Electronics,USB-C Hub,5,45,0,225
+ORD-01267,2025-08-26,Midwest,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-01268,2025-11-23,South,Consumer,Electronics,Laptop Stand,2,39,0.15,66.3
+ORD-01269,2025-12-16,Midwest,Consumer,Electronics,USB-C Hub,4,45,0.15,153
+ORD-01270,2025-07-15,Northeast,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-01271,2025-07-02,South,Consumer,Furniture,Office Chair,2,229,0.05,435.1
+ORD-01272,2025-12-28,South,Enterprise,Office Supplies,Gel Pens (12),15,9,0.05,128.25
+ORD-01273,2025-08-24,West,Enterprise,Office Supplies,Printer Paper,10,35,0.2,280
+ORD-01274,2025-08-21,Northeast,Consumer,Furniture,Standing Desk,1,449,0,449
+ORD-01275,2025-05-01,Northeast,Enterprise,Office Supplies,Notebook Pack,10,12,0,120
+ORD-01276,2025-12-15,South,Enterprise,Office Supplies,Printer Paper,5,35,0.1,157.5
+ORD-01277,2025-07-14,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01278,2025-07-05,South,Enterprise,Electronics,USB-C Hub,13,45,0.2,468
+ORD-01279,2025-02-03,South,Consumer,Office Supplies,Notebook Pack,2,12,,24
+ORD-01280,2025-04-05,South,Small Business,Office Supplies,Desk Organizer,4,24,0.2,76.8
+ORD-01281,2025-06-18,South,Enterprise,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-01282,2025-02-17,Northeast,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-01283,2025-08-01,Northeast,Enterprise,Electronics,Wireless Headphones,14,89,0,1246
+ORD-01284,2025-05-24,South,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-01285,2025-12-15,Midwest,Consumer,Office Supplies,Gel Pens (12),7,9,,59.85
+ORD-01286,2025-12-08,Midwest,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-01287,2025-10-11,Midwest,Enterprise,Electronics,USB-C Hub,11,45,0,495
+ORD-01288,2025-09-19,Northeast,Enterprise,Furniture,Bookshelf,7,129,0,903
+ORD-01289,2025-12-03,South,Enterprise,Electronics,Laptop Stand,9,39,0.15,298.35
+ORD-01290,2025-04-07,South,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-01291,2025-10-04,Midwest,Enterprise,Office Supplies,Gel Pens (12),12,9,0,108
+ORD-01292,2025-01-24,South,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01293,2025-02-04,Northeast,Enterprise,Electronics,USB-C Hub,10,45,0.1,405
+ORD-01294,2025-09-07,West,Enterprise,Furniture,Bookshelf,7,129,0.1,812.7
+ORD-01295,2025-06-11,West,Consumer,Electronics,USB-C Hub,6,45,0.15,229.5
+ORD-01296,2025-02-25,West,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-01297,2025-06-01,Midwest,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01298,2025-09-16,South,Enterprise,Furniture,Bookshelf,10,129,0,1290
+ORD-01299,2025-11-23,South,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01300,2025-07-15,South,Enterprise,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01301,2025-06-14,South,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01302,2025-01-25,Midwest,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01303,2025-11-20,Northeast,Enterprise,Furniture,Office Chair,22,229,0,5038
+ORD-01304,2025-02-26,Midwest,Enterprise,Office Supplies,Notebook Pack,6,12,0.1,64.8
+ORD-01305,2025-02-03,South,Enterprise,Office Supplies,Desk Organizer,12,24,0,288
+ORD-01306,2025-02-16,Midwest,Enterprise,Electronics,Laptop Stand,3,39,,117
+ORD-01307,2025-02-09,South,Enterprise,Office Supplies,Printer Paper,7,35,0,245
+ORD-01308,2025-05-28,Northeast,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01309,2025-07-18,Northeast,Consumer,Furniture,Standing Desk,4,449,0.1,1616.4
+ORD-01310,2025-04-14,West,Consumer,Electronics,USB-C Hub,5,45,0,225
+ORD-01311,2025-01-26,West,Small Business,Office Supplies,Notebook Pack,1,12,0,12
+ORD-01312,2025-04-07,Northeast,Small Business,Furniture,Bookshelf,5,129,0.2,516
+ORD-01313,2025-11-02,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01314,2025-05-20,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0.15,30.6
+ORD-01315,2025-11-10,Northeast,Small Business,Furniture,Bookshelf,6,129,,774
+ORD-01316,2025-07-13,Midwest,Enterprise,Furniture,Standing Desk,15,449,0,6735
+ORD-01317,2025-12-21,Midwest,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-01318,2025-08-18,Midwest,Enterprise,Office Supplies,Notebook Pack,7,12,0,84
+ORD-01319,2025-05-17,Northeast,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01320,2025-01-18,West,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01321,2025-02-01,Midwest,Enterprise,Office Supplies,Printer Paper,5,35,0,175
+ORD-01322,2025-04-05,South,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-01323,2025-11-07,Midwest,Enterprise,Furniture,Standing Desk,20,449,0,8980
+ORD-01324,2025-09-18,Midwest,Small Business,Furniture,Standing Desk,1,449,0,449
+ORD-01325,2025-06-09,South,Enterprise,Electronics,Wireless Headphones,9,89,0,801
+ORD-01326,2025-03-07,Midwest,Enterprise,Furniture,Office Chair,15,229,0,3435
+ORD-01327,2025-07-20,South,Enterprise,Office Supplies,Gel Pens (12),12,9,0,108
+ORD-01328,2025-01-01,Midwest,Enterprise,Furniture,Office Chair,13,229,0,2977
+ORD-01329,2025-06-17,Northeast,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01330,2025-12-03,West,Enterprise,Office Supplies,Printer Paper,9,35,0.2,252
+ORD-01331,2025-03-20,Midwest,Enterprise,Electronics,Wireless Headphones,7,89,0,623
+ORD-01332,2025-05-03,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-01333,2025-07-22,Midwest,Consumer,Electronics,USB-C Hub,3,45,0.2,108
+ORD-01334,2025-07-16,Northeast,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-01335,2025-11-10,West,Enterprise,Office Supplies,Printer Paper,8,35,0,280
+ORD-01336,2025-05-27,Midwest,Consumer,Office Supplies,Desk Organizer,4,24,0.2,76.8
+ORD-01337,2025-11-11,Midwest,Enterprise,Furniture,Bookshelf,6,129,0,774
+ORD-01338,2025-07-10,West,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-01339,2025-08-23,Northeast,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-01340,2025-03-15,West,Consumer,Electronics,Wireless Headphones,4,89,0.15,302.6
+ORD-01341,2025-04-27,West,Consumer,Office Supplies,Notebook Pack,2,12,0.2,19.2
+ORD-01342,2025-12-04,Midwest,Small Business,Electronics,Laptop Stand,4,39,0.05,148.2
+ORD-01343,2025-01-07,Midwest,Enterprise,Furniture,Bookshelf,12,129,0,1548
+ORD-01344,2025-04-04,South,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01345,2025-01-20,South,Small Business,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-01346,2025-04-10,Midwest,Consumer,Furniture,Standing Desk,1,449,0,449
+ORD-01347,2025-02-16,Midwest,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-01348,2025-08-02,West,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01349,2025-09-18,South,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-01350,2025-09-02,Northeast,Enterprise,Furniture,Office Chair,12,229,0,2748
+ORD-01351,2025-11-22,West,Enterprise,Office Supplies,Notebook Pack,25,12,0,300
+ORD-01352,2025-11-19,Midwest,Enterprise,Furniture,Office Chair,18,229,0.1,3709.8
+ORD-01353,2025-02-27,Midwest,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01354,2025-08-18,Northeast,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-01355,2025-04-25,West,Consumer,Office Supplies,Desk Organizer,6,24,0.1,129.6
+ORD-01356,2025-10-20,South,Consumer,Electronics,Wireless Headphones,1,89,0.05,84.55
+ORD-01357,2025-09-22,Northeast,Enterprise,Office Supplies,Gel Pens (12),13,9,0,117
+ORD-01358,2025-07-25,Midwest,Consumer,Furniture,Bookshelf,5,129,0.15,548.25
+ORD-01359,2025-10-06,South,Enterprise,Furniture,Standing Desk,10,449,0,4490
+ORD-01360,2025-11-18,West,Small Business,Electronics,Laptop Stand,6,39,0,234
+ORD-01361,2025-04-03,Northeast,Enterprise,Office Supplies,Notebook Pack,7,12,0,84
+ORD-01362,2025-11-01,Midwest,Enterprise,Office Supplies,Desk Organizer,21,24,0.05,478.8
+ORD-01363,2025-06-02,Northeast,Small Business,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-01364,2025-05-25,Midwest,Consumer,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-01365,2025-10-22,West,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01366,2025-11-12,Northeast,Enterprise,Electronics,Wireless Headphones,9,89,0,801
+ORD-01367,2025-07-13,Midwest,Small Business,Office Supplies,Notebook Pack,1,12,0,12
+ORD-01368,2025-09-11,Northeast,Enterprise,Electronics,Bluetooth Speaker,7,59,0.1,371.7
+ORD-01369,2025-07-26,South,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01370,2025-12-09,Northeast,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-01371,2025-05-07,Midwest,Enterprise,Office Supplies,Printer Paper,9,35,0,315
+ORD-01372,2025-08-28,West,Consumer,Furniture,Office Chair,3,229,0.2,549.6
+ORD-01373,2025-07-03,West,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01374,2025-10-23,Midwest,Enterprise,Furniture,Office Chair,15,229,0.2,2748
+ORD-01375,2025-07-09,Northeast,Small Business,Electronics,Wireless Headphones,1,89,0.2,71.2
+ORD-01376,2025-03-20,Northeast,Enterprise,Electronics,Laptop Stand,7,39,0.2,218.4
+ORD-01377,2025-03-04,South,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-01378,2025-01-03,Midwest,Small Business,Office Supplies,Notebook Pack,1,12,0,12
+ORD-01379,2025-09-04,Northeast,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-01380,2025-02-27,West,Consumer,Furniture,Standing Desk,6,449,0,2694
+ORD-01381,2025-07-19,South,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-01382,2025-03-03,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01383,2025-09-26,Northeast,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-01384,2025-07-10,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0.05,253.65
+ORD-01385,2025-09-07,West,Enterprise,Office Supplies,Notebook Pack,11,12,0.2,105.6
+ORD-01386,2025-03-22,West,Enterprise,Office Supplies,Gel Pens (12),6,9,0.05,51.3
+ORD-01387,2025-06-07,Northeast,Small Business,Furniture,Bookshelf,6,129,0,774
+ORD-01388,2025-06-25,Northeast,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-01389,2025-08-26,Midwest,Consumer,Electronics,Laptop Stand,3,39,0.15,99.45
+ORD-01390,2025-10-02,Midwest,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01391,2025-04-11,West,Small Business,Furniture,Office Chair,2,229,0.15,389.3
+ORD-01392,2025-03-27,Northeast,Enterprise,Furniture,Office Chair,11,229,0,2519
+ORD-01393,2025-03-28,South,Small Business,Office Supplies,Printer Paper,1,35,0.15,29.75
+ORD-01394,2025-11-19,West,Consumer,Office Supplies,Gel Pens (12),9,9,0,81
+ORD-01395,2025-01-19,Midwest,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01396,2025-08-04,South,Consumer,Office Supplies,Notebook Pack,3,12,0.15,30.6
+ORD-01397,2025-02-18,West,Enterprise,Electronics,USB-C Hub,12,45,0,540
+ORD-01398,2025-04-01,Northeast,Consumer,Furniture,Bookshelf,1,129,,129
+ORD-01399,2025-12-12,Midwest,Small Business,Electronics,Bluetooth Speaker,4,59,0.1,212.4
+ORD-01400,2025-03-25,Northeast,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01401,2025-10-14,South,Consumer,Furniture,Office Chair,1,229,0,229
+ORD-01402,2025-04-03,Midwest,Enterprise,Furniture,Office Chair,9,229,0.2,1648.8
+ORD-01403,2025-06-20,Midwest,Consumer,Electronics,Wireless Headphones,2,89,0.05,169.1
+ORD-01404,2025-10-05,West,Small Business,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-01405,2025-04-02,West,Enterprise,Furniture,Bookshelf,6,129,0,774
+ORD-01406,2025-11-09,South,Enterprise,Electronics,Laptop Stand,6,39,0.05,222.3
+ORD-01407,2025-02-03,West,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-01408,2025-09-24,South,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-01409,2025-01-03,Midwest,Enterprise,Furniture,Office Chair,9,229,0,2061
+ORD-01410,2025-08-14,Northeast,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-01411,2025-01-24,Northeast,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01412,2025-07-14,Northeast,Enterprise,Furniture,Office Chair,11,229,0,2519
+ORD-01413,2025-11-23,Northeast,Small Business,Office Supplies,Printer Paper,8,35,0.15,238
+ORD-01414,2025-08-27,Northeast,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01415,2025-01-04,South,Enterprise,Furniture,Standing Desk,3,449,,1279.65
+ORD-01416,2025-01-19,Midwest,Small Business,Electronics,Bluetooth Speaker,2,59,0.1,106.2
+ORD-01417,2025-08-14,West,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01418,2025-11-07,Midwest,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01419,2025-07-23,Midwest,Enterprise,Furniture,Office Chair,13,229,0,2977
+ORD-01420,2025-10-25,Northeast,Enterprise,Electronics,Laptop Stand,17,39,0,663
+ORD-01421,2025-07-14,West,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01422,2025-08-24,West,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01423,2025-04-04,Midwest,Enterprise,Electronics,USB-C Hub,7,45,0,315
+ORD-01424,2025-02-20,Northeast,Small Business,Office Supplies,Desk Organizer,2,24,,48
+ORD-01425,2025-07-24,South,Enterprise,Electronics,USB-C Hub,4,45,0.15,153
+ORD-01426,2025-06-13,South,Small Business,Office Supplies,Printer Paper,1,35,0.15,29.75
+ORD-01427,2025-10-06,West,Enterprise,Furniture,Office Chair,15,229,0,3435
+ORD-01428,2025-12-24,West,Consumer,Furniture,Standing Desk,9,449,0,4041
+ORD-01429,2025-06-17,Midwest,Enterprise,Office Supplies,Desk Organizer,6,24,0,144
+ORD-01430,2025-02-23,Midwest,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-01431,2025-03-03,West,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-01432,2025-07-21,South,Small Business,Office Supplies,Printer Paper,2,35,,59.5
+ORD-01433,2025-11-01,West,Enterprise,Electronics,Bluetooth Speaker,13,59,0,767
+ORD-01434,2025-05-20,South,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-01435,2025-07-20,West,Enterprise,Electronics,Laptop Stand,17,39,,663
+ORD-01436,2025-10-21,South,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-01437,2025-01-08,Northeast,Enterprise,Electronics,Bluetooth Speaker,6,59,0.15,300.9
+ORD-01438,2025-10-24,Midwest,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-01439,2025-10-27,West,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-01440,2025-02-05,Northeast,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01441,2025-10-05,West,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-01442,2025-03-01,Northeast,Enterprise,Furniture,Office Chair,6,229,0.05,1305.3
+ORD-01443,2025-02-05,Midwest,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-01444,2025-02-12,Northeast,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-01445,2025-09-26,Midwest,Enterprise,Electronics,USB-C Hub,14,45,0,630
+ORD-01446,2025-08-23,West,Enterprise,Office Supplies,Printer Paper,15,35,0.2,420
+ORD-01447,2025-05-01,Northeast,Enterprise,Office Supplies,Notebook Pack,13,12,0,156
+ORD-01448,2025-05-15,South,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-01449,2025-06-21,South,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-01450,2025-12-14,Northeast,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01451,2025-03-22,Midwest,Enterprise,Office Supplies,Gel Pens (12),14,9,0.05,119.7
+ORD-01452,2025-11-26,South,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-01453,2025-09-27,South,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01454,2025-04-15,Midwest,Enterprise,Office Supplies,Printer Paper,13,35,0,455
+ORD-01455,2025-04-26,Northeast,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-01456,2025-12-08,South,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01457,2025-09-11,Northeast,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-01458,2025-04-21,South,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01459,2025-02-03,Midwest,Enterprise,Electronics,Laptop Stand,14,39,0,546
+ORD-01460,2025-09-04,Midwest,Enterprise,Office Supplies,Desk Organizer,14,24,0.1,302.4
+ORD-01461,2025-05-14,West,Consumer,Furniture,Bookshelf,6,129,0.1,696.6
+ORD-01462,2025-05-08,South,Enterprise,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01463,2025-02-25,Northeast,Enterprise,Office Supplies,Printer Paper,14,35,0,490
+ORD-01464,2025-07-19,South,Enterprise,Furniture,Bookshelf,12,129,0,1548
+ORD-01465,2025-10-03,South,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-01466,2025-02-17,West,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-01467,2025-02-08,Midwest,Consumer,Furniture,Office Chair,2,229,0.2,366.4
+ORD-01468,2025-12-04,West,Enterprise,Furniture,Office Chair,17,229,0,3893
+ORD-01469,2025-12-20,Midwest,Consumer,Office Supplies,Notebook Pack,5,12,0.05,57
+ORD-01470,2025-11-02,West,Consumer,Office Supplies,Gel Pens (12),5,9,0.05,42.75
+ORD-01471,2025-07-12,Midwest,Small Business,Electronics,Wireless Headphones,1,89,0,89
+ORD-01472,2025-04-27,Northeast,Enterprise,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01473,2025-12-27,West,Enterprise,Electronics,USB-C Hub,18,45,0,810
+ORD-01474,2025-08-19,Northeast,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01475,2025-04-28,South,Enterprise,Furniture,Bookshelf,9,129,0,1161
+ORD-01476,2025-04-26,South,Enterprise,Office Supplies,Printer Paper,10,35,0.15,297.5
+ORD-01477,2025-05-26,Northeast,Enterprise,Office Supplies,Printer Paper,15,35,0,525
+ORD-01478,2025-09-21,South,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01479,2025-02-08,South,Enterprise,Furniture,Bookshelf,5,129,0,645
+ORD-01480,2025-07-27,Midwest,Enterprise,Furniture,Office Chair,7,229,0.2,1282.4
+ORD-01481,2025-02-02,West,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-01482,2025-08-03,Northeast,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-01483,2025-02-17,West,Enterprise,Electronics,USB-C Hub,9,45,0,405
+ORD-01484,2025-06-12,Northeast,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-01485,2025-09-02,West,Consumer,Office Supplies,Gel Pens (12),3,9,0.15,22.95
+ORD-01486,2025-06-05,Northeast,Consumer,Office Supplies,Notebook Pack,2,12,0.1,21.6
+ORD-01487,2025-12-26,West,Small Business,Furniture,Office Chair,5,229,0.15,973.25
+ORD-01488,2025-10-25,Midwest,Small Business,Electronics,Laptop Stand,4,39,0.2,124.8
+ORD-01489,2025-03-20,Northeast,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-01490,2025-10-28,South,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-01491,2025-01-26,Northeast,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01492,2025-05-22,Northeast,Enterprise,Electronics,Laptop Stand,4,39,0,156
+ORD-01493,2025-12-27,West,Enterprise,Electronics,Wireless Headphones,19,89,0,1691
+ORD-01494,2025-10-03,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01495,2025-02-15,Northeast,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-01496,2025-04-12,South,Small Business,Electronics,Laptop Stand,2,39,0.1,70.2
+ORD-01497,2025-08-12,Midwest,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-01498,2025-04-19,Northeast,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-01499,2025-01-09,Northeast,Enterprise,Electronics,Wireless Headphones,10,89,0.1,801
+ORD-01500,2025-06-14,West,Consumer,Electronics,USB-C Hub,5,45,0.15,191.25
+ORD-01501,2025-11-10,Midwest,Enterprise,Furniture,Bookshelf,18,129,0,2322
+ORD-01502,2025-05-10,Northeast,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-01503,2025-11-03,Northeast,Consumer,Electronics,Bluetooth Speaker,8,59,0,472
+ORD-01504,2025-06-02,West,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-01505,2025-01-01,Midwest,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01506,2025-08-02,South,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-01507,2025-01-11,West,Small Business,Electronics,Wireless Headphones,3,89,0.2,213.6
+ORD-01508,2025-07-22,South,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01509,2025-04-24,Northeast,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01510,2025-12-02,West,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-01511,2025-08-17,Northeast,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01512,2025-11-15,West,Small Business,Electronics,Wireless Headphones,7,89,0.2,498.4
+ORD-01513,2025-07-04,West,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01514,2025-05-27,Northeast,Small Business,Electronics,Wireless Headphones,6,89,0,534
+ORD-01515,2025-10-20,West,Enterprise,Office Supplies,Printer Paper,16,35,0,560
+ORD-01516,2025-11-02,West,Consumer,Electronics,Bluetooth Speaker,8,59,0,472
+ORD-01517,2025-01-08,West,Small Business,Office Supplies,Notebook Pack,5,12,0.2,48
+ORD-01518,2025-10-22,West,Enterprise,Office Supplies,Printer Paper,16,35,0.1,504
+ORD-01519,2025-02-07,Northeast,Enterprise,Office Supplies,Printer Paper,14,35,0.15,416.5
+ORD-01520,2025-02-20,South,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-01521,2025-06-13,Midwest,Enterprise,Office Supplies,Gel Pens (12),8,9,0.1,64.8
+ORD-01522,2025-11-08,South,Enterprise,Electronics,Laptop Stand,6,39,0.2,187.2
+ORD-01523,2025-08-15,Midwest,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-01524,2025-05-22,West,Enterprise,Electronics,Bluetooth Speaker,12,59,0.2,566.4
+ORD-01525,2025-05-17,South,Small Business,Electronics,Laptop Stand,2,39,0.15,66.3
+ORD-01526,2025-03-17,Northeast,Consumer,Office Supplies,Notebook Pack,5,12,0,60
+ORD-01527,2025-01-20,Midwest,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-01528,2025-05-07,Midwest,Enterprise,Electronics,Wireless Headphones,12,89,0.2,854.4
+ORD-01529,2025-07-16,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01530,2025-05-20,West,Consumer,Electronics,USB-C Hub,4,45,0.2,144
+ORD-01531,2025-03-12,Northeast,Small Business,Office Supplies,Notebook Pack,2,12,0.1,21.6
+ORD-01532,2025-09-09,Midwest,Consumer,Furniture,Bookshelf,2,129,0.15,219.3
+ORD-01533,2025-07-06,Northeast,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-01534,2025-09-07,Midwest,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-01535,2025-06-15,Northeast,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-01536,2025-07-14,South,Enterprise,Office Supplies,Notebook Pack,11,12,0.05,125.4
+ORD-01537,2025-06-22,Northeast,Small Business,Office Supplies,Notebook Pack,4,12,0.05,45.6
+ORD-01538,2025-09-17,South,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-01539,2025-08-10,Northeast,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-01540,2025-06-17,Northeast,Consumer,Electronics,Bluetooth Speaker,2,59,0.1,106.2
+ORD-01541,2025-05-01,South,Small Business,Electronics,Laptop Stand,2,39,0.15,66.3
+ORD-01542,2025-11-28,South,Enterprise,Electronics,Bluetooth Speaker,10,59,,501.5
+ORD-01543,2025-10-15,South,Small Business,Office Supplies,Printer Paper,3,35,0,105
+ORD-01544,2025-04-12,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0.2,213.6
+ORD-01545,2025-06-12,West,Enterprise,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-01546,2025-09-09,West,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01547,2025-09-05,West,Enterprise,Furniture,Bookshelf,7,129,0,903
+ORD-01548,2025-10-17,Northeast,Enterprise,Electronics,Wireless Headphones,13,89,0,1157
+ORD-01549,2025-11-28,South,Small Business,Electronics,Bluetooth Speaker,4,59,0.1,212.4
+ORD-01550,2025-06-24,Northeast,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-01551,2025-12-19,Midwest,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01552,2025-08-18,South,Enterprise,Furniture,Standing Desk,13,449,0.1,5253.3
+ORD-01553,2025-05-07,Midwest,Enterprise,Electronics,Wireless Headphones,12,89,0.1,961.2
+ORD-01554,2025-09-21,West,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-01555,2025-07-08,Northeast,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01556,2025-05-26,West,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01557,2025-12-05,West,Enterprise,Electronics,Laptop Stand,16,39,0.2,499.2
+ORD-01558,2025-10-07,South,Consumer,Furniture,Standing Desk,2,449,0.15,763.3
+ORD-01559,2025-11-26,South,Enterprise,Electronics,USB-C Hub,7,45,,315
+ORD-01560,2025-08-19,West,Enterprise,Office Supplies,Notebook Pack,18,12,0.05,205.2
+ORD-01561,2025-11-28,South,Consumer,Furniture,Bookshelf,6,129,0,774
+ORD-01562,2025-02-14,West,Enterprise,Furniture,Bookshelf,8,129,0.1,928.8
+ORD-01563,2025-09-23,West,Consumer,Furniture,Standing Desk,5,449,0.1,2020.5
+ORD-01564,2025-06-22,Midwest,Small Business,Office Supplies,Printer Paper,1,35,0,35
+ORD-01565,2025-10-27,South,Small Business,Furniture,Standing Desk,1,449,0,449
+ORD-01566,2025-05-05,West,Enterprise,Electronics,Wireless Headphones,8,89,0,712
+ORD-01567,2025-08-03,South,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01568,2025-05-03,West,Consumer,Electronics,Wireless Headphones,4,89,0.1,320.4
+ORD-01569,2025-05-01,South,Small Business,Office Supplies,Notebook Pack,4,12,0.2,38.4
+ORD-01570,2025-10-07,West,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-01571,2025-02-17,South,Enterprise,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01572,2025-05-09,Northeast,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01573,2025-05-01,Midwest,Small Business,Electronics,Laptop Stand,1,39,0,39
+ORD-01574,2025-08-25,Northeast,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-01575,2025-11-22,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-01576,2025-02-17,South,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-01577,2025-09-04,South,Consumer,Office Supplies,Notebook Pack,2,12,0.05,22.8
+ORD-01578,2025-09-28,Midwest,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-01579,2025-10-28,Northeast,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01580,2025-03-17,Midwest,Consumer,Furniture,Bookshelf,1,129,,129
+ORD-01581,2025-06-16,West,Consumer,Office Supplies,Printer Paper,2,35,0,70
+ORD-01582,2025-09-08,Midwest,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01583,2025-07-08,South,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-01584,2025-12-24,Northeast,Consumer,Furniture,Standing Desk,7,449,0,3143
+ORD-01585,2025-10-26,South,Small Business,Office Supplies,Printer Paper,2,35,0.1,63
+ORD-01586,2025-03-07,Northeast,Enterprise,Electronics,Laptop Stand,5,39,0.2,156
+ORD-01587,2025-04-15,Midwest,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-01588,2025-07-06,Midwest,Small Business,Office Supplies,Gel Pens (12),2,9,0.2,14.4
+ORD-01589,2025-11-13,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-01590,2025-08-10,Midwest,Enterprise,Office Supplies,Desk Organizer,11,24,0,264
+ORD-01591,2025-09-10,South,Consumer,Electronics,Bluetooth Speaker,2,59,0.05,112.1
+ORD-01592,2025-04-16,Northeast,Consumer,Furniture,Standing Desk,2,449,0.2,718.4
+ORD-01593,2025-11-25,West,Enterprise,Furniture,Standing Desk,24,449,0,10776
+ORD-01594,2025-11-18,Northeast,Small Business,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-01595,2025-08-12,South,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01596,2025-01-04,Midwest,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-01597,2025-02-09,South,Small Business,Electronics,Wireless Headphones,2,89,0,178
+ORD-01598,2025-01-15,West,Consumer,Electronics,Laptop Stand,3,39,0.1,105.3
+ORD-01599,2025-06-17,West,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01600,2025-07-24,Midwest,Enterprise,Office Supplies,Notebook Pack,6,12,0.2,57.6
+ORD-01601,2025-02-20,West,Enterprise,Electronics,Wireless Headphones,15,89,0.2,1068
+ORD-01602,2025-11-28,Northeast,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01603,2025-07-05,Northeast,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-01604,2025-02-10,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01605,2025-11-23,South,Enterprise,Electronics,Bluetooth Speaker,17,59,0,1003
+ORD-01606,2025-10-19,West,Small Business,Office Supplies,Notebook Pack,6,12,0,72
+ORD-01607,2025-03-17,West,Enterprise,Office Supplies,Printer Paper,18,35,0.2,504
+ORD-01608,2025-02-13,Midwest,Enterprise,Furniture,Office Chair,4,229,0,916
+ORD-01609,2025-06-28,South,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-01610,2025-12-02,Northeast,Small Business,Electronics,USB-C Hub,5,45,,225
+ORD-01611,2025-04-04,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01612,2025-07-25,South,Small Business,Office Supplies,Notebook Pack,1,12,,12
+ORD-01613,2025-04-27,West,Enterprise,Office Supplies,Desk Organizer,10,24,0,240
+ORD-01614,2025-03-15,West,Consumer,Electronics,Wireless Headphones,2,89,0.05,169.1
+ORD-01615,2025-02-27,Northeast,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01616,2025-03-17,South,Consumer,Electronics,Bluetooth Speaker,3,59,0.1,159.3
+ORD-01617,2025-01-22,Northeast,Enterprise,Furniture,Office Chair,14,229,0,3206
+ORD-01618,2025-06-27,West,Consumer,Electronics,Bluetooth Speaker,2,59,0.2,94.4
+ORD-01619,2025-06-21,South,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-01620,2025-04-27,South,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-01621,2025-08-27,Northeast,Small Business,Furniture,Bookshelf,2,129,0.2,206.4
+ORD-01622,2025-04-26,Northeast,Enterprise,Office Supplies,Printer Paper,7,35,0,245
+ORD-01623,2025-10-28,Midwest,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01624,2025-10-18,West,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-01625,2025-08-05,South,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-01626,2025-12-23,Northeast,Enterprise,Electronics,Bluetooth Speaker,17,59,0,1003
+ORD-01627,2025-12-12,West,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-01628,2025-08-23,Midwest,Small Business,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-01629,2025-11-22,Northeast,Enterprise,Office Supplies,Notebook Pack,12,12,0.1,129.6
+ORD-01630,2025-04-22,South,Consumer,Office Supplies,Printer Paper,2,35,0,70
+ORD-01631,2025-12-17,South,Enterprise,Electronics,Wireless Headphones,6,89,0.1,480.6
+ORD-01632,2025-04-12,Northeast,Small Business,Office Supplies,Gel Pens (12),2,9,0.1,16.2
+ORD-01633,2025-11-05,Midwest,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01634,2025-09-12,Northeast,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-01635,2025-08-06,West,Enterprise,Furniture,Standing Desk,13,449,,5545.15
+ORD-01636,2025-07-07,South,Small Business,Furniture,Bookshelf,4,129,,516
+ORD-01637,2025-08-01,Northeast,Enterprise,Electronics,Laptop Stand,17,39,0.2,530.4
+ORD-01638,2025-09-03,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01639,2025-05-04,Northeast,Enterprise,Furniture,Standing Desk,11,449,0,4939
+ORD-01640,2025-07-04,West,Enterprise,Office Supplies,Notebook Pack,9,12,0.2,86.4
+ORD-01641,2025-03-08,Midwest,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01642,2025-08-20,Midwest,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01643,2025-05-15,Midwest,Enterprise,Office Supplies,Desk Organizer,3,24,0,72
+ORD-01644,2025-10-13,Northeast,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-01645,2025-02-19,Northeast,Small Business,Electronics,USB-C Hub,2,45,0.15,76.5
+ORD-01646,2025-01-25,Northeast,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-01647,2025-11-18,South,Consumer,Electronics,Bluetooth Speaker,7,59,,351.05
+ORD-01648,2025-03-09,West,Consumer,Office Supplies,Printer Paper,4,35,0.05,133
+ORD-01649,2025-06-27,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-01650,2025-01-14,South,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-01651,2025-02-09,South,Small Business,Office Supplies,Gel Pens (12),4,9,0.2,28.8
+ORD-01652,2025-10-23,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01653,2025-01-18,West,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-01654,2025-02-06,South,Small Business,Furniture,Standing Desk,2,449,0.1,808.2
+ORD-01655,2025-10-12,South,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-01656,2025-08-05,Midwest,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01657,2025-09-23,Northeast,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-01658,2025-11-08,South,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01659,2025-06-10,Midwest,Enterprise,Furniture,Bookshelf,12,129,0,1548
+ORD-01660,2025-04-09,West,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01661,2025-01-05,West,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-01662,2025-11-03,Midwest,Enterprise,Office Supplies,Desk Organizer,6,24,0,144
+ORD-01663,2025-12-07,South,Small Business,Office Supplies,Desk Organizer,4,24,0.15,81.6
+ORD-01664,2025-03-24,Northeast,Enterprise,Furniture,Standing Desk,12,449,0,5388
+ORD-01665,2025-09-11,Midwest,Enterprise,Office Supplies,Printer Paper,6,35,0,210
+ORD-01666,2025-11-26,South,Small Business,Office Supplies,Desk Organizer,6,24,0,144
+ORD-01667,2025-02-27,South,Enterprise,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01668,2025-07-15,South,Consumer,Office Supplies,Desk Organizer,4,24,0.15,81.6
+ORD-01669,2025-12-09,Northeast,Enterprise,Office Supplies,Printer Paper,26,35,,910
+ORD-01670,2025-05-11,West,Enterprise,Electronics,Wireless Headphones,14,89,0.05,1183.7
+ORD-01671,2025-02-06,South,Enterprise,Furniture,Bookshelf,12,129,0,1548
+ORD-01672,2025-12-21,South,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01673,2025-08-11,Northeast,Small Business,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-01674,2025-01-16,Midwest,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01675,2025-08-01,West,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01676,2025-01-12,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0.15,30.6
+ORD-01677,2025-12-08,South,Enterprise,Electronics,USB-C Hub,6,45,0,270
+ORD-01678,2025-05-06,Midwest,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-01679,2025-11-05,West,Small Business,Electronics,Laptop Stand,3,39,0,117
+ORD-01680,2025-11-04,West,Consumer,Office Supplies,Printer Paper,9,35,0,315
+ORD-01681,2025-04-28,Midwest,Small Business,Electronics,Wireless Headphones,3,89,0.15,226.95
+ORD-01682,2025-03-10,Midwest,Enterprise,Office Supplies,Gel Pens (12),13,9,0,117
+ORD-01683,2025-06-27,South,Consumer,Furniture,Standing Desk,1,449,0,449
+ORD-01684,2025-01-18,South,Small Business,Office Supplies,Notebook Pack,1,12,0.2,9.6
+ORD-01685,2025-06-01,Northeast,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-01686,2025-08-26,Northeast,Small Business,Electronics,Wireless Headphones,1,89,0,89
+ORD-01687,2025-07-20,Midwest,Consumer,Office Supplies,Printer Paper,2,35,0,70
+ORD-01688,2025-06-23,Northeast,Consumer,Electronics,Wireless Headphones,2,89,0.2,142.4
+ORD-01689,2025-02-22,West,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-01690,2025-03-12,Northeast,Small Business,Electronics,USB-C Hub,5,45,0.05,213.75
+ORD-01691,2025-09-22,West,Consumer,Electronics,USB-C Hub,4,45,0.05,171
+ORD-01692,2025-06-17,Midwest,Small Business,Office Supplies,Notebook Pack,4,12,,48
+ORD-01693,2025-06-24,Northeast,Enterprise,Furniture,Standing Desk,10,449,0.1,4041
+ORD-01694,2025-09-04,Northeast,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01695,2025-04-04,Northeast,Enterprise,Furniture,Office Chair,12,229,0.1,2473.2
+ORD-01696,2025-10-23,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0.1,32.4
+ORD-01697,2025-05-04,Northeast,Enterprise,Furniture,Office Chair,5,229,0.1,1030.5
+ORD-01698,2025-08-03,Northeast,Consumer,Electronics,Wireless Headphones,4,89,0.2,284.8
+ORD-01699,2025-07-13,West,Consumer,Office Supplies,Printer Paper,1,35,0.15,29.75
+ORD-01700,2025-03-22,Northeast,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-01701,2025-03-11,Midwest,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01702,2025-07-28,South,Consumer,Furniture,Office Chair,4,229,0.05,870.2
+ORD-01703,2025-11-09,South,Enterprise,Electronics,USB-C Hub,7,45,0.2,252
+ORD-01704,2025-09-20,South,Enterprise,Furniture,Standing Desk,9,449,0.05,3838.95
+ORD-01705,2025-04-19,Northeast,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01706,2025-10-20,Northeast,Small Business,Office Supplies,Printer Paper,2,35,0.15,59.5
+ORD-01707,2025-02-19,West,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-01708,2025-10-27,Northeast,Enterprise,Office Supplies,Notebook Pack,5,12,0,60
+ORD-01709,2025-04-17,South,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-01710,2025-04-19,South,Consumer,Electronics,Laptop Stand,3,39,0.15,99.45
+ORD-01711,2025-04-17,Northeast,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-01712,2025-10-06,West,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-01713,2025-04-04,Midwest,Small Business,Furniture,Office Chair,3,229,0.1,618.3
+ORD-01714,2025-11-12,South,Enterprise,Electronics,USB-C Hub,18,45,0,810
+ORD-01715,2025-06-16,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-01716,2025-09-19,Midwest,Enterprise,Electronics,Wireless Headphones,11,89,0.2,783.2
+ORD-01717,2025-11-12,South,Small Business,Furniture,Standing Desk,7,449,0,3143
+ORD-01718,2025-09-16,West,Enterprise,Electronics,Laptop Stand,11,39,0.2,343.2
+ORD-01719,2025-07-13,Midwest,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01720,2025-10-14,Northeast,Enterprise,Office Supplies,Printer Paper,12,35,0,420
+ORD-01721,2025-09-18,West,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01722,2025-10-23,West,Small Business,Furniture,Bookshelf,6,129,0,774
+ORD-01723,2025-08-26,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01724,2025-10-20,Midwest,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-01725,2025-11-13,Midwest,Small Business,Electronics,Laptop Stand,4,39,0,156
+ORD-01726,2025-12-03,Northeast,Consumer,Furniture,Bookshelf,8,129,0,1032
+ORD-01727,2025-01-15,West,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01728,2025-06-15,Northeast,Enterprise,Electronics,Bluetooth Speaker,16,59,0.1,849.6
+ORD-01729,2025-05-18,Northeast,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-01730,2025-09-27,Northeast,Consumer,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-01731,2025-11-09,Midwest,Enterprise,Furniture,Standing Desk,20,449,0,8980
+ORD-01732,2025-06-26,Northeast,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-01733,2025-04-24,Northeast,Consumer,Office Supplies,Printer Paper,6,35,0,210
+ORD-01734,2025-09-17,West,Consumer,Office Supplies,Printer Paper,4,35,0.15,119
+ORD-01735,2025-08-21,Midwest,Small Business,Furniture,Standing Desk,5,449,0.05,2132.75
+ORD-01736,2025-08-10,Northeast,Enterprise,Electronics,Bluetooth Speaker,14,59,0,826
+ORD-01737,2025-11-12,South,Enterprise,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01738,2025-04-08,Northeast,Enterprise,Electronics,Wireless Headphones,4,89,0.2,284.8
+ORD-01739,2025-01-18,South,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01740,2025-09-12,West,Enterprise,Electronics,Bluetooth Speaker,11,59,0,649
+ORD-01741,2025-11-08,South,Consumer,Office Supplies,Notebook Pack,4,12,,48
+ORD-01742,2025-03-16,South,Enterprise,Office Supplies,Desk Organizer,7,24,0,168
+ORD-01743,2025-01-04,Northeast,Small Business,Office Supplies,Gel Pens (12),5,9,,45
+ORD-01744,2025-01-21,Northeast,Enterprise,Electronics,Wireless Headphones,15,89,0,1335
+ORD-01745,2025-02-14,Northeast,Consumer,Furniture,Standing Desk,6,449,0,2694
+ORD-01746,2025-01-23,West,Small Business,Office Supplies,Printer Paper,6,35,,210
+ORD-01747,2025-03-17,Northeast,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-01748,2025-05-22,South,Enterprise,Office Supplies,Desk Organizer,9,24,0,216
+ORD-01749,2025-08-01,Northeast,Small Business,Furniture,Bookshelf,5,129,0,645
+ORD-01750,2025-03-08,Midwest,Enterprise,Electronics,Laptop Stand,14,39,0,546
+ORD-01751,2025-03-15,South,Enterprise,Furniture,Bookshelf,9,129,0.1,1044.9
+ORD-01752,2025-01-11,South,Enterprise,Furniture,Bookshelf,7,129,0.15,767.55
+ORD-01753,2025-12-23,Midwest,Small Business,Furniture,Standing Desk,7,449,0,3143
+ORD-01754,2025-04-08,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01755,2025-11-08,Northeast,Enterprise,Electronics,Wireless Headphones,7,89,0,623
+ORD-01756,2025-07-15,South,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-01757,2025-04-02,West,Consumer,Furniture,Standing Desk,3,449,0.2,1077.6
+ORD-01758,2025-03-05,Midwest,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01759,2025-04-10,South,Small Business,Office Supplies,Notebook Pack,3,12,0.1,32.4
+ORD-01760,2025-03-28,Midwest,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-01761,2025-03-22,Northeast,Enterprise,Office Supplies,Notebook Pack,8,12,0,96
+ORD-01762,2025-02-01,South,Enterprise,Office Supplies,Printer Paper,7,35,0,245
+ORD-01763,2025-01-02,South,Enterprise,Electronics,Laptop Stand,3,39,0.1,105.3
+ORD-01764,2025-09-23,West,Enterprise,Furniture,Standing Desk,17,449,,7251.35
+ORD-01765,2025-12-04,Midwest,Consumer,Office Supplies,Printer Paper,4,35,0.2,112
+ORD-01766,2025-09-10,West,Consumer,Electronics,USB-C Hub,1,45,0,45
+ORD-01767,2025-07-23,West,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01768,2025-07-18,West,Enterprise,Furniture,Standing Desk,12,449,0,5388
+ORD-01769,2025-05-17,Midwest,Consumer,Furniture,Standing Desk,1,449,0.15,381.65
+ORD-01770,2025-04-04,South,Enterprise,Furniture,Office Chair,7,229,0.1,1442.7
+ORD-01771,2025-06-10,Midwest,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01772,2025-05-03,Northeast,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-01773,2025-02-21,South,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-01774,2025-12-02,Midwest,Enterprise,Office Supplies,Printer Paper,19,35,0,665
+ORD-01775,2025-12-23,West,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01776,2025-11-25,Northeast,Consumer,Electronics,USB-C Hub,6,45,0.05,256.5
+ORD-01777,2025-06-01,West,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-01778,2025-06-08,South,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01779,2025-01-17,West,Enterprise,Office Supplies,Printer Paper,14,35,0,490
+ORD-01780,2025-03-08,South,Small Business,Office Supplies,Gel Pens (12),4,9,0.1,32.4
+ORD-01781,2025-02-25,South,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-01782,2025-04-20,West,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-01783,2025-10-05,Northeast,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-01784,2025-02-01,Midwest,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-01785,2025-04-16,South,Small Business,Furniture,Standing Desk,4,449,0.15,1526.6
+ORD-01786,2025-12-08,South,Small Business,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-01787,2025-01-08,Northeast,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-01788,2025-11-23,Northeast,Small Business,Furniture,Bookshelf,9,129,0.05,1102.95
+ORD-01789,2025-05-14,South,Small Business,Office Supplies,Gel Pens (12),3,9,0.2,21.6
+ORD-01790,2025-08-25,Midwest,Small Business,Furniture,Office Chair,2,229,0.05,435.1
+ORD-01791,2025-01-04,West,Enterprise,Furniture,Standing Desk,13,449,0.05,5545.15
+ORD-01792,2025-05-20,Midwest,Enterprise,Office Supplies,Notebook Pack,15,12,0,180
+ORD-01793,2025-04-19,South,Consumer,Electronics,USB-C Hub,3,45,0.05,128.25
+ORD-01794,2025-02-28,South,Small Business,Electronics,USB-C Hub,3,45,0.2,108
+ORD-01795,2025-07-22,Midwest,Enterprise,Office Supplies,Notebook Pack,7,12,0,84
+ORD-01796,2025-11-10,Midwest,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-01797,2025-06-09,South,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01798,2025-08-25,West,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-01799,2025-02-08,West,Enterprise,Electronics,Bluetooth Speaker,10,59,0,590
+ORD-01800,2025-08-10,West,Small Business,Electronics,Laptop Stand,3,39,0.05,111.15
+ORD-01801,2025-10-03,Midwest,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01802,2025-06-11,West,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-01803,2025-12-16,Northeast,Enterprise,Electronics,Wireless Headphones,13,89,0,1157
+ORD-01804,2025-09-08,Midwest,Small Business,Electronics,USB-C Hub,3,45,0.05,128.25
+ORD-01805,2025-05-17,South,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-01806,2025-07-27,Northeast,Enterprise,Electronics,Laptop Stand,15,39,0.2,468
+ORD-01807,2025-06-03,Northeast,Enterprise,Office Supplies,Desk Organizer,5,24,,102
+ORD-01808,2025-02-02,South,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01809,2025-03-04,South,Small Business,Furniture,Bookshelf,1,129,0.05,122.55
+ORD-01810,2025-05-06,West,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-01811,2025-07-04,South,Enterprise,Electronics,Wireless Headphones,4,89,0.2,284.8
+ORD-01812,2025-12-21,Northeast,Enterprise,Electronics,Laptop Stand,18,39,0,702
+ORD-01813,2025-03-24,South,Enterprise,Furniture,Office Chair,10,229,0,2290
+ORD-01814,2025-09-18,West,Enterprise,Furniture,Standing Desk,4,449,0,1796
+ORD-01815,2025-05-20,Midwest,Enterprise,Office Supplies,Notebook Pack,5,12,,51
+ORD-01816,2025-08-17,Northeast,Small Business,Office Supplies,Gel Pens (12),5,9,,45
+ORD-01817,2025-01-13,South,Consumer,Electronics,Wireless Headphones,2,89,0.2,142.4
+ORD-01818,2025-04-24,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0.05,133
+ORD-01819,2025-05-14,South,Consumer,Office Supplies,Gel Pens (12),2,9,0.15,15.3
+ORD-01820,2025-12-07,South,Enterprise,Electronics,USB-C Hub,9,45,0,405
+ORD-01821,2025-09-26,West,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-01822,2025-09-13,South,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-01823,2025-02-08,Midwest,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-01824,2025-12-12,Midwest,Small Business,Furniture,Bookshelf,7,129,0.1,812.7
+ORD-01825,2025-11-17,Northeast,Consumer,Electronics,Bluetooth Speaker,7,59,0.15,351.05
+ORD-01826,2025-07-15,Northeast,Small Business,Electronics,Wireless Headphones,5,89,,445
+ORD-01827,2025-08-26,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0.15,119
+ORD-01828,2025-01-28,South,Consumer,Electronics,Bluetooth Speaker,4,59,,236
+ORD-01829,2025-10-16,Midwest,Enterprise,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01830,2025-03-05,Midwest,Consumer,Office Supplies,Desk Organizer,1,24,0,24
+ORD-01831,2025-09-25,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01832,2025-09-08,West,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-01833,2025-07-05,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-01834,2025-02-07,Midwest,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-01835,2025-04-17,Northeast,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-01836,2025-10-10,Midwest,Enterprise,Furniture,Office Chair,3,229,0,687
+ORD-01837,2025-03-11,South,Consumer,Electronics,Bluetooth Speaker,2,59,0.2,94.4
+ORD-01838,2025-12-10,West,Enterprise,Furniture,Standing Desk,22,449,0,9878
+ORD-01839,2025-03-16,West,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-01840,2025-07-02,Midwest,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-01841,2025-03-17,West,Consumer,Furniture,Office Chair,3,229,,687
+ORD-01842,2025-05-01,South,Consumer,Office Supplies,Printer Paper,1,35,0,35
+ORD-01843,2025-12-06,Midwest,Enterprise,Furniture,Office Chair,10,229,0,2290
+ORD-01844,2025-03-11,Northeast,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-01845,2025-03-21,West,Consumer,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-01846,2025-08-15,Northeast,Small Business,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-01847,2025-11-25,West,Enterprise,Electronics,Wireless Headphones,20,89,,1780
+ORD-01848,2025-02-16,West,Consumer,Office Supplies,Printer Paper,6,35,0,210
+ORD-01849,2025-12-01,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0.2,56
+ORD-01850,2025-01-28,Midwest,Small Business,Electronics,USB-C Hub,2,45,0.2,72
+ORD-01851,2025-02-10,West,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01852,2025-02-18,West,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01853,2025-01-05,Midwest,Enterprise,Office Supplies,Gel Pens (12),6,9,0.1,48.6
+ORD-01854,2025-01-18,South,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-01855,2025-06-21,Midwest,Small Business,Office Supplies,Gel Pens (12),1,9,0,9
+ORD-01856,2025-02-22,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0.15,30.6
+ORD-01857,2025-05-25,Midwest,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-01858,2025-12-10,South,Enterprise,Office Supplies,Printer Paper,13,35,0,455
+ORD-01859,2025-11-05,South,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-01860,2025-01-09,West,Enterprise,Electronics,Laptop Stand,15,39,0,585
+ORD-01861,2025-01-11,West,Enterprise,Electronics,USB-C Hub,13,45,0,585
+ORD-01862,2025-02-22,South,Small Business,Furniture,Standing Desk,2,449,0.05,853.1
+ORD-01863,2025-12-13,West,Small Business,Electronics,USB-C Hub,9,45,0.15,344.25
+ORD-01864,2025-05-03,Northeast,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-01865,2025-12-07,Northeast,Small Business,Office Supplies,Printer Paper,9,35,0,315
+ORD-01866,2025-10-20,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-01867,2025-05-04,Midwest,Enterprise,Electronics,Laptop Stand,8,39,0.2,249.6
+ORD-01868,2025-12-23,Northeast,Consumer,Office Supplies,Notebook Pack,2,12,0.05,22.8
+ORD-01869,2025-09-16,South,Consumer,Office Supplies,Printer Paper,4,35,,140
+ORD-01870,2025-02-07,West,Consumer,Office Supplies,Printer Paper,6,35,0,210
+ORD-01871,2025-10-23,Midwest,Consumer,Furniture,Office Chair,3,229,0.05,652.65
+ORD-01872,2025-11-22,Midwest,Consumer,Electronics,Laptop Stand,6,39,0,234
+ORD-01873,2025-02-27,Northeast,Enterprise,Furniture,Bookshelf,6,129,,619.2
+ORD-01874,2025-03-25,Northeast,Enterprise,Office Supplies,Printer Paper,13,35,,455
+ORD-01875,2025-12-15,South,Consumer,Electronics,Laptop Stand,6,39,0,234
+ORD-01876,2025-12-08,Northeast,Consumer,Furniture,Office Chair,6,229,0.2,1099.2
+ORD-01877,2025-06-28,West,Consumer,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-01878,2025-08-24,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,0.1,24.3
+ORD-01879,2025-12-04,Midwest,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-01880,2025-10-07,South,Small Business,Office Supplies,Notebook Pack,3,12,0.15,30.6
+ORD-01881,2025-11-11,West,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-01882,2025-01-10,Northeast,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-01883,2025-02-19,South,Small Business,Office Supplies,Desk Organizer,3,24,0,72
+ORD-01884,2025-09-23,Northeast,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-01885,2025-04-24,Northeast,Enterprise,Electronics,USB-C Hub,8,45,0,360
+ORD-01886,2025-09-11,Northeast,Consumer,Electronics,Wireless Headphones,4,89,0.1,320.4
+ORD-01887,2025-10-13,Midwest,Enterprise,Electronics,Wireless Headphones,11,89,0,979
+ORD-01888,2025-06-24,Northeast,Enterprise,Office Supplies,Gel Pens (12),14,9,0.1,113.4
+ORD-01889,2025-02-15,Midwest,Enterprise,Furniture,Office Chair,11,229,0.05,2393.05
+ORD-01890,2025-09-04,Northeast,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-01891,2025-01-04,Midwest,Consumer,Furniture,Office Chair,3,229,0.1,618.3
+ORD-01892,2025-08-07,Midwest,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01893,2025-05-06,Midwest,Consumer,Office Supplies,Notebook Pack,5,12,0.15,51
+ORD-01894,2025-02-07,South,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01895,2025-01-14,West,Enterprise,Office Supplies,Printer Paper,10,35,0.15,297.5
+ORD-01896,2025-04-28,Midwest,Consumer,Office Supplies,Printer Paper,4,35,,140
+ORD-01897,2025-01-11,Midwest,Enterprise,Electronics,USB-C Hub,5,45,0,225
+ORD-01898,2025-09-01,Midwest,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-01899,2025-11-15,South,Consumer,Electronics,Bluetooth Speaker,6,59,0.2,283.2
+ORD-01900,2025-04-14,West,Small Business,Electronics,Wireless Headphones,2,89,0.2,142.4
+ORD-01901,2025-05-03,Midwest,Enterprise,Office Supplies,Gel Pens (12),13,9,0,117
+ORD-01902,2025-03-26,South,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-01903,2025-11-14,Northeast,Enterprise,Furniture,Office Chair,27,229,0,6183
+ORD-01904,2025-06-23,Midwest,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-01905,2025-01-05,Northeast,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-01906,2025-09-23,Midwest,Enterprise,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-01907,2025-08-21,Midwest,Consumer,Office Supplies,Desk Organizer,4,24,0.1,86.4
+ORD-01908,2025-10-26,Midwest,Enterprise,Electronics,USB-C Hub,10,45,0.15,382.5
+ORD-01909,2025-02-02,Northeast,Small Business,Office Supplies,Notebook Pack,3,12,0.2,28.8
+ORD-01910,2025-08-16,Midwest,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-01911,2025-03-26,West,Enterprise,Furniture,Office Chair,12,229,0,2748
+ORD-01912,2025-05-23,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-01913,2025-05-11,South,Consumer,Office Supplies,Printer Paper,3,35,0.05,99.75
+ORD-01914,2025-03-04,West,Enterprise,Electronics,Wireless Headphones,16,89,0.05,1352.8
+ORD-01915,2025-03-28,Midwest,Consumer,Office Supplies,Gel Pens (12),4,9,0.15,30.6
+ORD-01916,2025-02-11,Midwest,Enterprise,Furniture,Bookshelf,8,129,,1032
+ORD-01917,2025-08-09,Northeast,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-01918,2025-10-04,Northeast,Small Business,Furniture,Office Chair,2,229,,458
+ORD-01919,2025-03-03,West,Enterprise,Furniture,Office Chair,18,229,0,4122
+ORD-01920,2025-01-02,West,Enterprise,Furniture,Bookshelf,17,129,0,2193
+ORD-01921,2025-12-12,Northeast,Small Business,Furniture,Bookshelf,9,129,0,1161
+ORD-01922,2025-05-14,South,Enterprise,Office Supplies,Notebook Pack,9,12,0.1,97.2
+ORD-01923,2025-09-01,South,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-01924,2025-12-18,South,Consumer,Furniture,Standing Desk,6,449,0,2694
+ORD-01925,2025-09-23,South,Consumer,Office Supplies,Notebook Pack,4,12,0.2,38.4
+ORD-01926,2025-03-11,Northeast,Enterprise,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-01927,2025-06-22,Northeast,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-01928,2025-11-25,West,Enterprise,Electronics,Laptop Stand,15,39,0,585
+ORD-01929,2025-05-24,South,Small Business,Office Supplies,Desk Organizer,2,24,0.05,45.6
+ORD-01930,2025-11-01,West,Enterprise,Office Supplies,Gel Pens (12),27,9,0,243
+ORD-01931,2025-02-27,Northeast,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-01932,2025-11-27,Midwest,Small Business,Electronics,Laptop Stand,3,39,0,117
+ORD-01933,2025-02-19,South,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-01934,2025-02-13,Midwest,Small Business,Office Supplies,Gel Pens (12),5,9,0,45
+ORD-01935,2025-08-27,Midwest,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-01936,2025-07-04,Northeast,Enterprise,Electronics,Wireless Headphones,15,89,0,1335
+ORD-01937,2025-10-19,Northeast,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-01938,2025-02-09,Midwest,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-01939,2025-10-09,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0.05,133
+ORD-01940,2025-07-02,South,Small Business,Electronics,Wireless Headphones,3,89,0.15,226.95
+ORD-01941,2025-11-25,Northeast,Enterprise,Office Supplies,Desk Organizer,9,24,0,216
+ORD-01942,2025-02-04,West,Enterprise,Electronics,USB-C Hub,17,45,0.1,688.5
+ORD-01943,2025-10-02,South,Enterprise,Electronics,Laptop Stand,10,39,0.1,351
+ORD-01944,2025-06-21,West,Small Business,Office Supplies,Gel Pens (12),2,9,0.1,16.2
+ORD-01945,2025-10-14,Northeast,Enterprise,Furniture,Standing Desk,10,449,0,4490
+ORD-01946,2025-06-20,Northeast,Enterprise,Office Supplies,Gel Pens (12),7,9,,63
+ORD-01947,2025-03-19,Midwest,Enterprise,Electronics,Laptop Stand,6,39,0,234
+ORD-01948,2025-08-17,Northeast,Consumer,Furniture,Bookshelf,3,129,0,387
+ORD-01949,2025-09-05,Midwest,Consumer,Electronics,USB-C Hub,3,45,,114.75
+ORD-01950,2025-08-11,Midwest,Enterprise,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-01951,2025-11-17,West,Consumer,Office Supplies,Gel Pens (12),7,9,0.2,50.4
+ORD-01952,2025-11-06,West,Enterprise,Electronics,Bluetooth Speaker,27,59,0,1593
+ORD-01953,2025-06-06,South,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-01954,2025-02-06,Northeast,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-01955,2025-07-03,Northeast,Enterprise,Electronics,Wireless Headphones,15,89,0,1335
+ORD-01956,2025-07-04,West,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-01957,2025-02-24,West,Consumer,Furniture,Bookshelf,5,129,0.15,548.25
+ORD-01958,2025-03-02,West,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-01959,2025-02-18,Midwest,Consumer,Furniture,Office Chair,4,229,0.05,870.2
+ORD-01960,2025-02-02,Northeast,Enterprise,Furniture,Standing Desk,11,449,0,4939
+ORD-01961,2025-08-28,Midwest,Enterprise,Furniture,Standing Desk,4,449,0,1796
+ORD-01962,2025-07-24,Midwest,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-01963,2025-02-11,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-01964,2025-01-26,West,Small Business,Electronics,USB-C Hub,4,45,0.1,162
+ORD-01965,2025-11-17,South,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-01966,2025-12-28,Northeast,Small Business,Office Supplies,Notebook Pack,7,12,0,84
+ORD-01967,2025-02-06,West,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-01968,2025-01-03,West,Consumer,Furniture,Office Chair,6,229,0.1,1236.6
+ORD-01969,2025-08-02,Midwest,Enterprise,Office Supplies,Gel Pens (12),10,9,0,90
+ORD-01970,2025-03-12,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-01971,2025-01-26,South,Enterprise,Furniture,Bookshelf,3,129,0,387
+ORD-01972,2025-03-24,South,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-01973,2025-08-19,West,Small Business,Office Supplies,Printer Paper,5,35,0.1,157.5
+ORD-01974,2025-07-26,Midwest,Consumer,Office Supplies,Desk Organizer,3,24,0.15,61.2
+ORD-01975,2025-12-01,South,Consumer,Electronics,Wireless Headphones,6,89,0,534
+ORD-01976,2025-03-15,West,Enterprise,Electronics,Wireless Headphones,17,89,0,1513
+ORD-01977,2025-09-20,South,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-01978,2025-06-03,Northeast,Small Business,Electronics,Bluetooth Speaker,2,59,0.05,112.1
+ORD-01979,2025-01-12,Midwest,Consumer,Electronics,Laptop Stand,3,39,0.05,111.15
+ORD-01980,2025-07-09,West,Consumer,Furniture,Standing Desk,4,449,0.05,1706.2
+ORD-01981,2025-11-20,West,Enterprise,Electronics,Laptop Stand,15,39,0,585
+ORD-01982,2025-03-24,Midwest,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-01983,2025-01-01,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0.15,148.75
+ORD-01984,2025-07-14,South,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-01985,2025-01-27,South,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-01986,2025-10-06,Midwest,Small Business,Electronics,Wireless Headphones,3,89,,267
+ORD-01987,2025-02-14,Midwest,Small Business,Electronics,Bluetooth Speaker,3,59,0.2,141.6
+ORD-01988,2025-06-01,Midwest,Enterprise,Electronics,USB-C Hub,9,45,0.15,344.25
+ORD-01989,2025-03-01,South,Enterprise,Furniture,Standing Desk,4,449,0,1796
+ORD-01990,2025-04-09,South,Enterprise,Office Supplies,Gel Pens (12),10,9,0.15,76.5
+ORD-01991,2025-12-14,West,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-01992,2025-12-07,West,Enterprise,Furniture,Bookshelf,21,129,0.05,2573.55
+ORD-01993,2025-10-27,West,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-01994,2025-07-02,Midwest,Enterprise,Electronics,Wireless Headphones,8,89,0.2,569.6
+ORD-01995,2025-05-07,Northeast,Enterprise,Office Supplies,Desk Organizer,13,24,0,312
+ORD-01996,2025-11-03,Midwest,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-01997,2025-11-07,Northeast,Consumer,Furniture,Standing Desk,4,449,0.2,1436.8
+ORD-01998,2025-05-18,Midwest,Enterprise,Electronics,Wireless Headphones,13,89,0,1157
+ORD-01999,2025-07-03,Northeast,Enterprise,Office Supplies,Notebook Pack,16,12,0,192
+ORD-02000,2025-05-14,South,Enterprise,Office Supplies,Desk Organizer,8,24,0.15,163.2
+ORD-02001,2025-04-17,Midwest,Small Business,Office Supplies,Desk Organizer,1,24,0,24
+ORD-02002,2025-07-02,West,Small Business,Office Supplies,Notebook Pack,6,12,0.2,57.6
+ORD-02003,2025-03-24,West,Enterprise,Electronics,Laptop Stand,16,39,0,624
+ORD-02004,2025-10-18,Midwest,Enterprise,Furniture,Bookshelf,8,129,0,1032
+ORD-02005,2025-03-23,West,Enterprise,Office Supplies,Printer Paper,14,35,0.15,416.5
+ORD-02006,2025-06-05,South,Consumer,Electronics,Bluetooth Speaker,3,59,,177
+ORD-02007,2025-05-12,West,Enterprise,Electronics,Bluetooth Speaker,5,59,,295
+ORD-02008,2025-03-04,Northeast,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-02009,2025-06-18,West,Consumer,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-02010,2025-07-08,Northeast,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-02011,2025-08-01,West,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-02012,2025-01-08,Northeast,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-02013,2025-05-03,West,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-02014,2025-05-25,West,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-02015,2025-08-08,Northeast,Small Business,Electronics,Laptop Stand,3,39,0.05,111.15
+ORD-02016,2025-06-04,South,Small Business,Office Supplies,Notebook Pack,3,12,0,36
+ORD-02017,2025-03-04,Northeast,Enterprise,Electronics,USB-C Hub,10,45,0,450
+ORD-02018,2025-01-08,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-02019,2025-05-01,Midwest,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-02020,2025-07-17,West,Consumer,Electronics,Laptop Stand,2,39,0,78
+ORD-02021,2025-08-12,South,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-02022,2025-08-09,West,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-02023,2025-06-16,Northeast,Enterprise,Electronics,USB-C Hub,12,45,0,540
+ORD-02024,2025-01-26,South,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-02025,2025-11-07,West,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-02026,2025-12-02,Northeast,Consumer,Office Supplies,Desk Organizer,7,24,0,168
+ORD-02027,2025-01-11,West,Small Business,Furniture,Office Chair,2,229,0,458
+ORD-02028,2025-08-05,Northeast,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-02029,2025-06-23,Midwest,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-02030,2025-11-02,West,Enterprise,Office Supplies,Gel Pens (12),14,9,0,126
+ORD-02031,2025-04-09,West,Enterprise,Furniture,Bookshelf,15,129,0.15,1644.75
+ORD-02032,2025-05-27,South,Consumer,Furniture,Standing Desk,3,449,0.15,1144.95
+ORD-02033,2025-01-20,Northeast,Small Business,Furniture,Bookshelf,2,129,,258
+ORD-02034,2025-03-03,South,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-02035,2025-08-10,West,Consumer,Office Supplies,Printer Paper,2,35,0.05,66.5
+ORD-02036,2025-11-20,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-02037,2025-12-06,West,Small Business,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-02038,2025-12-18,Northeast,Enterprise,Electronics,Wireless Headphones,14,89,0.05,1183.7
+ORD-02039,2025-10-21,West,Enterprise,Electronics,Laptop Stand,4,39,0,156
+ORD-02040,2025-11-26,West,Enterprise,Electronics,Laptop Stand,9,39,0,351
+ORD-02041,2025-06-13,South,Enterprise,Office Supplies,Printer Paper,12,35,0,420
+ORD-02042,2025-03-10,Northeast,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-02043,2025-10-24,Northeast,Enterprise,Furniture,Standing Desk,6,449,0.2,2155.2
+ORD-02044,2025-04-07,South,Enterprise,Office Supplies,Notebook Pack,9,12,0.2,86.4
+ORD-02045,2025-12-22,South,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-02046,2025-08-22,Midwest,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-02047,2025-09-20,Midwest,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-02048,2025-02-02,South,Consumer,Furniture,Bookshelf,3,129,0.05,367.65
+ORD-02049,2025-06-02,Midwest,Enterprise,Electronics,Wireless Headphones,6,89,0,534
+ORD-02050,2025-11-27,Midwest,Enterprise,Office Supplies,Gel Pens (12),12,9,0.2,86.4
+ORD-02051,2025-04-27,Northeast,Consumer,Furniture,Office Chair,4,229,0.2,732.8
+ORD-02052,2025-01-18,Northeast,Small Business,Office Supplies,Printer Paper,5,35,0,175
+ORD-02053,2025-09-14,South,Enterprise,Furniture,Standing Desk,7,449,0,3143
+ORD-02054,2025-07-21,Northeast,Small Business,Office Supplies,Desk Organizer,1,24,0.2,19.2
+ORD-02055,2025-08-27,South,Small Business,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-02056,2025-04-13,West,Enterprise,Office Supplies,Notebook Pack,4,12,0,48
+ORD-02057,2025-04-16,South,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-02058,2025-01-11,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-02059,2025-04-24,West,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-02060,2025-05-21,South,Small Business,Electronics,USB-C Hub,2,45,0,90
+ORD-02061,2025-09-26,Northeast,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-02062,2025-06-03,Midwest,Consumer,Office Supplies,Gel Pens (12),4,9,0.05,34.2
+ORD-02063,2025-08-02,West,Consumer,Office Supplies,Notebook Pack,5,12,0,60
+ORD-02064,2025-02-08,Midwest,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-02065,2025-04-14,West,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-02066,2025-01-09,Northeast,Enterprise,Furniture,Office Chair,12,229,,2748
+ORD-02067,2025-10-28,Midwest,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-02068,2025-08-09,Midwest,Enterprise,Furniture,Office Chair,13,229,,2977
+ORD-02069,2025-04-18,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-02070,2025-05-19,Midwest,Enterprise,Furniture,Standing Desk,5,449,0,2245
+ORD-02071,2025-08-28,Midwest,Enterprise,Electronics,Laptop Stand,4,39,0.05,148.2
+ORD-02072,2025-03-16,South,Enterprise,Office Supplies,Printer Paper,4,35,0,140
+ORD-02073,2025-05-14,Northeast,Small Business,Office Supplies,Desk Organizer,3,24,0.1,64.8
+ORD-02074,2025-07-05,South,Consumer,Electronics,USB-C Hub,3,45,0.1,121.5
+ORD-02075,2025-07-23,West,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-02076,2025-10-07,Northeast,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-02077,2025-12-18,Northeast,Small Business,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-02078,2025-07-18,Northeast,Enterprise,Furniture,Office Chair,8,229,0,1832
+ORD-02079,2025-11-15,West,Enterprise,Furniture,Office Chair,19,229,0,4351
+ORD-02080,2025-10-24,Northeast,Small Business,Furniture,Bookshelf,3,129,0,387
+ORD-02081,2025-11-14,West,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-02082,2025-12-17,South,Small Business,Electronics,Bluetooth Speaker,7,59,0,413
+ORD-02083,2025-04-05,Midwest,Enterprise,Furniture,Office Chair,8,229,0,1832
+ORD-02084,2025-03-12,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0.15,200.6
+ORD-02085,2025-08-03,Northeast,Consumer,Furniture,Standing Desk,4,449,0,1796
+ORD-02086,2025-01-23,West,Enterprise,Furniture,Standing Desk,19,449,0,8531
+ORD-02087,2025-11-28,South,Enterprise,Office Supplies,Gel Pens (12),20,9,0.2,144
+ORD-02088,2025-08-11,Midwest,Enterprise,Furniture,Standing Desk,14,449,0,6286
+ORD-02089,2025-12-25,Northeast,Consumer,Furniture,Standing Desk,7,449,0.2,2514.4
+ORD-02090,2025-08-18,Northeast,Consumer,Electronics,Wireless Headphones,5,89,0.1,400.5
+ORD-02091,2025-04-15,West,Small Business,Electronics,Bluetooth Speaker,4,59,0.1,212.4
+ORD-02092,2025-05-11,Midwest,Enterprise,Furniture,Office Chair,3,229,0.15,583.95
+ORD-02093,2025-11-28,Midwest,Enterprise,Electronics,Wireless Headphones,16,89,0,1424
+ORD-02094,2025-10-07,South,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-02095,2025-03-08,Northeast,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-02096,2025-02-10,South,Small Business,Office Supplies,Desk Organizer,2,24,0,48
+ORD-02097,2025-05-13,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-02098,2025-08-16,West,Enterprise,Office Supplies,Desk Organizer,9,24,0,216
+ORD-02099,2025-05-15,West,Enterprise,Electronics,USB-C Hub,16,45,0,720
+ORD-02100,2025-04-26,Midwest,Consumer,Electronics,Bluetooth Speaker,3,59,0.2,141.6
+ORD-02101,2025-06-11,Northeast,Enterprise,Electronics,Bluetooth Speaker,17,59,0,1003
+ORD-02102,2025-11-11,Northeast,Small Business,Office Supplies,Desk Organizer,6,24,0,144
+ORD-02103,2025-03-14,Midwest,Consumer,Office Supplies,Notebook Pack,5,12,0.05,57
+ORD-02104,2025-02-02,West,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-02105,2025-08-03,Northeast,Consumer,Office Supplies,Desk Organizer,2,24,0.05,45.6
+ORD-02106,2025-03-25,West,Small Business,Electronics,Wireless Headphones,6,89,0,534
+ORD-02107,2025-10-05,Northeast,Consumer,Furniture,Office Chair,4,229,0.15,778.6
+ORD-02108,2025-07-20,Northeast,Consumer,Electronics,Wireless Headphones,2,89,,142.4
+ORD-02109,2025-07-22,West,Enterprise,Electronics,USB-C Hub,7,45,0,315
+ORD-02110,2025-11-06,Northeast,Small Business,Furniture,Office Chair,6,229,0,1374
+ORD-02111,2025-10-13,Northeast,Consumer,Office Supplies,Desk Organizer,4,24,0,96
+ORD-02112,2025-12-09,Northeast,Small Business,Electronics,USB-C Hub,3,45,,135
+ORD-02113,2025-02-22,Midwest,Enterprise,Electronics,Laptop Stand,10,39,0,390
+ORD-02114,2025-12-05,West,Enterprise,Electronics,Bluetooth Speaker,17,59,0.05,952.85
+ORD-02115,2025-10-25,South,Small Business,Furniture,Standing Desk,4,449,,1706.2
+ORD-02116,2025-01-06,Northeast,Enterprise,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-02117,2025-01-14,Midwest,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-02118,2025-11-01,West,Small Business,Furniture,Standing Desk,6,449,0,2694
+ORD-02119,2025-03-01,West,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-02120,2025-02-10,Northeast,Small Business,Electronics,Laptop Stand,3,39,0,117
+ORD-02121,2025-04-11,South,Small Business,Electronics,Bluetooth Speaker,1,59,0,59
+ORD-02122,2025-05-20,West,Consumer,Electronics,Wireless Headphones,4,89,0.15,302.6
+ORD-02123,2025-11-03,Northeast,Small Business,Furniture,Standing Desk,7,449,0,3143
+ORD-02124,2025-11-06,Northeast,Enterprise,Electronics,Wireless Headphones,18,89,0,1602
+ORD-02125,2025-11-15,Midwest,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-02126,2025-08-25,West,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-02127,2025-06-01,Northeast,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-02128,2025-10-08,West,Enterprise,Electronics,USB-C Hub,14,45,0,630
+ORD-02129,2025-05-03,South,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-02130,2025-12-07,South,Consumer,Office Supplies,Desk Organizer,6,24,0,144
+ORD-02131,2025-09-02,Midwest,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-02132,2025-04-02,Northeast,Small Business,Office Supplies,Printer Paper,4,35,0.2,112
+ORD-02133,2025-01-24,Northeast,Enterprise,Office Supplies,Printer Paper,6,35,0.15,178.5
+ORD-02134,2025-04-21,West,Enterprise,Electronics,Wireless Headphones,16,89,0,1424
+ORD-02135,2025-09-12,Northeast,Enterprise,Office Supplies,Desk Organizer,6,24,0.05,136.8
+ORD-02136,2025-06-06,West,Enterprise,Furniture,Bookshelf,11,129,0.1,1277.1
+ORD-02137,2025-08-10,Midwest,Consumer,Office Supplies,Printer Paper,3,35,0,105
+ORD-02138,2025-11-11,South,Enterprise,Electronics,Wireless Headphones,18,89,0,1602
+ORD-02139,2025-01-27,South,Enterprise,Electronics,Wireless Headphones,13,89,0,1157
+ORD-02140,2025-04-13,West,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-02141,2025-11-26,South,Small Business,Electronics,Bluetooth Speaker,6,59,0.15,300.9
+ORD-02142,2025-08-03,Northeast,Small Business,Office Supplies,Notebook Pack,4,12,0,48
+ORD-02143,2025-06-17,Northeast,Consumer,Office Supplies,Notebook Pack,3,12,0,36
+ORD-02144,2025-04-08,Northeast,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-02145,2025-03-11,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,,27
+ORD-02146,2025-09-24,West,Enterprise,Furniture,Standing Desk,9,449,0,4041
+ORD-02147,2025-09-13,Northeast,Small Business,Furniture,Office Chair,3,229,0.15,583.95
+ORD-02148,2025-10-02,Northeast,Consumer,Furniture,Standing Desk,1,449,0.1,404.1
+ORD-02149,2025-02-25,Midwest,Enterprise,Furniture,Bookshelf,14,129,0.05,1715.7
+ORD-02150,2025-12-27,Midwest,Consumer,Electronics,Wireless Headphones,4,89,0.1,320.4
+ORD-02151,2025-01-23,West,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-02152,2025-07-04,Midwest,Small Business,Electronics,Wireless Headphones,3,89,0.2,213.6
+ORD-02153,2025-12-14,Northeast,Consumer,Furniture,Standing Desk,7,449,0,3143
+ORD-02154,2025-09-21,Northeast,Enterprise,Furniture,Bookshelf,14,129,0,1806
+ORD-02155,2025-03-17,Midwest,Consumer,Electronics,USB-C Hub,1,45,0,45
+ORD-02156,2025-11-11,Midwest,Consumer,Electronics,USB-C Hub,4,45,0,180
+ORD-02157,2025-07-21,Midwest,Consumer,Electronics,USB-C Hub,1,45,0.15,38.25
+ORD-02158,2025-03-21,South,Small Business,Furniture,Standing Desk,1,449,0.05,426.55
+ORD-02159,2025-11-19,Northeast,Enterprise,Furniture,Bookshelf,12,129,0.05,1470.6
+ORD-02160,2025-01-01,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-02161,2025-12-02,Midwest,Enterprise,Electronics,Bluetooth Speaker,11,59,0,649
+ORD-02162,2025-04-27,Midwest,Small Business,Electronics,Bluetooth Speaker,1,59,0.05,56.05
+ORD-02163,2025-08-19,Midwest,Enterprise,Furniture,Office Chair,13,229,,2828.15
+ORD-02164,2025-07-06,Midwest,Enterprise,Furniture,Bookshelf,10,129,0,1290
+ORD-02165,2025-01-09,West,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-02166,2025-05-19,Midwest,Enterprise,Electronics,Laptop Stand,8,39,0,312
+ORD-02167,2025-05-03,Midwest,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-02168,2025-10-14,South,Enterprise,Furniture,Office Chair,6,229,0,1374
+ORD-02169,2025-07-08,South,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-02170,2025-07-23,West,Consumer,Electronics,Wireless Headphones,5,89,0,445
+ORD-02171,2025-07-09,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0.2,188.8
+ORD-02172,2025-01-20,Northeast,Enterprise,Electronics,Laptop Stand,4,39,0,156
+ORD-02173,2025-02-17,West,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-02174,2025-07-09,South,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-02175,2025-09-25,South,Enterprise,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-02176,2025-06-19,Midwest,Small Business,Furniture,Standing Desk,3,449,0.2,1077.6
+ORD-02177,2025-08-25,Midwest,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-02178,2025-05-15,Midwest,Enterprise,Furniture,Standing Desk,8,449,,3592
+ORD-02179,2025-10-12,South,Small Business,Electronics,Laptop Stand,4,39,0.2,124.8
+ORD-02180,2025-02-14,South,Small Business,Furniture,Office Chair,1,229,0,229
+ORD-02181,2025-07-01,Northeast,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-02182,2025-05-12,West,Consumer,Office Supplies,Notebook Pack,6,12,0.2,57.6
+ORD-02183,2025-10-27,Northeast,Consumer,Electronics,USB-C Hub,6,45,0,270
+ORD-02184,2025-08-04,South,Enterprise,Electronics,Bluetooth Speaker,12,59,0,708
+ORD-02185,2025-06-05,Midwest,Consumer,Furniture,Bookshelf,1,129,0.2,103.2
+ORD-02186,2025-11-12,South,Enterprise,Electronics,Bluetooth Speaker,13,59,0.2,613.6
+ORD-02187,2025-12-06,West,Consumer,Office Supplies,Printer Paper,2,35,0,70
+ORD-02188,2025-03-26,South,Small Business,Furniture,Office Chair,3,229,0.15,583.95
+ORD-02189,2025-05-22,Northeast,Enterprise,Electronics,Laptop Stand,13,39,0,507
+ORD-02190,2025-08-09,Northeast,Small Business,Office Supplies,Printer Paper,3,35,0,105
+ORD-02191,2025-03-08,Midwest,Small Business,Electronics,Laptop Stand,3,39,0.05,111.15
+ORD-02192,2025-05-23,South,Consumer,Electronics,Bluetooth Speaker,2,59,0.05,112.1
+ORD-02193,2025-02-13,West,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-02194,2025-05-22,West,Enterprise,Office Supplies,Gel Pens (12),17,9,0,153
+ORD-02195,2025-09-24,Northeast,Enterprise,Furniture,Standing Desk,10,449,0.15,3816.5
+ORD-02196,2025-05-12,Midwest,Consumer,Furniture,Bookshelf,4,129,0.1,464.4
+ORD-02197,2025-04-15,West,Enterprise,Electronics,USB-C Hub,11,45,0,495
+ORD-02198,2025-06-24,West,Enterprise,Electronics,USB-C Hub,15,45,0,675
+ORD-02199,2025-08-11,West,Small Business,Furniture,Office Chair,2,229,0.05,435.1
+ORD-02200,2025-06-12,Midwest,Small Business,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-02201,2025-11-08,Northeast,Enterprise,Electronics,USB-C Hub,11,45,0,495
+ORD-02202,2025-10-16,South,Enterprise,Office Supplies,Notebook Pack,11,12,0,132
+ORD-02203,2025-09-18,South,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-02204,2025-08-10,Midwest,Enterprise,Electronics,Laptop Stand,13,39,0.15,430.95
+ORD-02205,2025-02-25,West,Enterprise,Electronics,Bluetooth Speaker,18,59,0,1062
+ORD-02206,2025-12-26,Northeast,Consumer,Office Supplies,Desk Organizer,7,24,0,168
+ORD-02207,2025-07-03,South,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-02208,2025-03-23,Midwest,Consumer,Furniture,Bookshelf,2,129,0,258
+ORD-02209,2025-03-16,South,Enterprise,Electronics,USB-C Hub,11,45,0,495
+ORD-02210,2025-05-21,West,Enterprise,Furniture,Office Chair,9,229,0,2061
+ORD-02211,2025-02-23,Northeast,Consumer,Electronics,Bluetooth Speaker,3,59,0,177
+ORD-02212,2025-03-08,West,Small Business,Office Supplies,Printer Paper,2,35,0.15,59.5
+ORD-02213,2025-12-20,Midwest,Small Business,Office Supplies,Notebook Pack,2,12,0,24
+ORD-02214,2025-04-24,West,Enterprise,Furniture,Office Chair,6,229,,1374
+ORD-02215,2025-06-18,South,Consumer,Furniture,Bookshelf,2,129,0.05,245.1
+ORD-02216,2025-12-24,Northeast,Enterprise,Electronics,Bluetooth Speaker,12,59,0,708
+ORD-02217,2025-04-07,South,Enterprise,Office Supplies,Notebook Pack,11,12,0.15,112.2
+ORD-02218,2025-02-16,Northeast,Small Business,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-02219,2025-07-11,Northeast,Consumer,Electronics,Laptop Stand,2,39,0.2,62.4
+ORD-02220,2025-08-16,West,Consumer,Office Supplies,Desk Organizer,3,24,0,72
+ORD-02221,2025-12-23,Northeast,Small Business,Furniture,Standing Desk,3,449,0,1347
+ORD-02222,2025-02-20,West,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-02223,2025-02-23,Northeast,Consumer,Furniture,Standing Desk,4,449,0.05,1706.2
+ORD-02224,2025-11-25,Midwest,Enterprise,Furniture,Standing Desk,15,449,0.15,5724.75
+ORD-02225,2025-05-06,Midwest,Small Business,Electronics,Laptop Stand,5,39,0,195
+ORD-02226,2025-01-13,South,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-02227,2025-04-09,West,Consumer,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-02228,2025-11-08,West,Consumer,Electronics,Bluetooth Speaker,3,59,0.05,168.15
+ORD-02229,2025-08-15,Midwest,Enterprise,Electronics,Wireless Headphones,11,89,0,979
+ORD-02230,2025-02-26,Northeast,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-02231,2025-02-19,Midwest,Consumer,Office Supplies,Notebook Pack,2,12,0,24
+ORD-02232,2025-03-26,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-02233,2025-01-27,West,Small Business,Electronics,Laptop Stand,1,39,0,39
+ORD-02234,2025-10-27,West,Consumer,Furniture,Bookshelf,4,129,0,516
+ORD-02235,2025-12-13,West,Consumer,Electronics,USB-C Hub,9,45,0.05,384.75
+ORD-02236,2025-09-02,Midwest,Consumer,Office Supplies,Desk Organizer,1,24,0.2,19.2
+ORD-02237,2025-08-21,South,Consumer,Electronics,Laptop Stand,3,39,0,117
+ORD-02238,2025-03-18,Midwest,Enterprise,Electronics,Bluetooth Speaker,7,59,0.15,351.05
+ORD-02239,2025-05-11,Midwest,Enterprise,Electronics,Wireless Headphones,6,89,0.2,427.2
+ORD-02240,2025-11-08,Midwest,Enterprise,Furniture,Office Chair,23,229,0,5267
+ORD-02241,2025-06-10,South,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-02242,2025-01-04,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-02243,2025-06-02,South,Consumer,Electronics,Bluetooth Speaker,2,59,0.2,94.4
+ORD-02244,2025-01-15,South,Enterprise,Office Supplies,Gel Pens (12),4,9,0.1,32.4
+ORD-02245,2025-01-19,South,Enterprise,Office Supplies,Desk Organizer,12,24,0.05,273.6
+ORD-02246,2025-10-14,South,Small Business,Furniture,Bookshelf,3,129,0.2,309.6
+ORD-02247,2025-08-13,South,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-02248,2025-03-25,West,Enterprise,Electronics,Laptop Stand,17,39,0,663
+ORD-02249,2025-01-08,Midwest,Small Business,Electronics,Wireless Headphones,3,89,0.15,226.95
+ORD-02250,2025-06-20,South,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-02251,2025-11-13,South,Consumer,Furniture,Bookshelf,5,129,0,645
+ORD-02252,2025-10-15,South,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-02253,2025-11-21,Midwest,Enterprise,Office Supplies,Printer Paper,14,35,0,490
+ORD-02254,2025-11-02,Northeast,Enterprise,Office Supplies,Desk Organizer,27,24,0.1,583.2
+ORD-02255,2025-06-09,Northeast,Small Business,Office Supplies,Desk Organizer,2,24,0.1,43.2
+ORD-02256,2025-02-28,West,Consumer,Furniture,Office Chair,2,229,0,458
+ORD-02257,2025-04-21,Midwest,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-02258,2025-04-06,South,Consumer,Furniture,Office Chair,1,229,0,229
+ORD-02259,2025-10-25,West,Small Business,Electronics,Laptop Stand,4,39,0.1,140.4
+ORD-02260,2025-04-20,Northeast,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-02261,2025-10-28,South,Consumer,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-02262,2025-09-12,West,Consumer,Electronics,Laptop Stand,5,39,0.2,156
+ORD-02263,2025-10-23,West,Enterprise,Electronics,USB-C Hub,5,45,0,225
+ORD-02264,2025-05-04,West,Enterprise,Furniture,Standing Desk,6,449,0.2,2155.2
+ORD-02265,2025-10-06,South,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-02266,2025-08-03,West,Small Business,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-02267,2025-11-06,South,Enterprise,Office Supplies,Notebook Pack,7,12,0,84
+ORD-02268,2025-09-20,South,Consumer,Furniture,Office Chair,4,229,0.05,870.2
+ORD-02269,2025-02-01,West,Small Business,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-02270,2025-04-20,Northeast,Consumer,Furniture,Standing Desk,3,449,0.1,1212.3
+ORD-02271,2025-09-28,West,Enterprise,Electronics,Wireless Headphones,14,89,0,1246
+ORD-02272,2025-10-27,South,Enterprise,Office Supplies,Printer Paper,9,35,0.2,252
+ORD-02273,2025-12-14,South,Enterprise,Electronics,Laptop Stand,21,39,0,819
+ORD-02274,2025-03-07,Northeast,Consumer,Office Supplies,Printer Paper,4,35,0,140
+ORD-02275,2025-06-01,South,Enterprise,Office Supplies,Notebook Pack,10,12,0,120
+ORD-02276,2025-10-24,West,Consumer,Electronics,Wireless Headphones,2,89,0,178
+ORD-02277,2025-09-19,West,Consumer,Furniture,Office Chair,3,229,0,687
+ORD-02278,2025-07-26,South,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-02279,2025-12-06,Northeast,Enterprise,Furniture,Office Chair,19,229,0,4351
+ORD-02280,2025-05-16,Northeast,Small Business,Electronics,Wireless Headphones,5,89,0,445
+ORD-02281,2025-07-12,West,Consumer,Furniture,Office Chair,1,229,0,229
+ORD-02282,2025-03-04,Northeast,Enterprise,Office Supplies,Desk Organizer,6,24,0,144
+ORD-02283,2025-06-19,West,Small Business,Furniture,Office Chair,4,229,0,916
+ORD-02284,2025-10-22,Midwest,Consumer,Electronics,Wireless Headphones,1,89,0.1,80.1
+ORD-02285,2025-10-03,Midwest,Enterprise,Furniture,Standing Desk,14,449,0,6286
+ORD-02286,2025-04-09,South,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-02287,2025-04-22,Midwest,Small Business,Electronics,Wireless Headphones,4,89,0,356
+ORD-02288,2025-01-06,Northeast,Enterprise,Electronics,Laptop Stand,8,39,0.2,249.6
+ORD-02289,2025-11-17,West,Small Business,Office Supplies,Desk Organizer,9,24,0,216
+ORD-02290,2025-07-14,Northeast,Enterprise,Furniture,Standing Desk,11,449,0.1,4445.1
+ORD-02291,2025-11-23,South,Enterprise,Office Supplies,Notebook Pack,16,12,0.1,172.8
+ORD-02292,2025-03-19,Midwest,Consumer,Furniture,Bookshelf,3,129,0.05,367.65
+ORD-02293,2025-09-21,Northeast,Enterprise,Office Supplies,Notebook Pack,16,12,0,192
+ORD-02294,2025-06-09,Northeast,Enterprise,Office Supplies,Desk Organizer,7,24,0,168
+ORD-02295,2025-01-20,Midwest,Consumer,Furniture,Bookshelf,1,129,0,129
+ORD-02296,2025-05-15,South,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-02297,2025-06-11,South,Consumer,Furniture,Office Chair,2,229,0.15,389.3
+ORD-02298,2025-01-16,West,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-02299,2025-03-25,Northeast,Consumer,Office Supplies,Printer Paper,5,35,0,175
+ORD-02300,2025-07-11,Midwest,Small Business,Office Supplies,Printer Paper,4,35,0.1,126
+ORD-02301,2025-01-03,Midwest,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-02302,2025-03-20,South,Small Business,Furniture,Office Chair,2,229,0.2,366.4
+ORD-02303,2025-04-13,West,Consumer,Office Supplies,Printer Paper,1,35,0.1,31.5
+ORD-02304,2025-10-24,Northeast,Consumer,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-02305,2025-07-06,Northeast,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-02306,2025-01-21,West,Enterprise,Electronics,Wireless Headphones,9,89,0,801
+ORD-02307,2025-10-22,Midwest,Consumer,Office Supplies,Desk Organizer,2,24,0,48
+ORD-02308,2025-12-21,South,Enterprise,Electronics,USB-C Hub,14,45,0,630
+ORD-02309,2025-10-05,Northeast,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-02310,2025-09-03,Midwest,Enterprise,Office Supplies,Gel Pens (12),7,9,0,63
+ORD-02311,2025-08-22,South,Consumer,Electronics,USB-C Hub,2,45,0,90
+ORD-02312,2025-10-09,Midwest,Enterprise,Electronics,Wireless Headphones,11,89,0,979
+ORD-02313,2025-01-04,West,Small Business,Furniture,Office Chair,5,229,0,1145
+ORD-02314,2025-10-02,West,Enterprise,Electronics,Bluetooth Speaker,6,59,0,354
+ORD-02315,2025-11-17,West,Enterprise,Furniture,Office Chair,7,229,0.05,1522.85
+ORD-02316,2025-06-13,Northeast,Consumer,Furniture,Office Chair,1,229,0,229
+ORD-02317,2025-12-01,Midwest,Enterprise,Office Supplies,Notebook Pack,21,12,0.05,239.4
+ORD-02318,2025-05-20,South,Small Business,Office Supplies,Desk Organizer,3,24,0,72
+ORD-02319,2025-12-11,South,Enterprise,Office Supplies,Notebook Pack,6,12,0.1,64.8
+ORD-02320,2025-02-21,South,Small Business,Office Supplies,Desk Organizer,1,24,0.1,21.6
+ORD-02321,2025-10-23,Midwest,Enterprise,Furniture,Office Chair,12,229,0,2748
+ORD-02322,2025-10-27,Midwest,Small Business,Office Supplies,Desk Organizer,4,24,0,96
+ORD-02323,2025-09-01,West,Small Business,Furniture,Bookshelf,2,129,0.1,232.2
+ORD-02324,2025-10-08,Midwest,Consumer,Electronics,Bluetooth Speaker,4,59,0,236
+ORD-02325,2025-01-04,Northeast,Consumer,Furniture,Standing Desk,2,449,0,898
+ORD-02326,2025-08-26,Midwest,Enterprise,Office Supplies,Printer Paper,13,35,0.2,364
+ORD-02327,2025-06-10,Midwest,Small Business,Electronics,Bluetooth Speaker,2,59,0,118
+ORD-02328,2025-11-15,West,Consumer,Office Supplies,Gel Pens (12),8,9,0,72
+ORD-02329,2025-03-23,South,Small Business,Office Supplies,Gel Pens (12),1,9,0.05,8.55
+ORD-02330,2025-12-08,West,Consumer,Office Supplies,Desk Organizer,4,24,0.15,81.6
+ORD-02331,2025-12-08,South,Small Business,Office Supplies,Printer Paper,6,35,0,210
+ORD-02332,2025-03-20,Midwest,Enterprise,Furniture,Standing Desk,12,449,0.2,4310.4
+ORD-02333,2025-06-04,Midwest,Small Business,Furniture,Standing Desk,5,449,0,2245
+ORD-02334,2025-04-05,Midwest,Enterprise,Office Supplies,Gel Pens (12),6,9,0,54
+ORD-02335,2025-12-25,South,Enterprise,Office Supplies,Gel Pens (12),6,9,0.05,51.3
+ORD-02336,2025-02-09,West,Enterprise,Office Supplies,Desk Organizer,11,24,0,264
+ORD-02337,2025-02-06,Northeast,Small Business,Furniture,Standing Desk,4,449,0.1,1616.4
+ORD-02338,2025-10-12,Midwest,Enterprise,Office Supplies,Printer Paper,6,35,0,210
+ORD-02339,2025-08-19,Midwest,Consumer,Office Supplies,Gel Pens (12),4,9,0,36
+ORD-02340,2025-07-17,Midwest,Enterprise,Furniture,Standing Desk,6,449,0,2694
+ORD-02341,2025-11-06,Midwest,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-02342,2025-08-21,Midwest,Enterprise,Electronics,Wireless Headphones,11,89,0,979
+ORD-02343,2025-11-11,West,Consumer,Furniture,Standing Desk,3,449,0,1347
+ORD-02344,2025-01-08,Midwest,Small Business,Electronics,USB-C Hub,3,45,0.2,108
+ORD-02345,2025-09-12,West,Consumer,Electronics,USB-C Hub,3,45,0,135
+ORD-02346,2025-05-01,South,Small Business,Furniture,Bookshelf,4,129,0,516
+ORD-02347,2025-09-22,Northeast,Enterprise,Electronics,Wireless Headphones,11,89,0,979
+ORD-02348,2025-05-05,Midwest,Small Business,Furniture,Office Chair,3,229,0,687
+ORD-02349,2025-02-06,Northeast,Small Business,Office Supplies,Desk Organizer,3,24,0,72
+ORD-02350,2025-02-27,Midwest,Small Business,Electronics,Laptop Stand,2,39,0,78
+ORD-02351,2025-12-28,Midwest,Small Business,Electronics,Wireless Headphones,3,89,0,267
+ORD-02352,2025-11-02,Midwest,Small Business,Office Supplies,Desk Organizer,5,24,0,120
+ORD-02353,2025-08-11,West,Small Business,Office Supplies,Printer Paper,4,35,0,140
+ORD-02354,2025-02-04,South,Consumer,Office Supplies,Notebook Pack,4,12,0,48
+ORD-02355,2025-01-05,West,Consumer,Furniture,Standing Desk,1,449,0,449
+ORD-02356,2025-05-03,Northeast,Enterprise,Office Supplies,Printer Paper,15,35,0,525
+ORD-02357,2025-12-27,Midwest,Consumer,Electronics,Bluetooth Speaker,3,59,0.15,150.45
+ORD-02358,2025-04-20,Midwest,Small Business,Furniture,Standing Desk,4,449,0,1796
+ORD-02359,2025-05-18,South,Small Business,Office Supplies,Gel Pens (12),3,9,0,27
+ORD-02360,2025-08-10,Northeast,Consumer,Furniture,Standing Desk,5,449,0,2245
+ORD-02361,2025-03-20,West,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-02362,2025-04-22,West,Small Business,Furniture,Standing Desk,2,449,0,898
+ORD-02363,2025-11-15,South,Small Business,Office Supplies,Gel Pens (12),2,9,0,18
+ORD-02364,2025-07-12,Northeast,Consumer,Electronics,Wireless Headphones,5,89,,445
+ORD-02365,2025-08-16,West,Enterprise,Electronics,USB-C Hub,5,45,0.15,191.25
+ORD-02366,2025-03-14,Northeast,Small Business,Electronics,Bluetooth Speaker,5,59,0,295
+ORD-02367,2025-12-10,West,Enterprise,Furniture,Standing Desk,22,449,0,9878
+ORD-02368,2025-11-16,Northeast,Enterprise,Furniture,Office Chair,22,229,0,5038
+ORD-02369,2025-09-02,Northeast,Consumer,Office Supplies,Notebook Pack,5,12,0,60
+ORD-02370,2025-06-18,Midwest,Consumer,Furniture,Office Chair,4,229,0,916
+ORD-02371,2025-02-27,South,Enterprise,Electronics,Bluetooth Speaker,6,59,,283.2
+ORD-02372,2025-08-26,Midwest,Small Business,Furniture,Office Chair,3,229,0.1,618.3
+ORD-02373,2025-12-02,South,Small Business,Office Supplies,Desk Organizer,7,24,0,168
+ORD-02374,2025-10-18,West,Small Business,Electronics,Bluetooth Speaker,3,59,,168.15
+ORD-02375,2025-08-19,Northeast,Enterprise,Furniture,Standing Desk,9,449,0,4041
+ORD-02376,2025-09-02,South,Consumer,Furniture,Bookshelf,3,129,0.2,309.6
+ORD-02377,2025-10-10,Northeast,Enterprise,Electronics,Wireless Headphones,4,89,0.15,302.6
+ORD-02378,2025-05-19,West,Enterprise,Electronics,Laptop Stand,15,39,0,585
+ORD-02379,2025-10-19,West,Small Business,Electronics,USB-C Hub,3,45,0,135
+ORD-02380,2025-04-12,South,Small Business,Furniture,Office Chair,4,229,0.05,870.2
+ORD-02381,2025-11-07,Midwest,Consumer,Electronics,Laptop Stand,6,39,0,234
+ORD-02382,2025-11-11,West,Consumer,Furniture,Office Chair,3,229,0.05,652.65
+ORD-02383,2025-07-12,Midwest,Enterprise,Office Supplies,Gel Pens (12),9,9,0.2,64.8
+ORD-02384,2025-01-09,Midwest,Small Business,Office Supplies,Desk Organizer,2,24,0.1,43.2
+ORD-02385,2025-06-21,Midwest,Small Business,Furniture,Office Chair,1,229,0.15,194.65
+ORD-02386,2025-11-17,West,Enterprise,Electronics,Bluetooth Speaker,11,59,0,649
+ORD-02387,2025-12-05,Midwest,Consumer,Furniture,Standing Desk,3,449,0.05,1279.65
+ORD-02388,2025-02-19,West,Consumer,Furniture,Office Chair,5,229,0,1145
+ORD-02389,2025-02-05,Northeast,Consumer,Office Supplies,Desk Organizer,5,24,0,120
+ORD-02390,2025-11-22,Midwest,Small Business,Office Supplies,Printer Paper,7,35,0.1,220.5
+ORD-02391,2025-11-21,Northeast,Enterprise,Electronics,USB-C Hub,13,45,0.15,497.25
+ORD-02392,2025-08-09,West,Small Business,Office Supplies,Printer Paper,6,35,0,210
+ORD-02393,2025-10-05,Northeast,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-02394,2025-06-17,Northeast,Consumer,Electronics,Wireless Headphones,4,89,0,356
+ORD-02395,2025-02-16,West,Enterprise,Furniture,Standing Desk,14,449,0,6286
+ORD-02396,2025-02-08,Midwest,Small Business,Furniture,Bookshelf,2,129,0,258
+ORD-02397,2025-01-16,Northeast,Consumer,Electronics,Wireless Headphones,3,89,0,267
+ORD-02398,2025-07-19,Midwest,Enterprise,Furniture,Standing Desk,13,449,0,5837
+ORD-02399,2025-01-26,Midwest,Small Business,Electronics,Laptop Stand,4,39,0.15,132.6
+ORD-02400,2025-11-10,Midwest,Small Business,Electronics,Bluetooth Speaker,7,59,0,413
+ORD-00011,2025-01-24,Midwest,Small Business,Office Supplies,Printer Paper,2,35,0,70
+ORD-00251,2025-10-13,Midwest,Enterprise,Office Supplies,Notebook Pack,12,12,0,144
+ORD-00901,2025-01-28,West,Enterprise,Electronics,Bluetooth Speaker,13,59,0,767
+ORD-01501,2025-11-10,Midwest,Enterprise,Furniture,Bookshelf,18,129,0,2322
+ORD-02101,2025-06-11,Northeast,Enterprise,Electronics,Bluetooth Speaker,17,59,0,1003
+ORD-02301,2025-01-03,Midwest,Consumer,Office Supplies,Notebook Pack,4,12,0,48
