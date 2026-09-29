@@ -21,12 +21,34 @@ export interface Answer {
   resultError: string | null;
   truncated: boolean;
   queriesRun: number;
+  followUps: string[];
+}
+
+// Where a question stands after a step of the loop: answered, or paused on a
+// clarifying question for the user.
+export type AskOutcome = { kind: "answer"; answer: Answer } | { kind: "clarify"; clarification: Clarification };
+
+export interface Clarification {
+  question: string;
+  options: string[];
+  resume: LoopState; // pass back to answerClarification
+}
+
+interface LoopState {
+  messages: MessageParam[];
+  queriesRun: number;
+  rounds: number;
+  clarifications: number;
+  pendingToolUseId: string | null;
+  pendingResults: ToolResult[]; // results for other tools called alongside the question
 }
 
 const MAX_ROUNDS = 8; // Claude calls per question
 const RESULT_ROWS_FOR_AI = 50;
 const MAX_CELL_CHARS = 200;
 const MAX_FILTER_VALUES = 30;
+const MAX_CLARIFICATIONS = 1;
+const MAX_SUGGESTION_CHARS = 150;
 
 export class AskError extends Error {}
 
@@ -77,10 +99,17 @@ function validFilterColumns(input: unknown, dataset: DatasetContext): string[] {
     .slice(0, 3);
 }
 
+const shortStrings = (input: unknown, max: number): string[] =>
+  Array.isArray(input)
+    ? [...new Set(input.filter((s): s is string => typeof s === "string").map((s) => s.trim()))]
+        .filter((s) => s.length > 0 && s.length <= MAX_SUGGESTION_CHARS)
+        .slice(0, max)
+    : [];
+
 type ParsedAnswer = Omit<Answer, "result" | "resultError" | "truncated" | "queriesRun">;
 
 function parseAnswer(input: unknown, dataset: DatasetContext): ParsedAnswer | null {
-  const a = input as (Partial<Answer> & { filter_columns?: unknown }) | null;
+  const a = input as (Partial<Answer> & { filter_columns?: unknown; follow_ups?: unknown }) | null;
   if (!a || typeof a.answer !== "string" || typeof a.sql !== "string") return null;
   const confidence: Confidence = a.confidence === "high" || a.confidence === "low" ? a.confidence : "medium";
   const assumptions = Array.isArray(a.assumptions) ? a.assumptions.filter((s): s is string => typeof s === "string") : [];
@@ -91,21 +120,51 @@ function parseAnswer(input: unknown, dataset: DatasetContext): ParsedAnswer | nu
     assumptions,
     chart: parseChart(a.chart),
     filterColumns: validFilterColumns(a.filter_columns, dataset),
+    followUps: shortStrings(a.follow_ups, 3),
   };
 }
 
 // Answer a question: Claude writes SQL, the browser runs it, and the loop
-// repeats until Claude submits a final answer.
-export async function askQuestion(
-  question: string,
+// repeats until Claude submits a final answer or asks the user to clarify.
+export function askQuestion(question: string, dataset: DatasetContext, onStep: (step: string) => void): Promise<AskOutcome> {
+  return runLoop(
+    { messages: [{ role: "user", content: question }], queriesRun: 0, rounds: 0, clarifications: 0, pendingToolUseId: null, pendingResults: [] },
+    dataset,
+    onStep,
+  );
+}
+
+// Continue a question that paused on a clarifying question.
+export function answerClarification(
+  clarification: Clarification,
+  reply: string,
   dataset: DatasetContext,
   onStep: (step: string) => void,
-): Promise<Answer> {
-  const messages: MessageParam[] = [{ role: "user", content: question }];
-  let queriesRun = 0;
+): Promise<AskOutcome> {
+  const state = clarification.resume;
+  const toolUseId = state.pendingToolUseId;
+  if (!toolUseId) throw new AskError("There's no question waiting for a reply.");
+  const answered: ToolResult = { type: "tool_result", tool_use_id: toolUseId, content: `The user answered: ${reply}` };
+  return runLoop(
+    {
+      ...state,
+      messages: [...state.messages, { role: "user", content: [...state.pendingResults, answered] }],
+      clarifications: state.clarifications + 1,
+      pendingToolUseId: null,
+      pendingResults: [],
+    },
+    dataset,
+    onStep,
+  );
+}
 
-  for (let round = 0; round < MAX_ROUNDS; round++) {
-    onStep(round === 0 ? "Reading your question…" : "Looking at the results…");
+async function runLoop(state: LoopState, dataset: DatasetContext, onStep: (step: string) => void): Promise<AskOutcome> {
+  const messages = [...state.messages];
+  let { queriesRun } = state;
+
+  for (let round = state.rounds; round < MAX_ROUNDS; round++) {
+    const resuming = round === state.rounds && state.rounds > 0; // just after a clarifying reply
+    onStep(round === 0 ? "Reading your question…" : resuming ? "Using your answer…" : "Looking at the results…");
     const response = await callClaude(dataset, messages);
 
     if (response.stop_reason === "refusal") {
@@ -124,11 +183,12 @@ export async function askQuestion(
       const parsed = parseAnswer(submit.input, dataset);
       if (!parsed) throw new AskError("The AI returned an answer in an unexpected format. Try again.");
       onStep("Preparing the results table…");
+      const base = { ...parsed, queriesRun };
       try {
         const { result, truncated } = await runLimited(parsed.sql);
-        return { ...parsed, result, truncated, resultError: null, queriesRun };
+        return { kind: "answer", answer: { ...base, result, truncated, resultError: null } };
       } catch (err) {
-        return { ...parsed, result: null, truncated: false, resultError: (err as Error).message, queriesRun };
+        return { kind: "answer", answer: { ...base, result: null, truncated: false, resultError: (err as Error).message } };
       }
     }
 
@@ -139,7 +199,22 @@ export async function askQuestion(
     }
 
     const results: ToolResult[] = [];
+    let clarify: { id: string; question: string; options: string[] } | null = null;
     for (const tool of toolUses) {
+      if (tool.name === "ask_clarifying_question") {
+        const { question, options } = tool.input as { question?: unknown; options?: unknown };
+        if (clarify || state.clarifications >= MAX_CLARIFICATIONS || typeof question !== "string" || !question.trim()) {
+          results.push({
+            type: "tool_result",
+            tool_use_id: tool.id,
+            is_error: true,
+            content: "Don't ask again. Pick the most sensible reading, note it in assumptions, and answer.",
+          });
+        } else {
+          clarify = { id: tool.id, question: question.trim(), options: shortStrings(options, 4) };
+        }
+        continue;
+      }
       if (tool.name !== "run_sql") {
         results.push({ type: "tool_result", tool_use_id: tool.id, is_error: true, content: `Unknown tool ${tool.name}.` });
         continue;
@@ -153,6 +228,18 @@ export async function askQuestion(
       } catch (err) {
         results.push({ type: "tool_result", tool_use_id: tool.id, is_error: true, content: `Query failed: ${(err as Error).message}` });
       }
+    }
+
+    if (clarify) {
+      // Pause here: the loop resumes when the user replies.
+      return {
+        kind: "clarify",
+        clarification: {
+          question: clarify.question,
+          options: clarify.options,
+          resume: { ...state, messages, queriesRun, rounds: round + 1, pendingToolUseId: clarify.id, pendingResults: results },
+        },
+      };
     }
     messages.push({ role: "user", content: results });
   }

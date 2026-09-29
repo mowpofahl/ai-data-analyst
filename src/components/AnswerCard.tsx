@@ -3,6 +3,7 @@
 import { useMemo, useRef, useState } from "react";
 import AnswerChart, { fmtFull, seriesColor } from "@/components/AnswerChart";
 import FilterBar from "@/components/FilterBar";
+import QuestionChips from "@/components/QuestionChips";
 import { runLimited, type Filters } from "@/lib/answerQuery";
 import type { Answer, Confidence } from "@/lib/ask";
 import { buildExportSvg, downloadBlob, resolveColor, slugify, svgToPng, toCsv, type LegendItem } from "@/lib/chartExport";
@@ -85,7 +86,15 @@ function ResultTable({ result, truncated }: { result: QueryResult; truncated: bo
 
 const exportButton = "rounded-md border border-zinc-300 px-2 py-1 text-xs hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-900";
 
-export default function AnswerCard({ answer }: { answer: Answer }) {
+export default function AnswerCard({
+  answer,
+  onAsk,
+  askDisabled,
+}: {
+  answer: Answer;
+  onAsk?: (question: string) => void;
+  askDisabled?: boolean;
+}) {
   const conf = confidenceStyle[answer.confidence];
   const [filters, setFilters] = useState<Filters>({});
   const [view, setView] = useState({ result: answer.result, truncated: answer.truncated, error: answer.resultError });
@@ -226,6 +235,13 @@ export default function AnswerCard({ answer }: { answer: Answer }) {
           </div>
         )}
       </div>
+
+      {onAsk && answer.followUps.length > 0 && (
+        <div className="flex flex-col gap-2 border-t border-zinc-200 pt-3 dark:border-zinc-800">
+          <p className="text-sm font-medium">Ask next</p>
+          <QuestionChips questions={answer.followUps} onPick={onAsk} disabled={askDisabled} />
+        </div>
+      )}
     </div>
   );
 }

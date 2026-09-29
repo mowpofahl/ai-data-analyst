@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import AskPanel from "@/components/AskPanel";
 import DatasetOverview from "@/components/DatasetOverview";
 import PrivacyNote from "@/components/PrivacyNote";
@@ -18,6 +18,8 @@ type State =
 
 export default function Home() {
   const [state, setState] = useState<State>({ status: "idle" });
+  // Stable per dataset, so the ask panel only fetches suggestions once per file.
+  const dataset = useMemo(() => (state.status === "ready" ? toDatasetContext(state.profile) : null), [state]);
 
   const analyze = async (file: File) => {
     if (!file.name.toLowerCase().endsWith(".csv")) {
@@ -76,7 +78,7 @@ export default function Home() {
           </div>
           <DatasetOverview profile={state.profile} />
           <QualityWarnings warnings={state.profile.warnings} />
-          <AskPanel key={state.profile.fileName + state.profile.rowCount} dataset={toDatasetContext(state.profile)} />
+          {dataset && <AskPanel key={state.profile.fileName + state.profile.rowCount} dataset={dataset} />}
         </>
       ) : (
         <>
