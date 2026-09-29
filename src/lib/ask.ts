@@ -1,7 +1,8 @@
 import type Anthropic from "@anthropic-ai/sdk";
+import { RESULT_ROWS_MAX, runLimited, type LimitedResult } from "./answerQuery";
+import type { ChartSpec } from "./chartModel";
 import type { DatasetContext } from "./datasetContext";
-import { query, type QueryResult } from "./duckdb";
-import { checkSql } from "./sqlGuard";
+import type { QueryResult } from "./duckdb";
 
 type MessageParam = Anthropic.Beta.BetaMessageParam;
 type ContentBlock = Anthropic.Beta.BetaContentBlock;
@@ -14,6 +15,8 @@ export interface Answer {
   sql: string;
   confidence: Confidence;
   assumptions: string[];
+  chart: ChartSpec | null;
+  filterColumns: string[];
   result: QueryResult | null; // the answer's SQL, re-run locally for display
   resultError: string | null;
   truncated: boolean;
@@ -22,22 +25,12 @@ export interface Answer {
 
 const MAX_ROUNDS = 8; // Claude calls per question
 const RESULT_ROWS_FOR_AI = 50;
-const RESULT_ROWS_MAX = 1000;
 const MAX_CELL_CHARS = 200;
+const MAX_FILTER_VALUES = 30;
 
 export class AskError extends Error {}
 
-// Run a checked query, capping how many rows come back into memory.
-async function runLimited(sql: string): Promise<{ result: QueryResult; truncated: boolean }> {
-  const check = checkSql(sql);
-  if (!check.ok) throw new Error(check.reason);
-  const result = await query(`SELECT * FROM (${check.sql}) AS q LIMIT ${RESULT_ROWS_MAX + 1}`);
-  const truncated = result.rows.length > RESULT_ROWS_MAX;
-  if (truncated) result.rows = result.rows.slice(0, RESULT_ROWS_MAX);
-  return { result, truncated };
-}
-
-function summarizeForAi({ result, truncated }: { result: QueryResult; truncated: boolean }): string {
+function summarizeForAi({ result, truncated }: LimitedResult): string {
   const rows = result.rows.slice(0, RESULT_ROWS_FOR_AI).map((row) => {
     const out: Record<string, unknown> = {};
     for (const [k, v] of Object.entries(row)) {
@@ -64,12 +57,41 @@ async function callClaude(dataset: DatasetContext, messages: MessageParam[]) {
   return data as { content: ContentBlock[]; stop_reason: string | null };
 }
 
-function parseAnswer(input: unknown): Omit<Answer, "result" | "resultError" | "truncated" | "queriesRun"> | null {
-  const a = input as Partial<Answer> | null;
+function parseChart(input: unknown): ChartSpec | null {
+  const c = input as Partial<ChartSpec> | null;
+  if (!c || typeof c !== "object") return null;
+  const type = c.type === "bar" || c.type === "line" || c.type === "scatter" ? c.type : "none";
+  const str = (v: unknown) => (typeof v === "string" ? v : "");
+  return { type, x: str(c.x), y: str(c.y), series: str(c.series), title: str(c.title) };
+}
+
+// Only offer filters on text or true/false columns with a manageable number of values.
+function validFilterColumns(input: unknown, dataset: DatasetContext): string[] {
+  if (!Array.isArray(input)) return [];
+  return input
+    .filter((name): name is string => typeof name === "string")
+    .filter((name) => {
+      const col = dataset.columns.find((c) => c.name === name);
+      return !!col && (col.type === "VARCHAR" || col.type === "BOOLEAN") && col.distinct >= 2 && col.distinct <= MAX_FILTER_VALUES;
+    })
+    .slice(0, 3);
+}
+
+type ParsedAnswer = Omit<Answer, "result" | "resultError" | "truncated" | "queriesRun">;
+
+function parseAnswer(input: unknown, dataset: DatasetContext): ParsedAnswer | null {
+  const a = input as (Partial<Answer> & { filter_columns?: unknown }) | null;
   if (!a || typeof a.answer !== "string" || typeof a.sql !== "string") return null;
   const confidence: Confidence = a.confidence === "high" || a.confidence === "low" ? a.confidence : "medium";
   const assumptions = Array.isArray(a.assumptions) ? a.assumptions.filter((s): s is string => typeof s === "string") : [];
-  return { answer: a.answer, sql: a.sql, confidence, assumptions };
+  return {
+    answer: a.answer,
+    sql: a.sql,
+    confidence,
+    assumptions,
+    chart: parseChart(a.chart),
+    filterColumns: validFilterColumns(a.filter_columns, dataset),
+  };
 }
 
 // Answer a question: Claude writes SQL, the browser runs it, and the loop
@@ -99,7 +121,7 @@ export async function askQuestion(
 
     const submit = toolUses.find((t) => t.name === "submit_answer");
     if (submit) {
-      const parsed = parseAnswer(submit.input);
+      const parsed = parseAnswer(submit.input, dataset);
       if (!parsed) throw new AskError("The AI returned an answer in an unexpected format. Try again.");
       onStep("Preparing the results table…");
       try {

@@ -17,6 +17,8 @@ When you're done, call submit_answer once:
 - sql: the single query whose results best support the answer. The app shows this SQL and its results to the user, so it must run exactly as written.
 - confidence: "high" if the query directly answers the question on clean data, "medium" if you had to make assumptions or data issues could affect the answer, "low" if the data can only partly answer it.
 - assumptions: short notes on any interpretation or data issue that affects the answer. Use an empty list if there are none.
+- chart: how to chart the results of sql. Pick the form by the data's job: "bar" to compare values across categories, "line" for a trend over time (x is a date, month or year, sorted in time order), "scatter" for the relationship between two numeric columns, or "none" when the result is a single row or doesn't chart well. x, y and series must be column names from the sql results, and y must be numeric. Use series only when the results are in long format with one row per x value and group (for example month, region, revenue); otherwise use "". Never chart two measures with different scales together. title: a short sentence-case title saying what is plotted.
+- filter_columns: up to 3 columns from the dataset (not the results) that someone might want to filter this answer by, such as text columns with a handful of distinct values that aren't already x or series. The app filters the data and re-runs your sql, so your sql must read from the data table. Use an empty list if none fit.
 
 If the question can't be answered from this data, say so plainly in answer, set confidence to "low", and put the most relevant query you ran in sql.
 
@@ -81,8 +83,21 @@ export const TOOLS: Anthropic.Beta.BetaTool[] = [
         sql: { type: "string", description: "The query whose results support the answer. It is shown to the user and re-run to display results." },
         confidence: { type: "string", enum: ["high", "medium", "low"] },
         assumptions: { type: "array", items: { type: "string" }, description: "Interpretations or data issues that affect the answer." },
+        chart: {
+          type: "object",
+          properties: {
+            type: { type: "string", enum: ["bar", "line", "scatter", "none"] },
+            x: { type: "string", description: "Results column for the x axis, or \"\" when type is none." },
+            y: { type: "string", description: "Numeric results column for the y axis, or \"\" when type is none." },
+            series: { type: "string", description: "Results column that splits the data into series, or \"\"." },
+            title: { type: "string" },
+          },
+          required: ["type", "x", "y", "series", "title"],
+          additionalProperties: false,
+        },
+        filter_columns: { type: "array", items: { type: "string" }, description: "Up to 3 dataset columns to offer as filters." },
       },
-      required: ["answer", "sql", "confidence", "assumptions"],
+      required: ["answer", "sql", "confidence", "assumptions", "chart", "filter_columns"],
       additionalProperties: false,
     },
   },
