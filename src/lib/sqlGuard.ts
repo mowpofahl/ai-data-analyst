@@ -3,7 +3,7 @@
 // reading other files or URLs (which could leak data) and changing the table.
 
 const BLOCKED_KEYWORDS =
-  /\b(insert|update|delete|drop|alter|create|replace|truncate|copy|attach|detach|install|load|pragma|set|reset|call|export|import|checkpoint|vacuum|use|begin|commit|rollback)\b/i;
+  /\b(insert|update|delete|drop|alter|create|truncate|copy|attach|detach|install|load|pragma|set|reset|call|export|import|checkpoint|vacuum|use|begin|commit|rollback)\b/i;
 
 const BLOCKED_FUNCTIONS =
   /\b(read_\w+|glob|sniff_csv|parquet_\w+|iceberg_\w+|delta_scan|query_table|getenv)\s*\(/i;
